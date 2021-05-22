@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎧 有声",
+    "bookSourceName": "🎧 海盗听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.tings8.com",
+    "customOrder": -118162,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻|奇幻::/pc/index/category/catid/6.html?page={{page}}\n都市|言情::/pc/index/category/catid/7.html?page={{page}}\n宫斗|女频::/pc/index/category/catid/8.html?page={{page}}\n官场|商战::/pc/index/category/catid/9.html?page={{page}}\n武侠|仙侠::/pc/index/category/catid/10.html?page={{page}}\n刑侦|推理::/pc/index/category/catid/11.html?page={{page}}\n探险|异术::/pc/index/category/catid/12.html?page={{page}}\n重生|穿越::/pc/index/category/catid/13.html?page={{page}}\n恐怖|惊悚::/pc/index/category/catid/14.html?page={{page}}\n文学|历史::/pc/index/category/catid/15.html?page={{page}}",
+    "lastUpdateTime": 1612344289895,
+    "ruleBookInfo": {
+        "author": "class.book-info@tag.dd.2@ownText",
+        "coverUrl": "class.book-cover@src",
+        "intro": "class.book-des@text",
+        "kind": "class.book-info@tag.dd.1@a@text&&class.book-info@tag.dd.3@text&&class.book-info@tag.dd.-2@ownText##\\|##,",
+        "name": "class.book-title'text",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "all\n@js:header={\"Referer\":String(result).replace(/\\s/g,'')}\nheaders={\"headers\":JSON.stringify(header)}\nresult=result.replace(/\\s/g,'')+','+JSON.stringify(headers)",
+        "sourceRegex": ".*\\.(m4a|mp4|mp3).*"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.book-author.0@ownText",
+        "bookList": "class.list-works@li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "img@data-original",
+        "intro": "class.list-book-des@text",
+        "kind": "class.ztlz@text",
+        "lastChapter": "class.book-author.2@a@text",
+        "name": "class.list-book-dt@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.playlist@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "http://www.tings8.com/pc/index/search.html?keyword={{key}}",
+    "weight": 0
+}

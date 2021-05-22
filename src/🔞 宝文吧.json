@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 宝文吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.baigujing001.com",
+    "bookUrlPattern": "https://www.baigujing001.com/book/\\d+",
+    "customOrder": -1339,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "榜单::\n耽美::/rank/all/1/{{page}}.html\n言情::/rank/all/2/{{page}}.html\n高辣::/rank/all/3/{{page}}.html\n百合::/rank/all/4/{{page}}.html\n玄幻::/rank/all/5/{{page}}.html\n其它::/rank/all/7/{{page}}.html\n种田::/rank/all/8/{{page}}.html\n修真::/rank/all/9/{{page}}.html\n高干::/rank/all/10/{{page}}.html\n腹黑::/rank/all/11/{{page}}.html\n网游::/rank/all/13/{{page}}.html\n中耽::/rank/all/15/{{page}}.html\n完本::\n耽美::/category/finish/1/{{page}}.html\n言情::/category/finish/2/{{page}}.html\n高辣::/category/finish/3/{{page}}.html\n百合::/category/finish/4/{{page}}.html\n玄幻::/category/finish/5/{{page}}.html\n其它::/category/finish/7/{{page}}.html\n种田::/category/finish/8/{{page}}.html\n修真::/category/finish/9/{{page}}.html\n高干::/category/finish/10/{{page}}.html\n腹黑::/category/finish/11/{{page}}.html\n网游::/category/finish/13/{{page}}.html\n中耽::/category/finish/15/{{page}}.html",
+    "lastUpdateTime": 1620896077556,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=og:description]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=og:novel:lastest_chapter_name]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "text.章节目录@href",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.C0NTENT@tag.p@text",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "tag.a.-1@text",
+        "bookList": ".CGsectionTwo-right-content-unit",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "intro": "tag.p.2@text##\\s",
+        "kind": "tag.p.3@text##.*\\s",
+        "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".SHsectionThree-middle p",
+        "bookUrl": "tag.a.1@href",
+        "kind": "tag.a.0@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".BCsectionTwo-top li",
+        "chapterName": "tag.a@text##正文.",
+        "chapterUrl": "tag.a@href##$##$,{\"webView\":true}",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search/{{key}}/{{page}}",
+    "weight": 0
+}

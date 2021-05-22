@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "📖 轻文",
+    "bookSourceName": "📖 神凑轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shencou.com",
+    "bookUrlPattern": "",
+    "customOrder": -1429,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总榜::/modules/article/toplist.php?sort=allvisit&page={{page}}\n推荐::/modules/article/toplist.php?sort=allvote&page={{page}}\n最新::/modules/article/toplist.php?sort=postdate&page={{page}}\n最近::/modules/article/toplist.php?sort=lastupdate&page={{page}}\n原创::/modules/article/toplist.php?sort=authorupdate&page={{page}}\n转载::/modules/article/toplist.php?sort=masterupdate&page={{page}}\n收藏::/modules/article/toplist.php?sort=goodnum&page={{page}}\n字数::/modules/article/toplist.php?sort=size&page={{page}}\n电击::/modules/article/articlelist.php?class=1&page={{page}}\n富士::/modules/article/articlelist.php?class=2&page={{page}}\n角川::/modules/article/articlelist.php?class=3&page={{page}}\nMFJ::/modules/article/articlelist.php?class=4&page={{page}}\nＦＡ::/modules/article/articlelist.php?class=5&page={{page}}\nＧＡ::/modules/article/articlelist.php?class=6&page={{page}}\nＨＪ::/modules/article/articlelist.php?class=7&page={{page}}\n一迅::/modules/article/articlelist.php?class=8&page={{page}}\n集英::/modules/article/articlelist.php?class=9&page={{page}}\n少女::/modules/article/articlelist.php?class=10&page={{page}}\nＳＦ::/modules/article/articlelist.php?class=11&page={{page}}\n讲谈::/modules/article/articlelist.php?class=12&page={{page}}",
+    "lastUpdateTime": 1620719891716,
+    "loginUrl": "http://www.shencou.com/login.php",
+    "ruleBookInfo": {
+        "coverUrl": "@css:#table tr td:nth-of-type(2) img@src",
+        "intro": "@css:#content table tr:nth-of-type(3) table tr td:nth-of-type(2)@html##.+内容简介：\\s*(.+)本书公告：.+##$1",
+        "tocUrl": "@css:.btnlink:contains(开始阅读)@href"
+    },
+    "ruleContent": {
+        "content": "body@textNodes",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "tag.p.0@text##.*作者.",
+        "bookList": "@css:#content td > div",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.3@text",
+        "kind": "tag.p.1@text##.*时间.|\\- -.*",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.p.1@text##.*长度.|字"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "tbody@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\.html/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "tag.td.5@text&&tag.td.4@text",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": ".zjlist4@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename+selected&searchkey={{key}}&t_btnsearch=&page={{page}}\"\n}",
+    "weight": 0
+}

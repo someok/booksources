@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍 优质",
+    "bookSourceName": "👍 第一小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.01xs.com",
+    "customOrder": -1957,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/fenlei1/\n仙侠::/fenlei2/\n都市::/fenlei3/\n历史::/fenlei4/\n网游::/fenlei5/\n科幻::/fenlei6/\n同人::/fenlei7/\n综合::/fenlei8/\n青春::/fenlei9/\n现代::/fenlei10/\n古代::/fenlei11/\n幻想::/fenlei12/\n完本::/qb/",
+    "lastUpdateTime": 1620586544978,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#content@p@text",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "tag.span.0@text##\\/",
+        "bookList": ".listcon li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@data-original",
+        "intro": "tag.p.1@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": ".s4@text",
+        "bookList": ".banner ul",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://img01xs.cdn.bcebos.com/files/article/image/$2/$1/$1s.jpg###",
+        "kind": ".s1@text&&.s7@text&&.s5@text##\\[|\\]",
+        "lastChapter": ".s3@text",
+        "name": ".s2@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapterlist li",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "/search.php?keyword={{key}}",
+    "weight": 0
+}

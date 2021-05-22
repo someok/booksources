@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 脸红心跳",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.po18yun.com",
+    "customOrder": -1326,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行榜::/top/allvisit_{{page}}.html\n月排行榜::/top/monthvisit_{{page}}.html\n周排行榜::/top/weekvisit_{{page}}.html\n总推荐榜::/top/allvote_{{page}}.html\n月推荐榜::/top/monthvote_{{page}}.html\n最新入库::/top/postdate_{{page}}.html\n最近更新::/top/lastupdate_{{page}}.html\n转载更新::/top/masterupdate_{{page}}.html\n总收藏榜::/top/goodnum_{{page}}.html\n字数排行::/top/size_{{page}}.html\n玄幻奇幻::/list1_{{page}}.html\n仙侠武侠::/list2_{{page}}.html\n都市青春::/list3_{{page}}.html\n穿越历史::/list4_{{page}}.html\n科幻灵异::/list5_{{page}}.html\n游戏竞技::/list6_{{page}}.html\n耽美纯情::/list7_{{page}}.html\n百合爱恋::/list8_{{page}}.html\n综合精选::/list9_{{page}}.html\n全部完本::/list10_{{page}}.html",
+    "lastUpdateTime": 1620887762214,
+    "ruleBookInfo": {
+        "intro": ".mlist@html##简介.|文案.",
+        "lastChapter": ".short_de@a@text",
+        "tocUrl": "text.点击阅读@href"
+    },
+    "ruleContent": {
+        "content": "id.inner@textNodes"
+    },
+    "ruleExplore": {
+        "author": "tag.td.4@text||tag.p.1@tag.span.0@ownText",
+        "bookList": "tbody@tag.tr||.bd li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.3@text##简介.|文案.",
+        "kind": "tag.td.1@text&&tag.td.5@text&&tag.p.1@tag.span.1@ownText&&tag.p.1@tag.span.2@ownText&&tag.p.2@tag.span.0@ownText##\\s.*",
+        "lastChapter": "tag.td.3@text",
+        "name": "tag.td.2@text||tag.p.0@a@text",
+        "wordCount": "tag.p.2@tag.span.1@ownText"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "tbody@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "kind": "tag.td.4@text&&tag.td.5@text",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": ".dir_main_section li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+}

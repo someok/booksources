@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨 漫画",
+    "bookSourceName": "🎨 6漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.6mh7.com",
+    "bookUrlPattern": "",
+    "customOrder": -117559,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "人气榜单::/rank/1-{{page}}.html\n周读榜单::/rank/2-{{page}}.html\r\n月读榜单::/rank/3-{{page}}.html\r\n火爆榜单::/rank/4-{{page}}.html\r\n更新榜单::/rank/5-{{page}}.html\r\n新漫榜单::/rank/6-{{page}}.html\n冒险热血::/sort/1-{{page}}.html\n武侠格斗::/sort/2-{{page}}.html\n科幻魔幻::/sort/3-{{page}}.html\n侦探推理::/sort/4-{{page}}.html\n耽美爱情::/sort/5-{{page}}.html\n生活动漫::/sort/6-{{page}}.html\n推荐漫画::/sort/11-{{page}}.html\n完结漫画::/sort/12-{{page}}.html\n连载漫画::/sort/13-{{page}}.html",
+    "header": "<js>\n(()=>{\n\tvar ua = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\";\n\tvar heders = {\"User-Agent\": ua};\n\treturn JSON.stringify(heders);\n})()\n</js>",
+    "lastUpdateTime": 1607016339508,
+    "ruleBookInfo": {
+        "author": "##作者.([^<]+)<##$1###",
+        "coverUrl": "class.cy_info_cover@src",
+        "init": "",
+        "intro": "id.comic-description@text##介绍.",
+        "kind": "class.cy_xinxi.0@tag.font@text&&class.cy_xinxi.1@text&&class.cy_zhangjie_top@tag.font@text##类别.|标签.",
+        "lastChapter": "class.cy_zhangjie_top@tag.a.0@text##正文.",
+        "name": "class.cy_title@tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "@js:\r\ntry{\r\neval(result.match(/(eval\\([\\s\\S]+?)<\\/script/)[1]);\r\nnewImgs.map(a=>\r\n'<img src=\"'+a+'\">').join(\"\\n\")\r\n}catch(e){}",
+        "imageStyle": "full",
+        "nextContentUrl": "",
+        "replaceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "",
+        "bookList": "class.cy_list_mh@tag.ul",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "class.info@text##简介.",
+        "kind": "class.zuozhe@text&&class.biaoqian@text##状态.|标签.",
+        "lastChapter": "class.updata@tag.span@text",
+        "name": "class.title@text"
+    },
+    "ruleToc": {
+        "chapterList": "-@js:result\nif(/bookchapter/.test(baseUrl))\nJSON.parse(result).map(a=>{return {href:\"/\"+java.get(\"id\")+\"/\"+a.chapterid+\".html\",text:a.chaptername}});\n//json和default规则不能一起使用\n//$.*||.cy_plist@li@a\"\nelse java.getElements(\".cy_plist@li@a\");",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "isVip": "-@js:result\r\nif(/bookchapter/.test(baseUrl))\r\nJSON.parse(result).map(a=&gt;{return {href:&quot;/&quot;+java.get(&quot;id&quot;)+&quot;/&quot;+a.chapterid+&quot;.html&quot;,text:a.chaptername}});\r\n//$.*||.cy_plist@li@a&quot;\r\nelse java.getElements(&quot;.cy_plist@li@a&quot;);",
+        "nextTocUrl": "@js:\r\ntry{\r\nlet a=\"http://www.6mh7.com/bookchapter/,\",\r\nid=result.match(/data-id=.(\\d+)/)[1],\r\nvid=result.match(/data-vid=.(\\d+)/)[1],\r\nb={\r\n\"method\": \"POST\",\r\n\"body\": \"id=\"+id+\"&id2=\"+vid\r\n}\r\njava.put(\"id\",id);\r\na+JSON.stringify(b)\r\n}catch(e){}"
+    },
+    "searchUrl": "/search.php?keyword={{key}}",
+    "weight": 0
+}

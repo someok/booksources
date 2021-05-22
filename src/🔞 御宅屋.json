@@ -1,0 +1,42 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 御宅屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.yuzhaiwu.co",
+    "customOrder": -1384,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "分类::\n耽美::/sort1/{{page}}/\n百合::/sort2/{{page}}/\n玄幻::/sort3/{{page}}/\n修真::/sort4/{{page}}/\n言情::/sort5/{{page}}/\n高辣::/sort6/{{page}}/\n腹黑::/sort7/{{page}}/\n种田::/sort8/{{page}}/\n高干::/sort9/{{page}}/\n网游::/sort10/{{page}}/\n标签::\n快穿::/modules/article/tagarticle.php?tag=快穿&page={{page}}\n美攻::/modules/article/tagarticle.php?tag=美攻&page={{page}}\n肉文::/modules/article/tagarticle.php?tag=肉文&page={{page}}\n年下::/modules/article/tagarticle.php?tag=年下&page={{page}}\n年上::/modules/article/tagarticle.php?tag=年上&page={{page}}\n生子::/modules/article/tagarticle.php?tag=生子&page={{page}}\n人兽::/modules/article/tagarticle.php?tag=人兽&page={{page}}\n强强::/modules/article/tagarticle.php?tag=强强&page={{page}}\n穿越::/modules/article/tagarticle.php?tag=穿越&page={{page}}\n双性::/modules/article/tagarticle.php?tag=双性&page={{page}}\n强受::/modules/article/tagarticle.php?tag=强受&page={{page}}\nABO::/modules/article/tagarticle.php?tag=ABO&page={{page}}\n重生::/modules/article/tagarticle.php?tag=重生&page={{page}}\nＨＰ::/modules/article/tagarticle.php?tag=HP&page={{page}}\n虐文::/modules/article/tagarticle.php?tag=虐文&page={{page}}\n温馨::/modules/article/tagarticle.php?tag=温馨&page={{page}}\nＮＰ::/modules/article/tagarticle.php?tag=NP&page={{page}}\n父子::/modules/article/tagarticle.php?tag=父子&page={{page}}\n兄弟::/modules/article/tagarticle.php?tag=兄弟&page={{page}}\n萌文::/modules/article/tagarticle.php?tag=萌文&page={{page}}\nＢＥ::/modules/article/tagarticle.php?tag=BE&page={{page}}\n末世::/modules/article/tagarticle.php?tag=末世&page={{page}}\n人鱼::/modules/article/tagarticle.php?tag=人鱼&page={{page}}\n师生::/modules/article/tagarticle.php?tag=师生&page={{page}}\n网游::/modules/article/tagarticle.php?tag=网游&page={{page}}\n娱乐::/modules/article/tagarticle.php?tag=娱乐圈&page={{page}}\n高干::/modules/article/tagarticle.php?tag=高干&page={{page}}\n金手::/modules/article/tagarticle.php?tag=金手指&page={{page}}\n反攻::/modules/article/tagarticle.php?tag=反攻&page={{page}}\n诱受::/modules/article/tagarticle.php?tag=诱受&page={{page}}\n种田::/modules/article/tagarticle.php?tag=种田&page={{page}}\nＳＭ::/modules/article/tagarticle.php?tag=SM调教&page={{page}}",
+    "lastUpdateTime": 1620891410597,
+    "ruleBookInfo": {
+        "author": "tag.tbody.0@tag.h2@text",
+        "intro": "tag.pre@html",
+        "kind": "tag.tbody.0@tag.a.0@text&&tag.tbody.0@tag.time@text##\\s.*",
+        "lastChapter": "tag.tbody.0@tag.a.1@text",
+        "name": ".h_nav_items@tag.li.1@text",
+        "tocUrl": "#ls0 a@href",
+        "wordCount": "#size@text"
+    },
+    "ruleContent": {
+        "content": "#nr1@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.strong@text||tag.span@text",
+        "bookList": ".common-bookele||id.list_ul@li",
+        "bookUrl": "tag.a.0@href",
+        "intro": "tag.a.-1@text##\\s",
+        "kind": "##栏目：([^<]+)<[\\s\\S]+?标签：([^<]+)<##$1,$2###",
+        "name": "tag.a.0@text",
+        "wordCount": "tag.time@text||ownText##【|】|\\s.*"
+    },
+    "ruleToc": {
+        "chapterList": "#jsList1 a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}}",
+    "weight": 0
+}

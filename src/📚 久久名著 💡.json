@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "📚 出版",
+    "bookSourceName": "📚 久久名著 💡",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ksw8888.com",
+    "customOrder": -1387,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "城市作文::/chengshizuowen/\n魔幻小说::/xuanhuan/\n言情小说::/yanqing/\n恐怖灵异::/kongbu/\n重生小说::/wangluo/zhongshengxiaoshuo/\n穿越小说::/wangluo/chuanyuexiaoshuo/\n种田小说::/zhongtianwen/\n宫斗小说::/gongdouxiaoshuo/\n晋江小说::/jinjiangxiaoshuo/\n\n现代名著::/xiandai/\n古典名著::/gudaicn/\n外国名著::/waiguo/\n诸子百家::/gudaicn/zhuzibaijia/\n史书::/gudaicn/shishu/\n古代公案::/gudaicn/gudaigonganxiaoshuo/\n古典言情::/gudaicn/gudianyanqingxiaoshuo/\n古代武侠::/gudaicn/gudianwuxia/\n南怀瑾集::/gudaicn/nanhuaijinquanji/\n佛经大全::/gudaicn/fujingdaquan/\n道教书籍::/gudaicn/daojiaoshuji/\n易经书籍::/gudaicn/yijingshuji/\n蒙学经典::/gudaicn/mengxuejingdian/\n古代兵书::/gudaicn/gudaibingshu/\n古代医书::/gudaicn/gudaiyishu/\n文言文::/gudaicn/wenyanwen/\n四大名著::/gudaicn/sidamingzhu/\n三言二拍::/gudaicn/sanyanerpaiheji/\n辞赋::/gudaicn/cifu/\n晚清四大谴责::/gudaicn/qianzexiaoshuo/\n\n网络小说::/wangluo/\n人文社科::/renwensheke/\n成功励志::/lizhi/\n武侠小说::/wuxia/\n人物传记::/chuanji/\n财经股票::/caijing/\n\n古龙::/gulong/\n司马翎::/gulong/\n伴霞楼主::/wuxia/banxialouzhu/\n诸葛青云::/wuxia/zhugeqingyun/\n鬼谷子::/wuxia/guiguzi/\n上官鼎::/wuxia/shangguanding/\n云中岳::/wuxia/yunzhongyue/\n松柏生::/wuxia/songbaisheng/\n令狐庸::/wuxia/linghuyong/\n陈青云::/wuxia/chenqingyun/",
+    "lastUpdateTime": 1620752534269,
+    "ruleBookInfo": {
+        "intro": ".des@html",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": ".articleContent@html||#content@html",
+        "nextContentUrl": ".toup1@a@href"
+    },
+    "ruleExplore": {
+        "bookList": ".bookList",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "name": "tag.a.1@text##诸子百家|古代公案小说|史书|古典言情小说|南怀瑾全集|中国古代武侠小说|佛经大全|道教书籍|易经书籍|古代(医|兵)书|文言文|三言二拍合集|辞赋|晚清四大谴责小说|蒙学经典|四大文学名著|古龙|诸葛青云|司马翎|鬼谷子|上官鼎|云中岳|松柏生|令狐庸|陈青云|平江不肖生|王度庐|秋梦痕|墨余生|于东楼|曹若冰|马荣成|伴霞楼主|(高|初)中"
+    },
+    "ruleSearch": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "name": ""
+    },
+    "ruleToc": {
+        "chapterList": "div.index_list a||.mulu li a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/plus/search.php?kwtype=0&q={{key}}&searchtype=title",
+    "weight": 0
+}

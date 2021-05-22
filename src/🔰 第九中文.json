@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "//连续加载容易宕机",
+    "bookSourceGroup": "🔰 普通",
+    "bookSourceName": "🔰 第九中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.dijiubook.com",
+    "customOrder": 86,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/1_{{page}}/\n仙侠::/sort/2_{{page}}/\n都市::/sort/3_{{page}}/\n穿越::/sort/4_{{page}}/\n游戏::/sort/5_{{page}}/\n穿越::/sort/6_{{page}}/\n其他::/sort/7_{{page}}/\n爽文::/sort/8_{{page}}/\n全本::/quanben/sort/{{page}}/",
+    "lastUpdateTime": 1620763007500,
+    "ruleBookInfo": {
+        "author": ".block@tag.a.2@text",
+        "coverUrl": ".block@tag.img@src",
+        "intro": ".intro_info@tag.p@html",
+        "kind": ".block@tag.a.3@text&&.block@tag.p.4@text&&.block@tag.p.5@text##.*：|\\s.*",
+        "lastChapter": ".block@tag.a.4@text",
+        "name": ".block@tag.h2@text",
+        "tocUrl": ".chapter@tag.a.-1@href"
+    },
+    "ruleContent": {
+        "content": "id.neirong@html",
+        "nextContentUrl": "id.pb_next@href"
+    },
+    "ruleExplore": {
+        "author": "tag.a.3@text",
+        "bookList": ".block",
+        "bookUrl": "tag.a.2@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.a.4@text",
+        "name": "tag.a.2@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".SHsectionThree-middle p",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.a.1@href##.+\\D((\\d+)\\d{3})\\D##https://dijiushu.com/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "tag.a.0@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter li",
+        "chapterName": "tag.a@text##返回书籍.*",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"name=searchtype&submit=&searchkey={{key}}\"\n}",
+    "weight": 0
+}

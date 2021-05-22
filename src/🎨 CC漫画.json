@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨 漫画",
+    "bookSourceName": "🎨 CC漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.ccdm15.com",
+    "bookUrlPattern": "",
+    "customOrder": -38908,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "少年热血::/list/1\n侦探推理::/list/2\n耽美画屋::/list/3\n恋爱生活::/list/4\n纯情少女::/list/6\n武侠魔幻::/list/7",
+    "header": "",
+    "lastUpdateTime": 1604441352468,
+    "ruleBookInfo": {
+        "author": "class.other@tag.span.3@text",
+        "coverUrl": "class.cover@tag.img@src",
+        "intro": "class.intro@text",
+        "kind": "class.other@tag.span.2@text&&class.other@tag.span.4@text&&class.other@tag.span.5@text",
+        "lastChapter": "class.other@tag.a@text",
+        "name": "class.other@tag.strong@text"
+    },
+    "ruleContent": {
+        "content": "class.img@tag.img@src@js:\nlist=result.split(\"\\n\");\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)}\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+','+JSON.stringify(headers)+'\">'\n}\nhtml",
+        "imageStyle": "FULL",
+        "nextContentUrl": "text.下一页@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "text##\\S+\\s+",
+        "bookList": "class.list@tag.a",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "text##连载.*|完结.*"
+    },
+    "ruleToc": {
+        "chapterList": "class.list@tag.a",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/Search,{\n  \"method\": \"POST\",\n  \"body\": \"Key={{key}}\"\n}",
+    "weight": 0
+}

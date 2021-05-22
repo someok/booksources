@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "https://www.po-18.com",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 PO18①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.po18.biz",
+    "customOrder": -1337,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总榜::/top/allvisit_{{page}}/\n月榜::/top/monthvisit_{{page}}/\n周榜::/top/weekvisit_{{page}}/\n日榜::/top/dayvisit_{{page}}/\n总推::/top/allvote_{{page}}/\n月推::/top/monthvote_{{page}}/\n周推::/top/weekvote_{{page}}/\n收藏::/top/goodnum_{{page}}/\n字数::/top/size_{{page}}/\n最近::/top/lastupdate_{{page}}/\n最新::/top/postdate_{{page}}/\n玄幻::/sort/1_{{page}}/\n修真::/sort/2_{{page}}/\n言情::/sort/3_{{page}}/\n耽美::/sort/9_{{page}}/\n高干::/sort/10_{{page}}/\n高辣::/sort/11_{{page}}/\n腹黑::/sort/13_{{page}}/\n种田::/sort/14_{{page}}/\n百合::/sort/17_{{page}}/\n其他::/sort/16_{{page}}/\n完本::/full/{{page}}/",
+    "lastUpdateTime": 1620887340443,
+    "ruleBookInfo": {
+        "author": ".tab@tag.p.0@text##.*：",
+        "coverUrl": ".tu@img@src",
+        "intro": ".jj@p@html",
+        "kind": ".tab1@tag.p.0@text&&.tab1@tag.p.1@text##小说",
+        "lastChapter": ".tab@a@text",
+        "name": "tag.h1.0@text##\\_.*",
+        "wordCount": ".tab1@tag.p.2@text"
+    },
+    "ruleContent": {
+        "content": "id.novelcontent@textNodes",
+        "replaceRegex": "##分卷阅读.*|.*作者.*"
+    },
+    "ruleExplore": {
+        "author": ".p4@text||.p3 a@text",
+        "bookList": ".tt||.content_link",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": ".p5@text",
+        "kind": "p@.p2@text&&.p1 a@text##\\[|\\]",
+        "name": "tag.a.1@text##\\_.*",
+        "wordCount": "p@.p3@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".search_list",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "kind": "tag.a.1@text",
+        "name": "tag.a.0@text##\\_.*"
+    },
+    "ruleToc": {
+        "chapterList": ".info_chapters@tag.ul!0@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+}

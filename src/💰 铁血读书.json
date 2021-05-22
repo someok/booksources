@@ -1,0 +1,39 @@
+    {
+      "bookSourceComment": "",
+      "bookSourceGroup": "普通",
+      "bookSourceName": "💰 铁血读书",
+      "bookSourceType": 0,
+      "bookSourceUrl": "http://book.tiexue.net",
+      "bookUrlPattern": "",
+      "customOrder": 0,
+      "enabled": true,
+      "enabledExplore": true,
+      "lastUpdateTime": 1621688217244,
+      "loginUrl": "http://book.tiexue.net",
+      "ruleBookInfo": {
+        "author": "class.xQing@tag.table@tag.tbody@tag.tr.0@tag.td.0@tag.p@tag.a@tag.u@text",
+        "coverUrl": "class.li_01@tag.a@tag.img@src",
+        "intro": "class.bookPrdt colorGray@tag.p@text",
+        "name": "class.normaltitle@tag.span@text",
+        "tocUrl": "class.newChapter borderY marTop@tag.ul@tag.li.1@tag.a@href"
+      },
+      "ruleContent": {
+        "content": "class.p_01@tag.p@text"
+      },
+      "ruleExplore": {},
+      "ruleSearch": {
+        "author": "class.zuoZhe1@tag.a@text",
+        "bookList": "class.tianZhi_list@tag.dl",
+        "bookUrl": "class.keyRight.0@tag.a.0@href",
+        "coverUrl": "tag.dt@tag.a@tag.img@src",
+        "kind": "class.keyWords colorTh@tag.a.0@text",
+        "name": "tag.h6@tag.a@text"
+      },
+      "ruleToc": {
+        "chapterList": "class.list01@tag.li@tag.p@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+      },
+      "searchUrl": "http://book.tiexue.net/SearchResults.aspx?pageindex={{page}}&PageSize=20&keywords={{key}}&noveltype=0,{\n  \"charset\": \"escape\"\n}",
+      "weight": 0
+    }

@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔥 书耽",
+    "bookSourceName": "🔥 肉色屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.rousewu.in",
+    "bookUrlPattern": "",
+    "customOrder": 52,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/wapsort/1_{{page}}.html\n武侠::/wapsort/2_{{page}}.html\n都市::/wapsort/3_{{page}}.html\n穿越::/wapsort/4_{{page}}.html\n科幻::/wapsort/5_{{page}}.html\n恐怖::/wapsort/6_{{page}}.html\n网游::/wapsort/7_{{page}}.html\n藏书::/wapsort/8_{{page}}.html\n其他::/wapsort/9_{{page}}.html",
+    "lastUpdateTime": 1620819354345,
+    "loginUrl": "https://m.rousewu.in/login.php",
+    "ruleBookInfo": {
+        "intro": "tag.pre@html",
+        "kind": "tag.tbody.0@tag.a.0@text&&tag.time@text",
+        "lastChapter": "tag.tbody.0@tag.a.1@text",
+        "tocUrl": ".chapterList@tag.a.10@href",
+        "wordCount": "##总字数：([^<]+)<##$1###"
+    },
+    "ruleContent": {
+        "content": "id.nr@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.strong.0@text",
+        "bookList": ".common-bookele",
+        "bookUrl": "tag.a.0@href",
+        "kind": "tag.p.1@text##.*：",
+        "name": "tag.a.0@text##\\_.*"
+    },
+    "ruleToc": {
+        "chapterList": "tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+}

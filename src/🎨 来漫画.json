@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨 漫画",
+    "bookSourceName": "🎨 来漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.laimanhua.com",
+    "bookUrlPattern": "",
+    "customOrder": -38909,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "添加时间::https://m.laimanhua.com/getact3.asp?act=list&page={{page}}&catid=0&ajax=1&order=0\n更新时间::https://m.laimanhua.com/getact3.asp?act=list&page={{page}}&catid=0&ajax=1&order=1\n浏览次数::https://m.laimanhua.com/getact3.asp?act=list&page={{page}}&catid=0&ajax=1&order=3\n日本漫画::https://www.laimanhua.com/kanmanhua/zaixian_rhmh/{{page}}.html\n国产漫画::https://www.laimanhua.com/kanmanhua/zaixian_dlmh/{{page}}.html\n欧美漫画::https://www.laimanhua.com/kanmanhua/zaixian_ommh/{{page}}.html\n港台漫画::https://www.laimanhua.com/kanmanhua/zaixian_gtmh/searchPag\n少年热血::https://www.laimanhua.com/kanmanhua/rexue/{{page}}.html\n武侠格斗::https://www.laimanhua.com/kanmanhua/gedou/{{page}}.html\n科幻魔幻::https://www.laimanhua.com/kanmanhua/kehuan/{{page}}.html\n竞技体育::https://www.laimanhua.com/kanmanhua/jingji/{{page}}.html\n爆笑喜剧::https://www.laimanhua.com/kanmanhua/gaoxiao/{{page}}.html\n侦探推理::https://www.laimanhua.com/kanmanhua/tuili/{{page}}.html\n恐怖灵异::https://www.laimanhua.com/kanmanhua/kongbu/{{page}}.html\n耽美人生::https://www.laimanhua.com/kanmanhua/danmei/{{page}}.html\n少女爱情::https://www.laimanhua.com/kanmanhua/shaonv/{{page}}.html\n恋爱生活::https://www.laimanhua.com/kanmanhua/lianai/{{page}}.html\n生活漫画::https://www.laimanhua.com/kanmanhua/shenghuo/{{page}}.html\n战争漫画::https://www.laimanhua.com/kanmanhua/zhanzheng/{{page}}.html\n故事漫画::https://www.laimanhua.com/kanmanhua/gushi/{{page}}.html\n百合女性::https://m.laimanhua.com/kanmanhua/baihe/\n伪娘漫画::https://www.laimanhua.com/kanmanhua/weiniang/{{page}}.html\n其他漫画::https://www.laimanhua.com/kanmanhua/qita/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1600091312405,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "class.cont-list@tag.dl.2@tag.dd@text",
+        "coverUrl": "class.thumb@tag.img@src",
+        "intro": "id.bookIntro@text",
+        "kind": "class.cont-list@tag.dl.3@tag.dd@text&&class.thumb@tag.i@text",
+        "lastChapter": "class.cont-list@tag.dl.0@tag.dd@text",
+        "name": "class.main-bar@tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "@js:\neval(result.match(/(var mhInfo=.*;)/)[1]);\nhost1=\"https://mhpic5.miyeye.cn:20208\";\nhost2=\"https://res.gezhengzhongyi.cn:20207\"; host3=\"https://mhpic88.miyeye.cn:20207\";\nhost=parseInt(mhInfo.chapterId)>542724? host=host1:host=host2;\nif (parseInt(mhInfo.chapterId)>885032)\nhost=host3;\n                                   \nheader={\"Referer\":baseUrl,\n\"Accept\":\"image/webp,image/apng,image/*,*/*;q=0.8\"};\nheaders={\"headers\":JSON.stringify(header)}\nhtml='';\npath=mhInfo.path;\nfor(i in mhInfo.images){\nimg=host+path+mhInfo.images[i];\nhtml +='<img src=\"'+img+','+JSON.stringify(headers)+'\">'\n}\nhtml",
+        "imageStyle": "FULL",
+        "nextContentUrl": "",
+        "sourceRegex": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "bookList": "class.dmList@tag.li||tag.li",
+        "bookUrl": "tag.a@href@js:\"https://m.laimanhua.com\"+result",
+        "coverUrl": "tag.img@data-src||tag.img@src",
+        "kind": "tag.dd.1@text&&tag.i@text&&tag.p.3@tag.a@text&&tag.p.2@tag.span@text",
+        "lastChapter": "tag.dd.2@text||class.yellow@text",
+        "name": "tag.h3@text||tag.dt@text"
+    },
+    "ruleToc": {
+        "chapterList": "-id.chapterList@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/e/search/?key={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

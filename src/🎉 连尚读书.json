@@ -1,0 +1,64 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 连尚读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lsds.cn",
+    "bookUrlPattern": "",
+    "customOrder": -118176,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现实::/all-0-283.html\n仙武::/all-0-1.html\n玄幻::/all-0-6.html\n历史::/all-0-22.html\n军事::/all-0-26.html\n都市::/all-0-30.html\n科幻::/all-0-37.html\n网游::/all-0-44.html\n推理::/all-0-50.html\n竞技::/all-0-56.html\n短篇::/all-0-167.html\n其他::/all-0-159.html\n现实::/all-1-285.html\n现代::/all-1-61.html\n古代::/all-1-68.html\n青春::/all-1-75.html\n玄幻::/all-1-81.html\n悬疑::/all-1-84.html\n仙武::/all-1-90.html\n短篇::/all-1-175.html\n其他::/all-1-161.html",
+    "header": "",
+    "lastUpdateTime": 1620573711193,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[name=\"author\"]@content",
+        "coverUrl": ".book-info-cover img@src",
+        "init": "",
+        "intro": ".info-describe p@html##\\s",
+        "kind": ".tag@text##小说",
+        "lastChapter": "[name=\"last_chapter_name\"]@content",
+        "name": ".book-info-title@text",
+        "tocUrl": "<js>result = baseUrl.replace(\"bookinfo\",\"catalog\");</js>",
+        "wordCount": ".word-count@text"
+    },
+    "ruleContent": {
+        "content": ".reader-contents@html",
+        "nextContentUrl": "",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "tag.span.0@text",
+        "bookList": ".book-a",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img.0@src",
+        "intro": "tag.p.0@text##\\s",
+        "kind": "tag.span.1@text&&tag.span.2@text##小说",
+        "lastChapter": "",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.p.1@text"
+    },
+    "ruleSearch": {
+        "author": "tag.span.0@text",
+        "bookList": ".res-book-item",
+        "bookUrl": "tag.a@href##reader/(\\d+)-(\\d+)##bookinfo/$1",
+        "coverUrl": "tag.img.0@src",
+        "intro": "tag.p.1@text##\\s",
+        "kind": "tag.span.1@text&&tag.span.2@text##小说",
+        "lastChapter": "",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.span.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.test@tag.a",
+        "chapterName": "title",
+        "chapterUrl": "href",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "/booksearch/result-{{key}}-{{page}}.html",
+    "weight": 0
+}

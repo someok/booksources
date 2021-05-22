@@ -1,0 +1,29 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 风月文学 🚀",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.h528.com",
+    "customOrder": 45,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "人妻熟女::/post/category/人妻熟女/page/{{page}}\n家庭亂倫::/post/category/家庭亂倫/page/{{page}}\n強暴虐待::/post/category/強暴虐待/page/{{page}}\n學生校園::/post/category/學生校園/page/{{page}}\n武俠科幻::/post/category/武俠科幻/page/{{page}}\n動漫改編::/post/category/動漫改編/page/{{page}}\n名人明星::/post/category/名人明星/page/{{page}}\n都市生活::/post/category/都市生活/page/{{page}}\n變身系列::/post/category/變身系列/page/{{page}}\n經驗故事::/post/category/經驗故事/page/{{page}}\n另類其它::/post/category/另類其它/page/{{page}}\n两性知識::/post/category/性知識/page/{{page}}",
+    "lastUpdateTime": 1621050859598,
+    "ruleBookInfo": {},
+    "ruleContent": {
+        "content": ".entry@tag.p!-1@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "bookList": "id.content@table",
+        "bookUrl": "tag.a.1@href",
+        "kind": "tag.a.0@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".post@h2",
+        "chapterName": "text"
+    },
+    "searchUrl": "/page/{{page}}?s={{key}}",
+    "weight": 0
+}

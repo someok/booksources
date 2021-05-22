@@ -1,0 +1,65 @@
+{
+    "bookSourceComment": "//两次搜索的间隔时间不得少于30秒",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 御书屋②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.eyushuwu.com",
+    "bookUrlPattern": "",
+    "customOrder": -1327,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总榜::/top/allvisit/{{page}}.html\n月榜::/top/monthvisit/{{page}}.html\n周榜::/top/weekvisit/{{page}}.html\n总推::/top/allvote/{{page}}.html\n月推::/top/monthvote/{{page}}.html\n周推::/top/weekvote/{{page}}.html\n站推::/top/toptime/{{page}}.html\n收藏::/top/goodnum/{{page}}.html\n字数::/top/size/{{page}}.html\n最近::/top/lastupdate/{{page}}.html\n最新::/top/postdate/{{page}}.html\n玄幻::/list/8/{{page}}.html\n修真::/list/9/{{page}}.html\n都市::/list/12/{{page}}.html\n历史::/list/16/{{page}}.html\n网游::/list/14/{{page}}.html\n科幻::/list/13/{{page}}.html\n恐怖::/list/15/{{page}}.html\n言情::/list/3/{{page}}.html\n耽美::/list/1/{{page}}.html\n其他::/list/10/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52\"\n}",
+    "lastUpdateTime": 1620910194552,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "",
+        "wordCount": "class.blue.0@text##字数."
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@html",
+        "nextContentUrl": "",
+        "replaceRegex": "##第.*章.*|.*作者.*",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "tag.td.2@text",
+        "bookList": "tbody@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href@js:id=result.match(/(\\d+)/)[1];\nresult=\"http://img.eyushuwu.com/image/\"+id.slice(0,2)+\"/\"+id+\"/\"+id+\"s.jpg\"",
+        "intro": "",
+        "kind": "tag.td.3@text&&tag.td.4@text",
+        "lastChapter": "tag.a.1@text",
+        "name": "tag.a.0@text",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "tag.li.2@text##作者.",
+        "bookList": ".mySearch ul",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href@js:id=result.match(/(\\d+)/)[1];\nresult=\"http://img.eyushuwu.com/image/\"+id.slice(0,2)+\"/\"+id+\"/\"+id+\"s.jpg\"",
+        "intro": "",
+        "kind": "tag.li.5@text&&tag.li.4@text##状态.|更新时间.",
+        "lastChapter": "tag.a.1@text",
+        "name": "tag.a.0@text",
+        "wordCount": "tag.li.3@text##大小."
+    },
+    "ruleToc": {
+        "chapterList": ".col-md-3 a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+}

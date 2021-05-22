@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "//加载超级慢\n//备用网站https://m.aaread.space",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 疯情阅读。",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.aaread.club",
+    "bookUrlPattern": "",
+    "customOrder": -1299,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻仙侠::/category/玄幻仙侠\n官场职场::/category/官场职场\n历史古典::/category/历史古典\n惊悚灵异::/category/惊悚灵异\n穿越同人::/category/穿越同人\n生活都市::/category/生活都市\n耽美女尊::/category/耽美女尊\n言情校园::/category/言情校园\n玄幻::/category/xuanhuan\n职场::/category/zhichang\n古典::/category/gudian\n惊悚::/category/jingsong\n网游::/category/wangyou\n乡土::/category/xiangtu\n历史::/category/lishi\n耽美::/category/danmei\n女尊::/category/nvzun\n穿越::/category/chuanyue\n同人::/category/tongren\n校园::/category/xiaoyuan\n言情::/category/yanqing\n官场::/category/guanchang\n异能::/category/yineng\n都市::/category/dushi\n武侠::/category/wuxia\n仙侠::/category/xianxia\n单篇::/category/danpian",
+    "lastUpdateTime": 1621014861277,
+    "loginUrl": "https://aaread.club/mobile/login.php?popup=0&ticket=1&target=top&areaid=2&appid=36&auto=1&autotime=30&version=1.0&source=m&unionshow=00001&returnurl=https%3A%2F%2Faaread.club%2FloginSuccess.php%3FjumpUrl%3Dhttps%253A%252F%252Fm.aaread.club%252Fbook%252F3055%252Fcatalog%26from%3Dlogin",
+    "ruleBookInfo": {
+        "author": "class.book-rand-a@tag.a@text",
+        "coverUrl": "class.book-layout@tag.img@src",
+        "intro": "tag.textarea@html",
+        "kind": "class.book-meta.0@text&&class.ell@text##\\s.*",
+        "lastChapter": "class.book-meta-r@tag.p@text##.*更新至\\s",
+        "name": "class.book-title@tag.h2@text",
+        "tocUrl": "class.book-meta book-status@tag.a.0@href",
+        "wordCount": "class.book-meta.1@text"
+    },
+    "ruleContent": {
+        "content": ".read-section@tag.p@text",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "tag.span.0@text##作者\\s",
+        "bookList": ".book-li",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@data-src",
+        "intro": "tag.p@text##\\s",
+        "kind": "tag.em.0@text&&tag.em.1@text",
+        "name": "tag.h4@text",
+        "wordCount": "tag.em.2@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.volumes@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search?kw={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍 优质",
+    "bookSourceName": "👍 爱下电子书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.aixdzs.com",
+    "customOrder": -1779,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/sort/1?page={{page}}&t=1\n修真仙侠::/sort/2?page={{page}}&t=1\n都市青春::/sort/3?page={{page}}&t=1\n历史军事::/sort/4?page={{page}}&t=1\n网游竞技::/sort/5?page={{page}}&t=1\n科幻灵异::/sort/6?page={{page}}&t=1\n言情穿越::/sort/7?page={{page}}&t=1\n耽美同人::/sort/8?page={{page}}&t=1\n台言古言::/sort/9?page={{page}}&t=1\n传统武侠::/sort/10?page={{page}}&t=1\n古典文学::/sort/11?page={{page}}&t=1\n侦探推理::/sort/12?page={{page}}&t=1\n外国文学::/sort/13?page={{page}}&t=1\n当代现代::/sort/14?page={{page}}&t=1\n童话故事::/sort/15?page={{page}}&t=1\n传记纪实::/sort/16?page={{page}}&t=1\n韩流青春::/sort/17?page={{page}}&t=1\n影视文学::/sort/18?page={{page}}&t=1\n其他类别::/sort/0?page={{page}}&t=1",
+    "lastUpdateTime": 1620628909429,
+    "ruleBookInfo": {
+        "author": ".ix-list-info@tag.a.0@text",
+        "coverUrl": ".ix-list-img-square@tag.img@src",
+        "intro": "id.intro@html",
+        "kind": ".ix-list-info@tag.a.1@text&&.ix-list-info@tag.span@text&&.ix-list-info@tag.p.4@text##\\s.*",
+        "lastChapter": ".ix-list-info@tag.a.2@text",
+        "name": "tag.h4@text",
+        "tocUrl": ".book-act@tag.a.0@href",
+        "wordCount": ".ix-list-info@tag.p.2@text##字数.|\\s.*"
+    },
+    "ruleContent": {
+        "content": "tag.section@tag.p@text",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.3@text",
+        "bookList": ".ix-list li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.0@text##内容简介.|\\s@js:result+'……'",
+        "kind": "tag.span.0@text&&tag.em.0@text",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.em.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".ix-list@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": ".pager-r@tag.a@href"
+    },
+    "searchUrl": "/search/?k={{key}}&page={{page}}",
+    "weight": 0
+}

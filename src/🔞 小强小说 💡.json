@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "//搜索暂不可用",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 小强小说 💡",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiaoqiangla.net",
+    "customOrder": 15,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::/top/lastupdate_{{page}}.html\n最新新书::/top/postdate_{{page}}.html\n日点击榜::/top/dayvisit_{{page}}.html\n周点击榜::/top/weekvisit_{{page}}.html\n月点击榜::/top/monthvisit_{{page}}.html\n总点击榜::/top/allvisit_{{page}}.html\n总推荐榜::/top/allvote_{{page}}.html\n字数排行::/top/size_{{page}}.html\n总收藏榜::/top/goodnum_{{page}}.html\n完本小说::/top/wanben_{{page}}\n现代情欲::/fenlei/1_{{page}}.html\n藏の经阁::/fenlei/2_{{page}}.html",
+    "lastUpdateTime": 1621051212776,
+    "ruleBookInfo": {
+        "author": "##作者.([^<]+)<##$1###",
+        "canReName": "",
+        "coverUrl": ".pic@tag.img@src",
+        "intro": ".intro@html",
+        "kind": "tag.td.4@text&&tag.td.6@text&&tag.td.11@text##.*：",
+        "lastChapter": "class.ti.0@tag.a@text",
+        "name": "tag.h1@text",
+        "tocUrl": ".btopt@tag.a@href",
+        "wordCount": "tag.td.9@text##字|.*："
+    },
+    "ruleContent": {
+        "content": "id.content@tag.p@html",
+        "replaceRegex": "##第.*章.*|.*未完待续.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.span@text",
+        "bookList": "id.alistbox",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.div.5@text",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".liebiao li",
+        "chapterName": "tag.a@text##,xyz",
+        "chapterUrl": "tag.a@href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+}

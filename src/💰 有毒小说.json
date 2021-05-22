@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 有毒小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.youdubook.com",
+    "bookUrlPattern": "",
+    "customOrder": -1503,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "                    全部连载                    ::\n西幻传说::/booklibrary/index/str/6_0_0_0_0_1_0?page={{page}}\n武侠仙侠::/booklibrary/index/str/3_0_0_0_0_1_0?page={{page}}\n游戏动漫::/booklibrary/index/str/2_0_0_0_0_1_0?page={{page}}\n科幻时空::/booklibrary/index/str/9_0_0_0_0_1_0?page={{page}}\n都市逸闻::/booklibrary/index/str/8_0_0_0_0_1_0?page={{page}}\n历史军事::/booklibrary/index/str/7_0_0_0_0_1_0?page={{page}}\n诡秘悬疑::/booklibrary/index/str/10_0_0_0_0_1_0?page={{page}}\n                    全部完本                    ::\n西幻传说::/booklibrary/index/str/6_0_0_0_0_2_0?page={{page}}\n武侠仙侠::/booklibrary/index/str/3_0_0_0_0_2_0?page={{page}}\n游戏动漫::/booklibrary/index/str/2_0_0_0_0_2_0?page={{page}}\n科幻时空::/booklibrary/index/str/9_0_0_0_0_2_0?page={{page}}\n都市逸闻::/booklibrary/index/str/8_0_0_0_0_2_0?page={{page}}\n历史军事::/booklibrary/index/str/7_0_0_0_0_2_0?page={{page}}\n诡秘悬疑::/booklibrary/index/str/10_0_0_0_0_2_0?page={{page}}",
+    "lastUpdateTime": 1621688217244,
+    "loginUrl": "https://www.youdubook.com/user/login",
+    "ruleBookInfo": {
+        "author": "class.title@em@text##\\s.*",
+        "coverUrl": "class.pic@img@data-original",
+        "init": "",
+        "intro": "class.synopsisCon@html",
+        "kind": "class.label@li@text&&class.title@i@text##.*：|\\s.*",
+        "lastChapter": "class.zhangjie@tag.span.0@text",
+        "name": "class.title@span@text",
+        "wordCount": "class.Font@tag.span.0@text##$##万字"
+    },
+    "ruleContent": {
+        "content": "id.ChapterContent@tag.p@textNodes",
+        "imageStyle": "0",
+        "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.dd.1@text",
+        "bookList": ".BooklibraryList li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img.0@data-original",
+        "kind": "tag.dd.2@text&&tag.dd.3@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter_list li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href##$##,{\"webView\":true}",
+        "isVip": ""
+    },
+    "searchUrl": "/booklibrary/index?keywords={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 五二书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.52shuwu.me",
+    "bookUrlPattern": "",
+    "customOrder": -1237,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代都市::/xiandaidushi/<,index_{{page}}.html>\n穿越重生::/chongsheng/<,index_{{page}}.html>\n古代架空::/jiakong/<,index_{{page}}.html>\n综漫同人::/bl/<,index_{{page}}.html>\nＧＬ百合::/gl/<,index_{{page}}.html>\n言情精选::/yanqing/<,index_{{page}}.html>\n强强耽美::/tuijian/qiangqiangdanmeiwen/<,index_{{page}}.html>\n豪门总裁::/tuijian/haomenzongcai/<,index_{{page}}.html>\n现代言情::/tuijian/xiandaiyanqing/<,index_{{page}}.html>\n重生言情::/tuijian/chuanyuezhongshengyanqing/<,index_{{page}}.html>\n娱乐圈::/tuijian/yulequan/<,index_{{page}}.html>\n甜宠::/tuijian/tianchongwen/<,index_{{page}}.html>\n快穿::/tuijian/kuaichuanwen/<,index_{{page}}.html>\n系统::/tuijian/xitong/<,index_{{page}}.html>\n爽文::/tuijian/shuangwen/<,index_{{page}}.html>\n穿书::/tuijian/chuanshu/<,index_{{page}}.html>\n校园::/tuijian/xiaoyuan/<,index_{{page}}.html>\n综漫::/tuijian/zongman/<,index_{{page}}.html>\n虐恋::/tuijian/nuelian/<,index_{{page}}.html>\n虐文::/tuijian/nuewen/<,index_{{page}}.html>\n种田::/tuijian/zhongtianwen/<,index_{{page}}.html>\n军婚::/tuijian/junhun/<,index_{{page}}.html>\n末世::/tuijian/moshiwen/<,index_{{page}}.html>\n空间::/tuijian/kongjianwen/<,index_{{page}}.html>\n洪荒::/tuijian/honghuang/<,index_{{page}}.html>\n清穿::/tuijian/qingchuan/index<,_{{page}}>.html\n明国::/tuijian/minguo/<,index_{{page}}.html>\n复仇::/tuijian/fuchou/<,index_{{page}}.html>\n高干::/tuijian/gaoganwen/<,index_{{page}}.html>\n韩娱::/tuijian/hanyu/<,index_{{page}}.html>\n女配::/tuijian/nvpeiwen/<,index_{{page}}.html>\n女强::/tuijian/nvqiangwen/<,index_{{page}}.html>\n网王同人::/tuijian/wangwangtongren/<,index_{{page}}.html>\n火影同人::/tuijian/huoying/<,index_{{page}}.html>\n综漫小说::/tuijian/zongman/<,index_{{page}}.html>\n猎人同人::/tuijian/lierentongren/<,index_{{page}}.html>\n盗墓笔记同人::/tuijian/daomubijitongren/<,index_{{page}}.html>\n综英美::/tuijian/zongyingmei/<,index_{{page}}.html>\n综武侠::/tuijian/zongwuxia/<,index_{{page}}.html>",
+    "lastUpdateTime": 1621013370252,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "",
+        "intro": "",
+        "lastChapter": ".list@tag.a.-1@text##章##页",
+        "name": ""
+    },
+    "ruleContent": {
+        "content": ".article-content@html",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##目录|上一页|下一页|52书库.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.0@text##.*_|.*作者.|【.*】",
+        "bookList": ".excerpt",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "intro": "tag.span.0@text##.*】|文案.|\\s",
+        "kind": "tag.span.1@text##.*\\(|\\).*|\\s.*",
+        "lastChapter": "",
+        "name": "tag.a.0@text##\\_.*|\\s.*"
+    },
+    "ruleToc": {
+        "chapterList": ".list li",
+        "chapterName": "tag.a@text##章##页",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&show=title&keyboard={{key}}\"\n}",
+    "weight": 0
+}

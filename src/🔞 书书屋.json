@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 书书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.shushuwuxs.org",
+    "bookUrlPattern": "",
+    "customOrder": -1341,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "点击::/top/allvisit_{{page}}/\n玄幻::/sort/1_{{page}}/\n修真::/sort/2_{{page}}/\n都市::/sort/3_{{page}}/\n穿越::/sort/4_{{page}}/\n科幻::/sort/5_{{page}}/\n精品::/sort/6_{{page}}/\n耽美::/sort/7_{{page}}/\n其他::/sort/8_{{page}}/",
+    "lastUpdateTime": 1620895203082,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content##小说",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##正文\\s",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": ".gengduo@tag.a@href",
+        "wordCount": "##更新时间.([^<]+)<##$1###"
+    },
+    "ruleContent": {
+        "content": "id.nr@textNodes",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": ".xbk",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.span.2@text##\\s",
+        "kind": "tag.i@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".fk li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.a.1@href##.+\\D((\\d+)\\d{3})\\D##http://www.shushuwuxs.org/files/article/image/$2/$1/$1s.jpg###",
+        "intro": "",
+        "kind": "tag.a.0@text##\\[|\\]",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".lb@tag.li!-1@tag.a",
+        "chapterName": "text##正文\\s",
+        "chapterUrl": "href",
+        "nextTocUrl": "##\"xbk this tb\">[^<]+</a><li><a href=\"([^\"]+)\"##$1###"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+}

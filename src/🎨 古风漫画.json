@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨 漫画",
+    "bookSourceName": "🎨 古风漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.gufengmh8.com",
+    "customOrder": -3586,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::/list/update/?page={{page}}\n最新发布::/list/-post/?page={{page}}\n点击排行::/list/click/?page={{page}}\n连载::/list/lianzai/{{page}}/\n完结::/list/wanjie/{{page}}/\n儿童::/list/ertong/{{page}}/\n少年::/list/shaonian/{{page}}/\n少女::/list/shaonv/{{page}}/\n青年::/list/qingnian/{{page}}/\n日本::/list/riben/{{page}}/\n大陆::/list/dalu/{{page}}/\n香港::/list/hongkong/{{page}}/\n台湾::/list/taiwan/{{page}}/\n欧美::/list/oumei/{{page}}/\n韩国::/list/hanguo/{{page}}/\n其他::/list/qita/{{page}}/\n后宫::/list/hougong/{{page}}/\n穿越::/list/chuanyue/{{page}}/\n古风::/list/gufeng/{{page}}/\n欢乐向::/list/huanlexiang/{{page}}/\n四格::/list/sige/{{page}}/\n伪娘::/list/weiniang/{{page}}/\n冒险::/list/maoxian/{{page}}/\n搞笑::/list/gaoxiao/{{page}}/\n爱情::/list/aiqing/{{page}}/\n恐怖::/list/kongbu/{{page}}/\n悬疑::/list/xuanyi/{{page}}/\n神鬼::/list/shengui/{{page}}/\n科幻::/list/kehuan/{{page}}/\n东方::/list/dongfang/{{page}}/\n百合::/list/baihe/{{page}}/\n萌系::/list/mengxi/{{page}}/\n奇幻::/list/qihuan/{{page}}/\n治愈::/list/zhiyu/{{page}}/\n魔法::/list/mofa/{{page}}/\n校园::/list/xiaoyuan/{{page}}/\n耽美::/list/danmei/{{page}}/\n生活::/list/shenghuo/{{page}}/\n节操::/list/jiecao/{{page}}/\n格斗::/list/gedou/{{page}}/\n魔幻::/list/mohuan/{{page}}/\n舰娘::/list/jianniang/{{page}}/\n性转换::/list/xingzhuanhuan/{{page}}/\n轻小说::/list/qingxiaoshuo/{{page}}/\n颜艺::/list/yanyi/{{page}}/\n侦探::/list/zhentan/{{page}}/\n职场::/list/zhichang/{{page}}/\n热血::/list/rexue/{{page}}/\n历史::/list/lishi/{{page}}/\n音乐舞蹈::/list/yinyuewudao/{{page}}/\n机战::/list/jizhan/{{page}}/\n战争::/list/zhanzheng/{{page}}/\n美食::/list/meishi/{{page}}/\n励志::/list/lizhi/{{page}}/\n宅系::/list/zhaixi/{{page}}/\n竞技::/list/jingji/{{page}}/\n耽美::/list/danmei/{{page}}/\nBL::/list/BL/{{page}}/\n萌::/list/meng/{{page}}/\n青春::/list/qingchun/{{page}}/\n恋爱::/list/lianai/{{page}}/\n神魔::/list/shenmo/{{page}}/\n故事::/list/gushi/{{page}}/\n动作::/list/dongzuo/{{page}}/\n都市::/list/dushi/{{page}}/\n玄幻::/list/xuanhuan/{{page}}/\n修真::/list/xiuzhen/{{page}}/\n霸总::/list/bazong/{{page}}/\n灵异::/list/lingyi/{{page}}/\n架空::/list/jiakong/{{page}}/\n漫改::/list/mangai/{{page}}/\n萝莉::/list/luoli/{{page}}/\n武侠::/list/wuxia/{{page}}/\n真人::/list/zhenren/{{page}}/\n吸血::/list/xixie/{{page}}/\n社会::/list/shehui/{{page}}/\n剧情::/list/juqing/{{page}}/\n少女::/list/shaonv/{{page}}/\n同人::/list/tongren/{{page}}/\n御姐::/list/yujie/{{page}}/\n运动::/list/yundong/{{page}}/\n推理::/list/tuili/{{page}}/\n杂志::/list/zazhi/{{page}}/\n泡泡::/list/paopao/{{page}}/\n游戏::/list/youxi/{{page}}/\n总裁::/list/zongcai/{{page}}/\n唯美::/list/weimei/{{page}}/\n复仇::/list/fuchou/{{page}}/\n虐心::/list/nuexin/{{page}}/\n纯爱::/list/chunai/{{page}}/\n蔷薇::/list/qiangwei/{{page}}/\n震撼::/list/zhenhan/{{page}}/\n惊悚::/list/jingsong/{{page}}/\n宫斗::/list/gongdou/{{page}}/\n脑洞::/list/naodong/{{page}}/\n动画::/list/donghua/{{page}}/\n机甲::/list/jijia/{{page}}/\n明星::/list/mingxing/{{page}}/\n秀吉::/list/xiuji/{{page}}/\n恶搞::/list/egao/{{page}}/\nAA::/list/AA/{{page}}/\n浪漫::/list/langman/{{page}}/\n新作::/list/xinzuo/{{page}}/\n日更::/list/rigeng/{{page}}/\n僵尸::/list/jiangshi/{{page}}/\n惊险::/list/jingxian/{{page}}/\n精品::/list/jingpin/{{page}}/\n宠物::/list/chongwu/{{page}}/\n防疫::/list/fangyi/{{page}}/",
+    "lastUpdateTime": 1617013114132,
+    "ruleBookInfo": {
+        "author": "class.pic@tag.dl.1@tag.dd@text",
+        "coverUrl": "id.Cover@tag.mip-img@src",
+        "intro": "class.txtDesc@text##简介.",
+        "kind": "class.pic@tag.dl.2@tag.dd@text&&class.pic@tag.dl.3@tag.dd@text",
+        "lastChapter": "class.pic@tag.dl.0@tag.dd@text",
+        "name": "class.title@tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "@js:\nvar options={\"headers\":{\"Referer\":baseUrl}};\n(function getImgList() {\neval(result.match(/chapterImages\\s*=\\s*[^;]*/)[0])\neval(result.match(/chapterPath\\s*=\\s*[^;]*/)[0])\nreturn chapterImages;\r\n}()).map(uri=>\n'<img src=\"'+'https://res.xiaoqinre.com/'+chapterPath+uri+\",\"+JSON.stringify(options)+'\"/>').join(\"\\n\")",
+        "imageStyle": "FULL",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "class.list-comic",
+        "bookUrl": "class.txtA@tag.a@href",
+        "coverUrl": "tag.mip-img@src",
+        "lastChapter": "class.info@tag.a@text",
+        "name": "class.txtA@text"
+    },
+    "ruleSearch": {
+        "author": "class.txtItme.0@text",
+        "bookList": "class.itemBox",
+        "bookUrl": "class.title@tag.a@href",
+        "coverUrl": "tag.mip-img@src",
+        "intro": "",
+        "kind": "class.pd@text&&class.date@text##\\s.*",
+        "lastChapter": "class.coll@text",
+        "name": "class.title@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.chapter-list-1@tag.li",
+        "chapterName": "tag.span@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search/?keywords={{key}}&page={{page}}",
+    "weight": 0
+}

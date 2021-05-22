@@ -1,0 +1,42 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎶 音乐",
+    "bookSourceName": "🎶 九酷音乐",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://m.9ku.com",
+    "bookUrlPattern": "",
+    "customOrder": -2055,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "榜单排行::/music/\n网络歌曲::/wangluo/\n儿童歌曲::/erge/\n经典老歌::/laoge/\n抖音歌曲::/douyin/\n英文歌曲::/yingwen/",
+    "lastUpdateTime": 1604151952148,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "intro": "",
+        "kind": "",
+        "lastChapter": "class.t-t@tag.p@text"
+    },
+    "ruleContent": {
+        "content": "id.jp_audio_0@src"
+    },
+    "ruleExplore": {
+        "bookList": "class.banglist@tag.li||class.bangCate@tag.li",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "name": "tag.a@title||tag.a@text##收起|更多|歌手"
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": "class.musicList@tag.li",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.musicList@tag.li",
+        "chapterName": "class.t-t-a@text",
+        "chapterUrl": "tag.a.0@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "/search/?key={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎧 有声",
+    "bookSourceName": "🎧 56听书网",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.ting56.com",
+    "customOrder": -118164,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻武侠::/book/1<,_{{page}}>.html\n都市言情::/book/2<,_{{page}}>.html\n恐怖悬疑::/book/3<,_{{page}}>.html\n网游竞技::/book/4<,_{{page}}>.html\n军事历史::/book/6<,_{{page}}>.html\n职场商战::/book/7<,_{{page}}>.html\n经典评书::/book/9<,_{{page}}>.html\n百家讲坛::/book/10<,_{{page}}>.html\n儿童读物::/book/11<,_{{page}}>.html\n刑侦推理::/book/41<,_{{page}}>.html\n幽默笑话::/book/44<,_{{page}}>.html\n综艺娱乐::/book/45<,_{{page}}>.html\n3 Ｄ 体验::/book/47<,_{{page}}>.html\n 广 播 剧 ::/book/40<,_{{page}}>.html",
+    "lastUpdateTime": 1615739300540,
+    "ruleBookInfo": {
+        "lastChapter": "id.vlink_1@tag.a.-1@text"
+    },
+    "ruleContent": {
+        "content": "<js>result</js>",
+        "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+        "author": "tag.dd.0@text##.*：",
+        "bookList": "class.book",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@original",
+        "intro": "tag.dd.5@text##\\s",
+        "kind": "tag.dd.1@text&&tag.dd.2@text&&tag.dd.4@text##类型.|更新时间.",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "tag.dd.1@text##作者.",
+        "bookList": "class.xiaoshuo@tag.li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.dd.0@text##\\s",
+        "kind": "tag.span.0@text##\\(|\\)",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.vlink_1@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "/search.asp,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&searchword={{key}}&searchtype=-1\"\n}",
+    "weight": 0
+}

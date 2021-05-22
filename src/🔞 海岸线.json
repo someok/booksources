@@ -1,0 +1,58 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 海岸线",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.haxwx5.com",
+    "bookUrlPattern": "",
+    "customOrder": -1351,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日榜::/top-dayvisit-{{page}}/\n周榜::/top-weekvisit-{{page}}/\n月榜::/top-monthvisit-{{page}}/\n总榜::/top-allvisit-{{page}}/\n收藏::/top-goodnum-{{page}}/\n字数::/top-size-{{page}}/\n推荐::/top-allvote-{{page}}/\n最近::/top-lastupdate-{{page}}/\n玄幻::/xuanhuanxiaoshuo/\n都市::/dushixiaoshuo/\n历史::/lishixiaoshuo/\n乡村::/xiangcunxiaoshuo/\n其他::/qitaxiaoshuo/\n完本::/wanbenxiaoshuo/",
+    "lastUpdateTime": 1620892118899,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": ".info@tag.a.0@text||.block_txt2@tag.a.2@text",
+        "coverUrl": ".img@tag.img@src||.block_img2@tag.img@src",
+        "intro": "#intro@html||.intro_info@html",
+        "kind": ".info@tag.p.0@text&&.info@tag.p.1@text&&.info@tag.p.2@text&&.block_txt2@tag.a.3@text&&.block_txt2@tag.p.4@text&&.block_txt2@tag.p.5@text##小说|.*：|\\s.*",
+        "lastChapter": ".info@tag.a.1@text||.block_txt2@tag.a.4@text##正文.",
+        "name": ".info@tag.h1@text||.block_txt2@tag.a.1@text",
+        "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+        "content": "#book_text@textNodes||#nr1@textNodes",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##第.*章.*"
+    },
+    "ruleExplore": {
+        "author": ".name@tag.span.1@text||text||tag.a.2@text##.*/",
+        "bookList": "id.BookList@tag.li||.mainas@tag.li||.line",
+        "bookUrl": "tag.a.1@href||.name@tag.a.0@href||tag.a.0@href",
+        "coverUrl": "tag.img@src||tag.a@href##.+\\D((\\d+)\\d{3})\\D##http://www.haxwx5.com/files/article/image/$2/$1/$1s.jpg###",
+        "intro": ".nrrk@tag.p@text",
+        "kind": "tag.span.0@text&&tag.i.0@text&&tag.em.-1@text##类别.|小说",
+        "lastChapter": "tag.dl@tag.a.0@text##最新章节.",
+        "name": "tag.a.1@text||.name@tag.a.0@text||tag.a.0@text##/.*",
+        "wordCount": "tag.span.2@text##字"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "tbody@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.haxwx5.com/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "tag.td.4@text&&tag.td.5@text",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "#chapterlist@tag.li||.chapter@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&action=login&submit={{key}}&page={{page}}\"\n}",
+    "weight": 0
+}

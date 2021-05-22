@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 AE言情",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.fmias.com",
+    "customOrder": -118187,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "                    排行榜单                    ::\n周点击榜::/rank/weekvisit/\n月点击榜::/rank/monthvisit/\n总点击榜::/rank/allvisit/\n总收藏榜::/rank/goodnum/\n                    分类最新                    ::\n玄幻奇幻::/xclass/xuanhuan/{{page}}.html\n武侠仙侠::/xclass/wuxia/{{page}}.html\n言情都市::/xclass/dushi/{{page}}.html\n穿越历史::/xclass/lishi/{{page}}.html\n科幻灵异::/xclass/kehuan/{{page}}.html\n同人网游::/xclass/youxi/{{page}}.html\n悬疑推理::/xclass/tuili/{{page}}.html\n其他类型::/xclass/qita/{{page}}.html\n                    分类完本                    ::\n玄幻奇幻::/quanben/xclass/xuanhuan/{{page}}.html\n武侠仙侠::/quanben/xclass/wuxia/{{page}}.html\n言情都市::/quanben/xclass/dushi/{{page}}.html\n穿越历史::/quanben/xclass/lishi/{{page}}.html\n科幻灵异::/quanben/xclass/kehuan/{{page}}.html\n同人网游::/quanben/xclass/youxi/{{page}}.html\n悬疑推理::/quanben/xclass/tuili/{{page}}.html\n其他类型::/quanben/quanben/xclass/qita/{{page}}.html",
+    "lastUpdateTime": 1620841489578,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+        "content": "#booktxt@html",
+        "nextContentUrl": "text.下一页@href##$##,{\"webView\":true}",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".content dl",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@data-original",
+        "intro": "tag.dd.0@text",
+        "kind": "tag.span.0@text",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.span.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".mt0 li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href##$##,{\"webView\":true}",
+        "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/search4301.html?searchkey={{key}}",
+    "weight": 0
+}

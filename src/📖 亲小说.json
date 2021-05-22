@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "📖 轻文",
+    "bookSourceName": "📖 亲小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qinxiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": -1489,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新::/zuixin/{{page}}.html\n日轻::/tag/日轻/{{page}}.html\n科幻::/tag/科幻/{{page}}.html\n恋爱::/tag/恋爱/{{page}}.html\n魔法::/tag/魔法/{{page}}.html\n校园::/tag/校园/{{page}}.html\n神鬼::/tag/神鬼/{{page}}.html\n冒险::/tag/冒险/{{page}}.html\n恐怖::/tag/恐怖/{{page}}.html\n侦探::/tag/侦探/{{page}}.html\n搞笑::/tag/搞笑/{{page}}.html\n纯爱::/tag/纯爱/{{page}}.html\n格斗::/tag/格斗/{{page}}.html\n奇幻::/tag/奇幻/{{page}}.html\n后宫::/tag/后宫/{{page}}.html\n都市::/tag/都市/{{page}}.html\n异能::/tag/异能/{{page}}.html\n战争::/tag/战争/{{page}}.html\n异界::/tag/异世界/{{page}}.html\n穿越::/tag/穿越/{{page}}.html\n机战::/tag/机战/{{page}}.html\n百合::/tag/百合/{{page}}.html\n治愈::/tag/治愈/{{page}}.html\n历史::/tag/历史/{{page}}.html\n励志::/tag/励志/{{page}}.html\n其他::/tag/其它/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1620649878126,
+    "loginUrl": "https://www.qinxiaoshuo.com/login/#/book/",
+    "ruleBookInfo": {
+        "author": "class.info_item.0@tag.a@text",
+        "coverUrl": ".show_info@tag.img@src",
+        "intro": ".intro@html",
+        "kind": "class.info_item.0@tag.span@text&&.tags@tag.a@text&&class.info_item.2@tag.div.1@text##.*：|\\s.*",
+        "lastChapter": "class.info_item.2@tag.div.2@text##.*：",
+        "name": "tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "id.chapter_content@textNodes",
+        "imageStyle": "0",
+        "nextContentUrl": "@css:a:containsOwn(下一页)@href",
+        "replaceRegex": "##.*>.{0,5}$|.*亲小说.*|第.+[章卷]*+|轻之国度.*|下载后请在.*|转载时，请注明.*|仅供个人学习.*|转载时请事先.*|请尊重翻译.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.div.3@text##.*\\s",
+        "bookList": ".book",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.div.7@text##\\s",
+        "kind": "tag.div.4@text&&tag.div.5@text##.*\\s",
+        "lastChapter": "tag.div.6@text##.*\\s",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapters a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search/{{key}}/{{page}}.html",
+    "weight": 0
+}

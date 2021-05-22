@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "📖 轻文",
+    "bookSourceName": "📖 笔尖小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.bjcan.com",
+    "bookUrlPattern": "",
+    "customOrder": -1483,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "男生完本::/all/id/4/serialize/0.html?page={{page}}\n奇幻玄幻::/all/serialize/0/id/18.html?page={{page}}\n武侠仙侠::/all/serialize/0/id/19.html?page={{page}}\n历史军事::/all/serialize/0/id/20.html?page={{page}}\n都市娱乐::/all/serialize/0/id/21.html?page={{page}}\n科幻末日::/all/serialize/0/id/22.html?page={{page}}\n悬疑灵异::/all/serialize/0/id/23.html?page={{page}}\n游戏竞技::/all/serialize/0/id/34.html?page={{page}}\n其他类型::/all/serialize/0/id/35.html?page={{page}}\n女生完本::/all/serialize/0/id/8.html?page={{page}}\n古装言情::/all/serialize/0/id/25.html?page={{page}}\n都市言情::/all/serialize/0/id/26.html?page={{page}}\n浪漫青春::/all/serialize/0/id/27.html?page={{page}}\n幻想言情::/all/serialize/0/id/28.html?page={{page}}\n科幻空间::/all/serialize/0/id/37.html?page={{page}}\n灵异悬疑::/all/serialize/0/id/38.html?page={{page}}\n同人衍生::/all/serialize/0/id/39.html?page={{page}}\n耽美百合::/all/serialize/0/id/40.html?page={{page}}\n男生连载::/all/id/4/serialize/1.html?page={{page}}\n奇幻玄幻::/all/serialize/1/id/18.html?page={{page}}\n武侠仙侠::/all/serialize/1/id/19.html?page={{page}}\n历史军事::/all/serialize/1/id/20.html?page={{page}}\n都市娱乐::/all/serialize/1/id/21.html?page={{page}}\n科幻末日::/all/serialize/1/id/22.html?page={{page}}\n悬疑灵异::/all/serialize/1/id/23.html?page={{page}}\n游戏竞技::/all/serialize/1/id/34.html?page={{page}}\n其他类型::/all/serialize/1/id/35.html?page={{page}}\n女生连载::/all/serialize/1/id/8.html?page={{page}}\n古装言情::/all/serialize/1/id/25.html?page={{page}}\n都市言情::/all/serialize/1/id/26.html?page={{page}}\n浪漫青春::/all/serialize/1/id/27.html?page={{page}}\n幻想言情::/all/serialize/1/id/28.html?page={{page}}\n科幻空间::/all/serialize/1/id/37.html?page={{page}}\n灵异悬疑::/all/serialize/1/id/38.html?page={{page}}\n同人衍生::/all/serialize/1/id/39.html?page={{page}}\n耽美百合::/all/serialize/1/id/40.html?page={{page}}",
+    "lastUpdateTime": 1620713234776,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content##简介.",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "##<a href=\"([^\"]*)\">查看全部章节##$1###"
+    },
+    "ruleContent": {
+        "content": ".content@tag.p@text",
+        "imageStyle": "0",
+        "replaceRegex": "##第.*章.*|作者.*"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "tag.span.0@text",
+        "bookList": ".search-list li||.book-list li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.0@text##简介.",
+        "kind": "tag.em@text",
+        "lastChapter": "",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".attentions@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/home/search/index.html?keyword={{key}}",
+    "weight": 0
+}

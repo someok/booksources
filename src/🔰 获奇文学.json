@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "//两次搜索的间隔时间不得少于30秒",
+    "bookSourceGroup": "🔰 普通",
+    "bookSourceName": "🔰 获奇文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.huoq.com",
+    "customOrder": 85,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "周点击榜::/rank/weekvisit/\n月点击榜::/rank/monthvisit/\n总点击榜::/rank/allvisit/\n总收藏榜::/rank/goodnum/\n玄幻奇幻::/list/xuanhuan_{{page}}.html\n武侠修真::/list/wuxia_{{page}}.html\n都市青春::/list/dushi_{{page}}.html\n历史军事::/list/lishi_{{page}}.html\n恐怖科幻::/list/kehuan_{{page}}.html\n网游同人::/list/youxi_{{page}}.html\n其他综合::/list/qita_{{page}}.html\n完本分类::\n玄幻奇幻::/quanben/list/xuanhuan_{{page}}.html\n武侠修真::/quanben/list/wuxia_{{page}}.html\n都市青春::/quanben/list/dushi_{{page}}.html\n历史军事::/quanben/list/lishi_{{page}}.html\n恐怖科幻::/quanben/list/kehuan_{{page}}.html\n网游同人::/quanben/list/youxi_{{page}}.html\n其他综合::/quanben/list/qita_{{page}}.html",
+    "lastUpdateTime": 1620765994945,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+        "content": "id.booktxt@html",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".content dl",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@data-original",
+        "intro": "tag.dd.0@text##简介.|\\s",
+        "kind": "tag.span.0@text",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.span.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".mt0 li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/searchb758.html?searchkey={{key}}",
+    "weight": 0
+}

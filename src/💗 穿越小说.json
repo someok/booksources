@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "//两次搜索的间隔时间不得少于30秒",
+    "bookSourceGroup": "💗 女频",
+    "bookSourceName": "💗 穿越小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.chuanyue1.com",
+    "customOrder": -1767,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总点击榜::/top/allvisit-{{page}}.htm\n月排行榜::/top/monthvisit-{{page}}.htm\n周点击榜::/top/weekvisit-{{page}}.htm\n总推荐榜::/top/allvote-{{page}}.htm\n月推荐榜::/top/monthvote-{{page}}.htm\n周推荐榜::/top/weekvote-{{page}}.htm\n最近更新::/top/lastupdate-{{page}}.htm\n最新入库::/top/postdate-{{page}}.htm\n总收藏榜::/top/goodnum-{{page}}.htm\n今日热门::/top/dayvisit-{{page}}.htm\n我当王妃::/chuanyuesort1/0/{{page}}.htm\n皇宫因缘::/chuanyuesort2/0/{{page}}.htm\n古典言情::/chuanyuesort3/0/{{page}}.htm\n女尊天下::/chuanyuesort4/0/{{page}}.htm\n穿越魔法::/chuanyuesort5/0/{{page}}.htm\n古到现代::/chuanyuesort6/0/{{page}}.htm\n搞笑穿越::/chuanyuesort7/0/{{page}}.htm\n玄幻女强::/chuanyuesort8/0/{{page}}.htm\n异世重生::/chuanyuesort9/0/{{page}}.htm\n穿越时空::/chuanyuesort10/0/{{page}}.htm\n全本小说::/modules/article/index.php?fullflag=1&page={{page}}",
+    "lastUpdateTime": 1620478857605,
+    "loginUrl": "http://www.chuanyue1.com/login.php?jumpurl=%2Findex.php",
+    "ruleBookInfo": {
+        "author": ".infobox@tag.li.1@text##作品作者.",
+        "coverUrl": ".coverbox@tag.img@src",
+        "intro": ".introtxt@html",
+        "kind": ".infobox@tag.li.0@text&&.infobox@tag.span.0@text##作品类别.",
+        "lastChapter": ".listbox@tag.a.1@text",
+        "name": ".wrapper_src@tag.a.3@text",
+        "tocUrl": ".listbox@tag.a.0@href",
+        "wordCount": ".infobox@tag.li.2@text##完成字数."
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@html",
+        "imageStyle": "0",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": ".t3@text",
+        "bookList": "id.ltbox@tag.ul",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.chuanyue1.com/files/article/image/$2/$1/$1s.jpg###",
+        "intro": "tag.a.0@title##《.*》|.*提要.|\\s",
+        "kind": ".t8@text##\\s.*",
+        "lastChapter": ".t4@text",
+        "name": ".t2@text",
+        "wordCount": ".t5@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "tbody@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.chuanyue1.com/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "tag.td.5@text&&tag.td.4@text",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": ".zjlist4@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+}

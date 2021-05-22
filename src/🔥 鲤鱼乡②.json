@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔥 书耽",
+    "bookSourceName": "🔥 鲤鱼乡②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.liyuxiangbl.com",
+    "customOrder": 60,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代耽美::/xiandai/\n穿越重生::/chuanyue/\n古代耽美::/gudai/\n灵异玄幻::/lingyi/\nＢＬ同人::/bl/\nＧＬ百合::/gl/\n腐文小说::/fuwen/",
+    "lastUpdateTime": 1620821960838,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": ".m-bkcont@html",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": ".m-article-text@tag.p@text",
+        "imageStyle": "0",
+        "nextContentUrl": ".m-page@tag.a.2@href"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": ".m-list-top li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+        "author": "tag.b.0@text",
+        "bookList": ".m-update@tag.li!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "kind": "tag.span.3@text",
+        "lastChapter": "tag.a.1@text",
+        "name": "tag.a.0@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": ".book-list li",
+        "chapterName": "tag.a@text##.*阅读_",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"tbname=bookname&show=title,writer&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+}

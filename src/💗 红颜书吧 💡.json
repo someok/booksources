@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "//搜索暂时不可用",
+    "bookSourceGroup": "💗 女频",
+    "bookSourceName": "💗 红颜书吧 💡",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hyshu.com",
+    "bookUrlPattern": "",
+    "customOrder": -1745,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日点击榜::/dayvisit_{{page}}/\n周点击榜::/weekvisit_{{page}}/\n月点击榜::/monthvisit_{{page}}/\n总点击榜::/allvisit_{{page}}/\n总收藏榜::/goodnum_{{page}}/\n字数排行::/size_{{page}}/\n总推荐榜::/allvote_{{page}}/\n最新入库::/postdate_{{page}}/\n最近更新::/lastupdate_{{page}}/\n都市言情::/sort1_{{page}}/\n古代言情::/sort2_{{page}}/\n架空穿越::/sort3_{{page}}/\n宫斗重生::/sort4_{{page}}/\n豪门总裁::/sort5_{{page}}/\n青春校园::/sort6_{{page}}/\n其他言情::/sort7_{{page}}/\n男生小说::/sort8_{{page}}/\n全本小说::/full_{{page}}.html",
+    "lastUpdateTime": 1620481138204,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##.*点击下一页.*|.*手机阅读请.*|.*红颜书吧.*|红\\s颜\\s书\\s吧|红\\s颜书\\s吧|红\\s颜\\s书吧|红颜\\s书吧"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": "tag.dl",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "class.book_des@text",
+        "kind": "tag.span!0@text",
+        "lastChapter": "tag.a.-1@text",
+        "name": "tag.h3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.readerlist@tag.li@tag.a",
+        "chapterName": "text##小说正文$",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+}

@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔥 书耽",
+    "bookSourceName": "🔥 耽美小说①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.88danmei.net",
+    "bookUrlPattern": "",
+    "customOrder": 76,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总点击榜::/top/allvisit_{{page}}.html\n总收藏榜::/top/goodnum_{{page}}.html\n字数排行::/top/size_{{page}}.html\n总推荐榜::/top/allvote_{{page}}.html\n最新入库::/top/postdate_{{page}}.html\n最近更新::/top/lastupdate_{{page}}.html\n玄幻修仙::/list1/{{page}}.html\n现代都市::/list2/{{page}}.html\n古代架空::/list3/{{page}}.html\n穿越重生::/list4/{{page}}.html\n网游动漫::/list5/{{page}}.html\n科幻未来::/list6/{{page}}.html\n恐怖灵异::/list7/{{page}}.html\nＢＧ言情::/list8/{{page}}.html\n其他类型::/list9/{{page}}.html",
+    "lastUpdateTime": 1620834964812,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "text.查看目录@href",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.nr1@html"
+    },
+    "ruleExplore": {
+        "author": "tag.p.2@text##作者.",
+        "bookList": ".block",
+        "bookUrl": "tag.a.2@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.4@text##\\s",
+        "kind": "tag.p.3@text##时间.",
+        "name": "tag.a.2@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a.3@text",
+        "bookList": ".block",
+        "bookUrl": "tag.a.2@href",
+        "coverUrl": "tag.img@src",
+        "intro": "",
+        "kind": "tag.a.4@text",
+        "lastChapter": "tag.a.5@text",
+        "name": "tag.a.2@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&submit=搜索&type=articlename\"\n}",
+    "weight": 0
+}

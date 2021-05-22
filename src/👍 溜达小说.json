@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍 优质",
+    "bookSourceName": "👍 溜达小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.txtshuku.org",
+    "customOrder": -1956,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/mulu/1-{{page}}.html\n武侠仙侠::/mulu/2-{{page}}.html\n都市言情::/mulu/3-{{page}}.html\n历史军事::/mulu/4-{{page}}.html\n科幻灵异::/mulu/5-{{page}}.html\n网游竞技::/mulu/6-{{page}}.html\n女频频道::/mulu/7-{{page}}.html",
+    "lastUpdateTime": 1620596519959,
+    "ruleBookInfo": {
+        "author": ".booktitle@a@text",
+        "coverUrl": "id.bookimg@img@src",
+        "init": "",
+        "intro": "id.bookintro@p@html",
+        "kind": ".count@tag.span.0@text&&.count@tag.span.4@text&&.uptime@tag.span.1@text##\\s.*",
+        "lastChapter": "id.newlist@tag.li.0@a@text",
+        "name": ".booktitle@h1@text",
+        "tocUrl": ".motion@tag.a.-1@href",
+        "wordCount": ".count@tag.span.6@text"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": "id.sitebox@tag.dl",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@data-original",
+        "intro": "tag.dd.2@text",
+        "kind": "tag.span.2@text&&tag.span.3@text&&tag.span.0@text",
+        "lastChapter": "tag.a.3@text",
+        "name": "tag.a.1@text",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "tag.span.1@text",
+        "bookList": "id.sitembox@tag.dl",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "kind": "tag.span.2@text&&tag.span.3@text&&tag.span.5@text##\\s.*",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.span.4@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.readerlist@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php?searchkey={{key}}",
+    "weight": 0
+}

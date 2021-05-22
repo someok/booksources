@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "📖 轻文",
+    "bookSourceName": "📖 萌文库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://xs.kdays.net",
+    "bookUrlPattern": "",
+    "customOrder": -1487,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "不限::/list/all?type=0&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n热血::/list/all?type=1&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n冒险::/list/all?type=2&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n运动::/list/all?type=3&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n魔幻::/list/all?type=4&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n武侠::/list/all?type=5&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n校园::/list/all?type=6&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n耽美::/list/all?type=7&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n治愈::/list/all?type=8&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n推理::/list/all?type=9&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n惊悚::/list/all?type=10&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n科幻::/list/all?type=11&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n社会::/list/all?type=12&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\nGAL::/list/all?type=13&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n动画化::/list/all?type=14&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}",
+    "lastUpdateTime": 1620719826758,
+    "loginUrl": "http://uc.kdays.net//sso/login/?service=http%3A%2F%2Fxs.kdays.net%2Findex",
+    "ruleBookInfo": {
+        "author": ".items@tag.li.2@a@text&&.items@tag.li.3@text",
+        "coverUrl": "class.col-sm-3.0@img@src",
+        "intro": "tag.blockquote@html",
+        "kind": ".status@text&&.keywords@tag.a@text##.*\\(|\\)",
+        "lastChapter": ".last-chapter@a@text##最新章节.",
+        "name": "h2@text",
+        "tocUrl": ".read-btn@href",
+        "wordCount": ".info-side@tag.p.0@text##字.*|\\s"
+    },
+    "ruleContent": {
+        "content": "<js>\nlet c=java.getString(\"class.col-sm-12@tag.article@html\",false);\nif(baseUrl.match(/kdays.net/)){\nresult=c\n}else{\nresult=baseUrl.match(/text=(.*)/)[1]\n}\n</js>"
+    },
+    "ruleExplore": {
+        "author": "tag.p.0@text##作者.",
+        "bookList": ".book",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.blockquote@html##.*简介.|\\s",
+        "kind": "tag.p.1@text&&.keywords@tag.a@text##.*\\s",
+        "lastChapter": "tag.p.2@text##最新.",
+        "name": "tag.a.0@text",
+        "wordCount": "tag.p.1@text##.*点击|/|字.*|\\s"
+    },
+    "ruleSearch": {
+        "author": "tag.p.1@text",
+        "bookList": ".book",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "kind": "tag.p.0@text&&tag.a!0@text##.*字 / ",
+        "lastChapter": "tag.p.2@text##最新.",
+        "name": "tag.a.0@text",
+        "wordCount": "tag.p.0@text##.*点击 / | 字.*"
+    },
+    "ruleToc": {
+        "chapterList": "<js>\n//获取卷名\njm=java.getStringList(\"div[class= col-sm-10 info-side] h2@ownText\").toArray();\n//获取书名\nsm=java.getString(\"class.col-sm-12 text-center@h1@text\",false);\n\n//获取分卷\nsub=java.getElements(\"div[class= col-sm-10 info-side] ul\").toArray();\n\nfor(var i=0;i<sub.length;i++){\n\n//插入卷名\nsub[i]=String(sub[i].html()).replace(/e=\"/g,'e=\"'+\"☆\"+jm[i]+\"☆\");\n\n//按卷分块\nsub[i]='<li><a href=\"https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text='+sm+'/'+jm[i]+'\" title=\"★'+jm[i]+'★\"></a></li>'+sub[i]}\n\n//合并结果\nsub=sub.join(\"\");\n</js>a",
+        "chapterName": "title",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search/all?page={{page}}&w={{key}}&type=all",
+    "weight": 0
+}

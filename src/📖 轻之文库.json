@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "📖 轻文",
+    "bookSourceName": "📖 轻之文库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.linovel.net",
+    "bookUrlPattern": "",
+    "customOrder": -1481,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "精选::/cat/2000.html?page={{page}}\n新人::/cat/9000.html?page={{page}}\n幻想::/cat/1.html?page={{page}}\n战斗::/cat/2.html?page={{page}}\n恋爱::/cat/3.html?page={{page}}\n异界::/cat/4.html?page={{page}}\n搞笑::/cat/5.html?page={{page}}\n日常::/cat/6.html?page={{page}}\n校园::/cat/7.html?page={{page}}\n后宫::/cat/8.html?page={{page}}\n科幻::/cat/10.html?page={{page}}\n治愈::/cat/11.html?page={{page}}\n超能::/cat/12.html?page={{page}}\n节操::/cat/13.html?page={{page}}\n妖怪::/cat/14.html?page={{page}}\n恐怖::/cat/15.html?page={{page}}\n妹控::/cat/16.html?page={{page}}\n伪娘::/cat/17.html?page={{page}}\n魔法::/cat/18.html?page={{page}}\n乙女::/cat/19.html?page={{page}}\n同人::/cat/20.html?page={{page}}\n百合::/cat/21.html?page={{page}}\n偶像::/cat/22.html?page={{page}}\n悬疑::/cat/104.html?page={{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0\"\n}",
+    "lastUpdateTime": 1620719470569,
+    "loginUrl": "https://www.linovel.net/",
+    "ruleBookInfo": {
+        "author": ".name@tag.a@text",
+        "coverUrl": ".book-cover@tag.img@src",
+        "intro": ".about-text@html",
+        "kind": ".book-cats@tag.a@text&&.book-data@tag.span.-2@text&&.book-last-update@text##更新于|\\s.*",
+        "lastChapter": ".recent-update@tag.a.0@text",
+        "name": "tag.h1@text",
+        "wordCount": ".book-data@tag.span.0@text"
+    },
+    "ruleContent": {
+        "content": ".article-text@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": ".book-extra@text##\\s*丨.+$",
+        "bookList": ".rank-book",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "intro": ".book-intro@text##\\s",
+        "kind": ".book-tags@tag.a@text&&.book-extra@text##^[^丨]+丨\\s*|\\s.*",
+        "lastChapter": "tag.p.-1@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+        "author": "tag.div.-1@text##\\s*丨.+$",
+        "bookList": ".rank-book-list a",
+        "bookUrl": "href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.div.-2@textf#\\s",
+        "kind": ".book-tag@text&&tag.div.-1@text##^[^丨]+丨\\s*|\\s.*",
+        "lastChapter": "",
+        "name": "tag.div.4@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": ".chapter",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search/?kw={{key}}&page={{page}}",
+    "weight": 0
+}

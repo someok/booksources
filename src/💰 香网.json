@@ -1,0 +1,58 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 香网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiang5.com",
+    "customOrder": -1744,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "穿越::/sort/20/201/{{page}}.html\n架空::/sort/20/202/{{page}}.html\n宫斗::/sort/21/211/{{page}}.html\n宅斗::/sort/21/212/{{page}}.html\n女尊::/sort/21/213/{{page}}.html\n民国::/sort/21/214/{{page}}.html\n总裁::/sort/22/221/{{page}}.html\n豪门::/sort/22/222/{{page}}.html\n青春::/sort/23/231/{{page}}.html\n校园::/sort/23/232/{{page}}.html\n奇幻::/sort/24/241/{{page}}.html\n仙侠::/sort/24/242/{{page}}.html\n修真::/sort/24/244/{{page}}.html\n玄幻::/sort/24/245/{{page}}.html\n明星::/sort/25/251/{{page}}.html\n动漫::/sort/25/252/{{page}}.html\n耽美::/sort/26/256/{{page}}.html\n悬疑::/sort/27/243/{{page}}.html\n灵异::/sort/27/258/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1620472097125,
+    "loginUrl": "http://pass.xiang5.com/login.php",
+    "ruleBookInfo": {
+        "author": "",
+        "coverUrl": "",
+        "intro": "",
+        "lastChapter": "class.bkdetails_mulu m16@tag.p.0@text##目录",
+        "name": "",
+        "tocUrl": "class.mulu@tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.chapcont@html##看免费首发.*",
+        "imageStyle": "0",
+        "nextContentUrl": "class.next_page@tag.a@href"
+    },
+    "ruleExplore": {
+        "author": "tag.a.3@text",
+        "bookList": "class.second_content2_content@tag.li",
+        "bookUrl": "tag.a.1@href@js:result.replace(\"www\",\"m\")",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.2@textNodes",
+        "kind": "tag.a.2@text&&tag.span.2@text&&tag.p.1@tag.a@text##小说|\\s.*",
+        "lastChapter": "tag.a.-2@text",
+        "name": "tag.a.1@text##\\《|\\》",
+        "wordCount": "##字数：</span>([^<]+)<##$1###"
+    },
+    "ruleSearch": {
+        "author": "tag.a.5@text",
+        "bookList": "class.textlist",
+        "bookUrl": "tag.a.4@href@js:result.replace(\"www\",\"m\")",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.a.-2@textNodes",
+        "kind": "tag.a.6@text&&tag.a.7@text&&tag.cite@text&&class.colR@tag.a@text##小说|\\s.*",
+        "lastChapter": "tag.a.-1@text",
+        "name": "tag.a.4@text",
+        "wordCount": "tag.code@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.blist@tag.a",
+        "chapterName": "class.bname@text",
+        "chapterUrl": "href",
+        "isVip": "",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&page=1&over=&orderby=&page={{page}}\"\n}",
+    "weight": 0
+}

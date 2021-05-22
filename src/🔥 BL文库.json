@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔥 书耽",
+    "bookSourceName": "🔥 BL文库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.blwenku123.com",
+    "bookUrlPattern": "",
+    "customOrder": 54,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n玄幻仙侠::/sort/1_{{page}}/\n都市言情::/sort/2_{{page}}/\n军事历史::/sort/3_{{page}}/\n科幻灵异::/sort/4_{{page}}/\n游戏竞技::/sort/5_{{page}}/\nＢＬ同人::/sort/6_{{page}}/\nＧＬ百合::/sort/7_{{page}}/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
+    "lastUpdateTime": 1620823131010,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[@property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": ".gochapter@tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.novelcontent@tag.p.0@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##百度搜索.*每日更新！"
+    },
+    "ruleExplore": {
+        "author": ".author@text||.p3@text",
+        "bookList": ".article||.articlegeneral",
+        "bookUrl": "tag.h6@tag.a@href||.p2@tag.a@href",
+        "coverUrl": "tag.img@src&&tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://fm.blwenku123.com/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "intro": ".simple@text",
+        "kind": ".p1@text##\\[|\\]",
+        "name": "tag.h6@tag.a@text||class.p2@text"
+    },
+    "ruleSearch": {
+        "author": ".author@text",
+        "bookList": ".sone",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://fm.blwenku123.com/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapters li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+}

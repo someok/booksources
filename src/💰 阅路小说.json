@@ -1,0 +1,38 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 阅路小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://apiuser.yueduyun.com",
+    "bookUrlPattern": "",
+    "customOrder": -1510,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "https://m.yueduyun.com/loginClass",
+    "ruleBookInfo": {
+        "intro": "@js:java.get('Intro')"
+    },
+    "ruleContent": {
+        "content": "data.chapter_content",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "@js:var O=[\"4 q=w(x.y(/z=([^&=]+)/)[1]);4 e=A B('('+q.7(/\\\\s/g,'').C('').D(f(a,E,i,b){h(i<b.F-1){a.G(b[i]+b[i+1])}8 a},[]).H('|')+')');f c(a){8!e.I(a.7(/\\\\s/g,''))}j.k(J).l.K(0,3).L(o=>{4 5=o.M.7(/\\\\(.*\\\\)/,'');4 9=o.N;h(c(5)&&c(9))8{};4 d='n://O.p.r/m/2/2?6='+o.6;4 2=j.k(P.Q(d)).l;8{R:o.6,5:5,9:9,S:[2.T,2.U,2.V==1?'完结':'连载'],W:o.X,Y:2.u.7(/[\\\\s\\\\t]+/g,''),Z:'<10>'+2.u,11:2.12,d:'/m/2/13?14=1&15=16&17=n:%18%19.p.r&6='+o.6}}).1a(v=>v.5);\",\"|\",\"split\",\"||book||var|name|book_id|replace|return|author|||isInvalid|url|regex|function||if||JSON|parse|data||https||yueduyun||com|||book_intro||decodeURIComponent|baseUrl|match|key_word|new|RegExp|split|reduce|_|length|push|join|test|result|slice|map|book_name|author_name|apiuser|java|ajax|id|tags|book_size|category_name|book_end|last|chapter_name|intro|Intro|br|cover|book_cover|chapters|page|page_size|19999|origin|2F|2Fm|filter\",\"\",\"fromCharCode\",\"replace\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(a,e,o,r,n,t){if(n=function(a){return(a<62?O[4]:n(parseInt(a/62)))+(35<(a%=62)?String[O[5]](a+29):a.toString(36))},!O[4][O[6]](/^/,String)){for(;o--;)t[n(o)]=r[o]||n(o);r=[function(a){return t[a]}],n=function(){return O[7]},o=1}for(;o--;)r[o]&&(a=a[O[6]](new RegExp(O[8]+n(o)+O[8],O[9]),r[o]));return a}(O[0],0,73,O[3][O[2]](O[1]),0,{}));",
+        "bookUrl": "url",
+        "coverUrl": "cover",
+        "intro": "intro@put:{Intro:$.Intro}@js:result.trim()",
+        "kind": "",
+        "lastChapter": "last",
+        "name": "name"
+    },
+    "ruleToc": {
+        "chapterList": "data",
+        "chapterName": "{$.chapter_vip}🔒{$.chapter_name}##^(1|0🔒)",
+        "chapterUrl": "/app/chapter/chapter_content?book_id={$.book_id}&chapter_id={$.chapter_id}"
+    },
+    "searchUrl": "/m/book/search?key_word={{key}}",
+    "weight": 0
+}

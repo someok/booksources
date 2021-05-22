@@ -1,0 +1,38 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔥 书耽",
+    "bookSourceName": "🔥 鲤鱼乡",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.bimo123.com",
+    "customOrder": 58,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "都市言情::/dsyq/list_1_{{page}}.html\n古代言情::/gdyq/list_2_{{page}}.html\n穿越重生::/cycs/list_3_{{page}}.html\n武侠玄幻::/wxxh/list_4_{{page}}.html\n网游竞技::/wyjj/list_5_{{page}}.html\n恐怖灵异::/kbly/list_6_{{page}}.html\n仙侠修真::/xxxz/list_7_{{page}}.html\n军事历史::/jsls/list_8_{{page}}.html",
+    "lastUpdateTime": 1620838146191,
+    "ruleBookInfo": {
+        "author": "tag.h3@text##.*：",
+        "intro": ".p5@html##:##：",
+        "kind": ".position@tag.a.1@text",
+        "lastChapter": ".pagelist@tag.a.-2@text",
+        "name": "tag.h3@text##\\s.*"
+    },
+    "ruleContent": {
+        "content": "@js:org.jsoup.Jsoup.parse(String(result).match(/class=\"blcont\">([\\s\\S]*?)<div class=\"pages\"/)[1]).html()"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "a@text##.*：",
+        "bookList": ".p_newslist li",
+        "bookUrl": "tag.a@href",
+        "kind": "tag.font.-1@text",
+        "lastChapter": "",
+        "name": "tag.a@text##\\s.*"
+    },
+    "ruleToc": {
+        "chapterList": ".pagelist@li!0:1:-1@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php?keyword={{key}}&searchtype=titlekeyword&channeltype=0&PageNo={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

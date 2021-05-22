@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨 漫画",
+    "bookSourceName": "🎨 韩漫吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.hmba.vip",
+    "customOrder": -38911,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "免费::/mfmhpage_{{page}}.html\n在线::/onlinemhpage_{{page}}.html\n都市::/dushimhpage_{{page}}.html\n耽美::/gmmhpage_{{page}}.html\n腐漫::/blmhpage_{{page}}.html\n日本::ribenmhpage_{{page}}.html\n韩国::/hanguomhpage_{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+        "author": "class.pt-info.1@text##作者.",
+        "coverUrl": "tclass.baseinfo@ag.img@src",
+        "intro": "class.intro@text简介.",
+        "kind": "class.pt-info.0@text&&class.pt-info.2@tag.a@text&&class.pt-info.3@text##书况.|更新.",
+        "lastChapter": "id.newchaperlist@tag.a.0@text",
+        "name": "class.pt-name.0@text"
+    },
+    "ruleContent": {
+        "content": "id.BookText@html",
+        "imageStyle": "FULL",
+        "sourceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "class.s712@text",
+        "bookList": "class.pt-card-7@tag.li",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@data-original",
+        "intro": "class.pt-desc@text##简介.",
+        "kind": "class.s713@text",
+        "lastChapter": "",
+        "name": "class.pt-name@text"
+    },
+    "ruleSearch": {
+        "bookList": "class.ptm-card-content.1@tag.li",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@data-original",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.chapterlist@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/home/search?action=search&q={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "//备用站https://blpopo.vip\n//加载比较慢",
+    "bookSourceGroup": "🔥 书耽",
+    "bookSourceName": "🔥 POPO原创",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.popo.city",
+    "customOrder": 75,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总榜::/top/allvisit_{{page}}/\n月榜::/top/monthvisit_{{page}}/\n周榜::/top/weekvisit_{{page}}/\n总推::/top/allvote_{{page}}/\n月推::/top/monthvote_{{page}}/\n周推::/top/weekvote_{{page}}/\n收藏::/top/goodnum_{{page}}/\n字数::/top/size_{{page}}/\n最近::/top/lastupdate_{{page}}/\n最新::/top/postdate_{{page}}/\n都市::/sort/1_{{page}}/\n浓情::/sort/2_{{page}}/\n言情::/sort/3_{{page}}/\n校园::/sort/4_{{page}}/\n武侠::/sort/5_{{page}}/\n玄幻::/sort/6_{{page}}/\n穿越::/sort/7_{{page}}/\n惊悚::/sort/8_{{page}}/\n悬疑::/sort/9_{{page}}/\n重生::/sort/10_{{page}}/\n历史::/sort/11_{{page}}/\n网游::/sort/12_{{page}}/\n科幻::/sort/13_{{page}}/\n耽美::/sort/14_{{page}}/\n高干::/sort/15_{{page}}/\n种田::/sort/16_{{page}}/\n百合::/sort/17_{{page}}/\n其他::/sort/18_{{page}}/",
+    "lastUpdateTime": 1620833832792,
+    "ruleBookInfo": {
+        "author": ".xx@tag.a.1@text",
+        "coverUrl": "img@src",
+        "init": "",
+        "intro": ".jianjie@html##文案.",
+        "kind": ".xx@tag.a.0@text",
+        "lastChapter": ".xx@tag.a.2@text",
+        "name": ".xx@tag.li.0@text",
+        "tocUrl": ".gengduo a@href"
+    },
+    "ruleContent": {
+        "content": "id.nr@html",
+        "imageStyle": "0",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": ".list ul",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.span.2@text",
+        "kind": "tag.span.-1@text",
+        "lastChapter": "",
+        "name": "tag.a.1@text",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".fk li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.a.1@href##.+\\D((\\d+)\\d{3})\\D##https://img.popo.city/image/$2/$1/$1s.jpg###",
+        "intro": "",
+        "kind": "tag.a.0@text##\\[|\\]",
+        "lastChapter": "",
+        "name": "tag.a.1@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": ".lb li a",
+        "chapterName": "text##本页章节.*",
+        "chapterUrl": "href",
+        "nextTocUrl": ".fenye@tag.li@tag.a@href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+}

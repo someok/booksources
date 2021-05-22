@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "📖 轻文",
+    "bookSourceName": "📖 ACGZC",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.acgzc.com",
+    "bookUrlPattern": "",
+    "customOrder": -1485,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "古代幻想::/index.php/portal/booklist/?list=true&classid=19&classid=12&per_page={{page}}\n近代幻想::/index.php/portal/booklist/?list=true&classid=19&classid=19&per_page={{page}}\n未来幻想::/index.php/portal/booklist/?list=true&classid=19&classid=26&per_page={{page}}\n体育游戏::/index.php/portal/booklist/?list=true&classid=19&classid=33&per_page={{page}}\n同人作品::/index.php/portal/booklist/?list=true&classid=19&classid=42&per_page={{page}}\n短篇作品::/index.php/portal/booklist/?list=true&classid=19&classid=46&per_page={{page}}\n漫画世界::/index.php/portal/booklist/?list=true&classid=19&classid=50&per_page={{page}}\n异能时代::/index.php/portal/booklist/?list=true&classid=19&sclassid=20&per_page={{page}}\n穿越重生::/index.php/portal/booklist/?list=true&classid=19&sclassid=21&per_page={{page}}\n谍战风云::/index.php/portal/booklist/?list=true&classid=19&sclassid=22&per_page={{page}}\n架空战争::/index.php/portal/booklist/?list=true&classid=19&sclassid=23&per_page={{page}}\n军旅生活::/index.php/portal/booklist/?list=true&classid=19&sclassid=24&per_page={{page}}\n现代武林::/index.php/portal/booklist/?list=true&classid=19&sclassid=25&per_page={{page}}",
+    "lastUpdateTime": 1620719697897,
+    "loginUrl": "http://www.acgzc.com/index.php/portal/signin",
+    "ruleBookInfo": {
+        "author": ".a2@tag.span.0@textNodes",
+        "coverUrl": ".a1@tag.img@src",
+        "intro": "tag.h3@html",
+        "kind": "tbody@tag.tr.2@tag.a@text&&tbody@tag.tr.2@tag.td.1@textNodes&&.nav-tabs@tag.li.-1@text##.*：|\\s.*",
+        "lastChapter": ".z_zuixin@tag.a.0@text",
+        "name": ".a2@tag.h1@ownText",
+        "tocUrl": ".a3@tag.a.0@href",
+        "wordCount": "tbody@tag.tr.2@tag.td.2@textNodes"
+    },
+    "ruleContent": {
+        "content": ".z_zy@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.3@text",
+        "bookList": ".rank-detail ul",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "",
+        "kind": "tag.a.0@text&&tag.li.4@text##\\[|\\]|\\s.*",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.li.2@text"
+    },
+    "ruleToc": {
+        "chapterList": ".zpxg a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/index.php/portal/booklist/?list=true&keywords={{key}}&per_page={{page}}",
+    "weight": 0
+}

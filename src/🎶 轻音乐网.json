@@ -1,0 +1,42 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎶 音乐",
+    "bookSourceName": "🎶 轻音乐网",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://m.htqyy.com",
+    "customOrder": -2052,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "榜单::/top\n热门::/album\n纯音乐::/album/index/1\n新世纪::/album/index/2\n钢琴曲集::/album/index/3\n减压放松::/album/index/4\n中国音乐::/album/index/5\n天籁之音::/album/index/6\n影视原声::/album/index/7\n电子音乐::/album/index/8\n背景音乐::/album/index/9\n手机铃声::/album/index/10\n流行金曲::/album/index/11\n胎教音乐::/album/index/12\n佛教音乐::/album/index/13",
+    "lastUpdateTime": 1612808629141,
+    "ruleBookInfo": {
+        "intro": ".q@textNodes",
+        "kind": "",
+        "lastChapter": ".nowrap@text"
+    },
+    "ruleContent": {
+        "content": "id.jp_audio_0@src"
+    },
+    "ruleExplore": {
+        "author": "em@text",
+        "bookList": ".line",
+        "bookUrl": "a@href",
+        "coverUrl": "img@src",
+        "name": "a@text"
+    },
+    "ruleSearch": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "kind": "",
+        "name": ""
+    },
+    "ruleToc": {
+        "chapterList": ".list@tag.li",
+        "chapterName": "{{@@tag.a@text}} - {{@@tag.em@text}}",
+        "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "",
+    "weight": 0
+}

@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 书海小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shuhai.com",
+    "bookUrlPattern": "http?://(?:www|mm).shuhai.com/book/\\d+ htm",
+    "customOrder": -1718,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "男生::/shuku/0_0_0_0_0_0_0_{{page}}.html\n玄幻::/shuku/1_0_0_0_0_0_0_{{page}}.html\n修真::/shuku/3_0_0_0_0_0_0_{{page}}.html\n都市::/shuku/2_0_0_0_0_0_0_{{page}}.html\n网游::/shuku/4_0_0_0_0_0_0_{{page}}.html\n科幻::/shuku/5_0_0_0_0_0_0_{{page}}.html\n武侠::/shuku/6_0_0_0_0_0_0_{{page}}.html\n竞技::/shuku/7_0_0_0_0_0_0_{{page}}.html\n历史::/shuku/8_0_0_0_0_0_0_{{page}}.html\n军事::/shuku/9_0_0_0_0_0_0_{{page}}.html\n悬疑::/shuku/10_0_0_0_0_0_0_{{page}}.html\n同人::/shuku/11_0_0_0_0_0_0_{{page}}.html\n探案::/shuku/12_0_0_0_0_0_0_{{page}}.html\n凶案::/shuku/0_149_0_0_0_0_0_{{page}}.html\n学生::/shuku/0_193_0_0_0_0_0_{{page}}.html\n道士::/shuku/0_137_0_0_0_0_0_{{page}}.html\n系统::/shuku/0_136_0_0_0_0_0_{{page}}.html\n神符::/shuku/0_164_0_0_0_0_0_{{page}}.html\n冷酷::/shuku/0_207_0_0_0_0_0_{{page}}.html\n女生::http://mm.shuhai.com/shuku/0_0_0_0_0_0_0_{{page}}.html\n现言::http://mm.shuhai.com/shuku/102_0_0_0_0_0_0_{{page}}.html\n古言::http://mm.shuhai.com/shuku/101_0_0_0_0_0_0_{{page}}.html\n穿越::http://mm.shuhai.com/shuku/105_0_0_0_0_0_0_{{page}}.html\n幻情::http://mm.shuhai.com/shuku/103_0_0_0_0_0_0_{{page}}.html\n同人::http://mm.shuhai.com/shuku/104_0_0_0_0_0_0_{{page}}.html\n青春::http://mm.shuhai.com/shuku/106_0_0_0_0_0_0_{{page}}.html\n灵异::http://mm.shuhai.com/shuku/107_0_0_0_0_0_0_{{page}}.html\n纯爱::http://mm.shuhai.com/shuku/108_0_0_0_0_0_0_{{page}}.html\n种田::http://mm.shuhai.com/shuku/0_108_0_0_0_0_0_{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\"\n}",
+    "lastUpdateTime": 1620844511279,
+    "loginUrl": "http://www.shuhai.com/login",
+    "ruleBookInfo": {
+        "author": ".book-info-bookname@tag.span.1@text##.*：",
+        "coverUrl": ".book-cover-wrapper@tag.img@data-original",
+        "intro": ".book-info-bookintro@text",
+        "kind": ".book-info-bookstate@tag.span@text",
+        "lastChapter": "class.text-els.1@tag.a@text",
+        "name": ".book-info-bookname@tag.span.0@text",
+        "tocUrl": "@js:result=baseUrl.replace(/mm/,\"www\")+\"?method=getcatalog\"",
+        "wordCount": ".book-info-bookvote@tag.span.0@text"
+    },
+    "ruleContent": {
+        "content": "id.reader-content@tag.p!0@textNodes",
+        "imageStyle": ""
+    },
+    "ruleExplore": {
+        "bookList": ".one-book",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@data-original",
+        "intro": ".book-intro@text",
+        "kind": "tag.span@text##.*?：",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "class.bookstate.0@text##作者.|\\s.*",
+        "bookList": ".bookcase-bookitem",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@data-original",
+        "intro": "class.bookstate.1@title",
+        "kind": "class.bookstate.0@text##.*分类.|\\s.*",
+        "lastChapter": "",
+        "name": "tag.a.1@text",
+        "wordCount": "class.bookstate.0@text##.*字数.|\\s.*"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter-item",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "isVip": "tag.span@text"
+    },
+    "searchUrl": "/search/{{key}}/{{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

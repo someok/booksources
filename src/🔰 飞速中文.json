@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰 普通",
+    "bookSourceName": "🔰 飞速中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.feiszw.com",
+    "bookUrlPattern": "",
+    "customOrder": 83,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总点击榜::/Book/ShowBookTop.aspx?id=1\n月点击榜::/Book/ShowBookTop.aspx?id=2\n周点击榜::/Book/ShowBookTop.aspx?id=3\n日点击榜::/Book/ShowBookTop.aspx?id=4\n总推荐榜::/Book/ShowBookTop.aspx?id=5\n总收藏榜::/Book/ShowBookTop.aspx?id=6\n总字数榜::/Book/ShowBookTop.aspx?id=7\n入站时间::/Book/ShowBookTop.aspx?id=8\n新书周榜::/Book/ShowBookTop.aspx?id=9\n奇幻玄幻::/Book/ShowBookList.aspx?tclassid=1&page={{page}}\n武侠仙侠::/Book/ShowBookList.aspx?tclassid=2&page={{page}}\n都市小说::/Book/ShowBookList.aspx?tclassid=3&page={{page}}\n历史军事::/Book/ShowBookList.aspx?tclassid=4&page={{page}}\n游戏竞技::/Book/ShowBookList.aspx?tclassid=5&page={{page}}\n科幻灵异::/Book/ShowBookList.aspx?tclassid=6&page={{page}}\n同人小说::/Book/ShowBookList.aspx?tclassid=7&page={{page}}\n女频言情::/Book/ShowBookList.aspx?tclassid=8&page={{page}}\n其他小说::/Book/ShowBookList.aspx?tclassid=9&page={{page}}",
+    "lastUpdateTime": 1620400982826,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "class.intro@text##\\【作品简介\\】|最新章节.*",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html",
+        "imageStyle": "0",
+        "nextContentUrl": "id.next@href",
+        "replaceRegex": "##var.*|最快更新无.*|本站.*之旅!|手机请访问.*|看无广告.*"
+    },
+    "ruleExplore": {
+        "author": "class.tab5@text",
+        "bookList": "class.book!0",
+        "bookUrl": "tag.a.1@href",
+        "kind": "tag.a.0@text&&class.tab6@text&&class.tab7@text",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "tag.div.0@text##.*\\[|\\|.*|\\s",
+        "bookList": "class.book",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "intro": "id.CListText@text",
+        "kind": "tag.a.1@text&&tag.a.2@text&&tag.div.0@text##小说|.*\\||\\s|\\].*",
+        "lastChapter": "tag.a.3@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapterlist@tag.li@tag.a",
+        "chapterName": "text##.*\\.",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/book/search.aspx?SearchKey={{key}}&SearchClass=1&SeaButton=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

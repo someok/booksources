@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 瑶池小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yaochixs.net",
+    "bookUrlPattern": "",
+    "customOrder": -1223,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总榜::/rank/allvisit/\n月榜::/rank/monthvisit/\n周榜::/rank/weekvisit/\n日榜::/rank/dayvisit/\n收藏::/rank/goodnum/\n推荐::/rank/allvote/\n玄幻::/list/1_{{page}}.html\n仙侠::/list/2_{{page}}.html\n都市::/list/3_{{page}}.html\n历史::/list/4_{{page}}.html\n网游::/list/5_{{page}}.html\n科幻::/list/6_{{page}}.html\n耽美::/list/7_{{page}}.html\n穿越::/list/8_{{page}}.html\n推理::/list/9_{{page}}.html\n其他::/list/10_{{page}}.html",
+    "lastUpdateTime": 1621051028065,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content##http://www.yaochixs.net",
+        "intro": "",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+        "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content##.*\\.",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "text.全部章节@href",
+        "wordCount": ".booktag@tag.span.0@text"
+    },
+    "ruleContent": {
+        "content": "id.booktxt@html",
+        "imageStyle": "0",
+        "replaceRegex": "##第.*集.*|第.*章.*|作者.*"
+    },
+    "ruleExplore": {
+        "author": "tag.td.3@text",
+        "bookList": "tbody@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "kind": "tag.td.0@text&&tag.td.6@text&&tag.td.5@text",
+        "lastChapter": "tag.td.2@text",
+        "name": "tag.td.1@text",
+        "wordCount": "tag.td.4@text"
+    },
+    "ruleSearch": {
+        "author": "tag.small@text",
+        "bookList": ".book-coverlist",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.a@style##.*\\(|\\).*",
+        "intro": "tag.p@text",
+        "lastChapter": "",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".panel-chapterlist dd",
+        "chapterName": "tag.a@text##.*\\.",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/search?searchkey={{key}}",
+    "weight": 0
+}

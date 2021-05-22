@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨 漫画",
+    "bookSourceName": "🎨 漫画芯",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.mhxin.com",
+    "bookUrlPattern": "",
+    "customOrder": -38913,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "人气排行::https://m.mhxin.com/rank/popularity/<,?page={{page}}>\n点击排行::https://m.mhxin.com/rank/click/<,?page={{page}}>\n订阅排行::https://m.mhxin.com/rank/subscribe/<,?page={{page}}>\n点击排序::https://m.mhxin.com/list/click/<,?page={{page}}>\n更新排序::https://m.mhxin.com/list/update/<,?page={{page}}>\n发布排序::https://m.mhxin.com/list/post/<,?page={{page}}>\n完结::https://m.mhxin.com/list/wanjie/<,?page={{page}}>\n连载::https://m.mhxin.com/list/lianzai/<,?page={{page}}>\n儿童::https://m.mhxin.com/list/ertong/<,?page={{page}}>\n少年::https://m.mhxin.com/list/shaonian/<,?page={{page}}>\n少女::https://m.mhxin.com/list/shaonv/<,?page={{page}}>\n青年::https://m.mhxin.com/list/qingnian/<,?page={{page}}>\n日本::https://m.mhxin.com/list/riben/<,?page={{page}}>\n大陆::https://m.mhxin.com/list/dalu/<,?page={{page}}>\n热血::https://m.mhxin.com/list/rexue/<,?page={{page}}>\n玄幻::https://m.mhxin.com/list/xuanhuan/<,?page={{page}}>\n修真::https://m.mhxin.com/list/xiuzhen/<,?page={{page}}>\n古风::https://m.mhxin.com/list/gufeng/<,?page={{page}}>\n恋爱::https://m.mhxin.com/list/lianai/<,?page={{page}}>\n穿越::https://m.mhxin.com/list/chuanyue/<,?page={{page}}>\n都市::https://m.mhxin.com/list/dushi/<,?page={{page}}>\n霸总::https://m.mhxin.com/list/bazong/<,?page={{page}}>\n悬疑::https://m.mhxin.com/list/xuanyi/<,?page={{page}}>\n搞笑::https://m.mhxin.com/list/gaoxiao/<,?page={{page}}>\n奇幻::https://m.mhxin.com/list/qihuan/<,?page={{page}}>\n总裁::https://m.mhxin.com/list/zongcai/<,?page={{page}}>\n日常::https://m.mhxin.com/list/richang/<,?page={{page}}>\n冒险::https://m.mhxin.com/list/maoxian/<,?page={{page}}>\n科幻::https://m.mhxin.com/list/kehuan/<,?page={{page}}>\n纯爱::https://m.mhxin.com/list/chunai/<,?page={{page}}>\n魔幻::https://m.mhxin.com/list/mohuan/<,?page={{page}}>\n战争::https://m.mhxin.com/list/zhanzheng/<,?page={{page}}>\n蔷薇::https://m.mhxin.com/list/qiangwei/<,?page={{page}}>\n武侠::https://m.mhxin.com/list/wuxia/<,?page={{page}}>\n生活::https://m.mhxin.com/list/shenghuo/<,?page={{page}}>\n动作::https://m.mhxin.com/list/dongzuo/<,?page={{page}}>\n后宫::https://m.mhxin.com/list/hougong/<,?page={{page}}>\n游戏::https://m.mhxin.com/list/youxi/<,?page={{page}}>\n恐怖::https://m.mhxin.com/list/kongbu/<,?page={{page}}>\n漫改::https://m.mhxin.com/list/mangai/<,?page={{page}}>\n真人::https://m.mhxin.com/list/zhenren/<,?page={{page}}>\n校园::https://m.mhxin.com/list/xiaoyuan/<,?page={{page}}>\n剧情::https://m.mhxin.com/list/juqing/<,?page={{page}}>",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1606258456713,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "class.txtItme.0@text",
+        "coverUrl": "id.Cover@tag.img@src",
+        "intro": "class.txtDesc@text##^.*简介：|介绍:",
+        "kind": "class.txtItme.1@tag.a@text&&class.txtItme.2@tag.a.-1@text",
+        "lastChapter": "@js:org.jsoup.Jsoup.parse(result).select(\".chapter-warp a[href$='.html']\").toArray().pop().text()",
+        "name": "id.comicName@text"
+    },
+    "ruleContent": {
+        "content": "@js:\neval(result.match(/<script>(.*?chapterImages[\\s\\S]+?)<\\/script>/)[1]);\nvar options = {\n\"headers\": {\"Referer\": baseUrl}\n}\nchapterImages.map( a=> {\n   let url = \"https://res0804.mhxin.com\" + a;\n  return '<img src=\"' + url + \",\" + JSON.stringify(options) + '\">'\n}).join(\"\\n\")",
+        "imageStyle": "FULL",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.info@text||class.txtItme.0@text",
+        "bookList": "class.itemBox||class.list-comic",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "kind": "class.txtItme.1@text##\\|##,",
+        "lastChapter": "class.coll@text",
+        "name": "class.txtA@text||class.title@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter-body@tag.li",
+        "chapterName": "text",
+        "chapterUrl": "tag.a@href##m\\.##www\\."
+    },
+    "searchUrl": "https://m.mhxin.com/search/?keywords={{key}}&page={{page}}",
+    "weight": 0
+}

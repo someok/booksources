@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍 优质",
+    "bookSourceName": "👍 快眼看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.see023.com",
+    "bookUrlPattern": "",
+    "customOrder": -1971,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "热门::/rank/allvisit/\n言情::/class/yanqing/{{page}}/\n玄幻::/class/xuanhuan/{{page}}/\n都市::/class/dushi/{{page}}/\n武侠::/class/wuxia/{{page}}/\n耽美::/class/danmei/{{page}}/\n科幻::/class/kuhuan/{{page}}/\n轻说::/class/lightnovel/{{page}}/\n历史::/class/lishi/{{page}}/",
+    "header": "",
+    "lastUpdateTime": 1621051716446,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "id.intro@html##【展开】|【收起】|.*是.*创作的.*|简介.",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "<js>baseUrl.replace('novel','indexlist')</js>"
+    },
+    "ruleContent": {
+        "content": "#booktxt@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##本章未完.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".item",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@data-original",
+        "intro": "tag.dd@text##简介.|\\s",
+        "kind": "tag.em.1@text",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.em.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "a[rel=\"chapter\"]",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search83.html?searchkey={{key}}",
+    "weight": 0
+}

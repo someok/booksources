@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔥 书耽",
+    "bookSourceName": "🔥 就要耽美",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.521danmei.org",
+    "bookUrlPattern": "",
+    "customOrder": 70,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/xclass/1/{{page}}.html\n武侠修真::/xclass/2/{{page}}.html\n历史军事::/xclass/3/{{page}}.html\n科幻游戏::/xclass/4/{{page}}.html\n近代现代::/xclass/5/{{page}}.html\n架空历史::/xclass/6/{{page}}.html\n重生异能::/xclass/7/{{page}}.html\n恐怖推理::/xclass/8/{{page}}.html\n温馨情欲::/xclass/9/{{page}}.html\n同人电影::/xclass/10/{{page}}.html\n都市言情::/xclass/11/{{page}}.html\n耽美小说::/xclass/12/{{page}}.html\n曾经耽美::/xclass/13/{{page}}.html\n快穿::/tag/0/1/{{page}}.html\n总攻::/tag/0/2/{{page}}.html\n甜文::/tag/0/3/{{page}}.html\n美攻::/tag/0/4/{{page}}.html\n年上::/tag/0/5/{{page}}.html\n年下::/tag/0/6/{{page}}.html\n生子::/tag/0/7/{{page}}.html\n人兽::/tag/0/8/{{page}}.html\n强强::/tag/0/9/{{page}}.html\n穿越::/tag/0/10/{{page}}.html\n双性::/tag/0/11/{{page}}.html\n强受::/tag/0/12/{{page}}.html\n重生::/tag/0/13/{{page}}.html\n虐文::/tag/0/14/{{page}}.html\n温馨::/tag/0/15/{{page}}.html\n父子::/tag/0/16/{{page}}.html\n调教::/tag/0/17/{{page}}.html\n总受::/tag/0/18/{{page}}.html\n兄弟::/tag/0/19/{{page}}.html\n萌文::/tag/0/20/{{page}}.html\n末世::/tag/0/21/{{page}}.html\n人鱼::/tag/0/22/{{page}}.html\n师生::/tag/0/23/{{page}}.html\n网游::/tag/0/24/{{page}}.html\n诱受::/tag/0/25/{{page}}.html\n高干::/tag/0/26/{{page}}.html\n种田::/tag/0/27/{{page}}.html\n反攻::/tag/0/28/{{page}}.html\nABO::/tag/0/29/{{page}}.html\nＨＰ::/tag/0/30/{{page}}.html\nＮＰ::/tag/0/31/{{page}}.html\nＳＭ::/tag/0/32/{{page}}.html\nＢＥ::/tag/0/33/{{page}}.html\n娱乐圈::/tag/0/34/{{page}}.html\n金手指::/tag/0/35/{{page}}.html\nＶ文::/tag/0/36/{{page}}.html\nPOPOV::http://m.521danmei.cc/tag/0/37/{{page}}.html\n同人::/tag/0/99/{{page}}.html",
+    "lastUpdateTime": 1620826634349,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": ".author@tag.p.0@text",
+        "coverUrl": ".synopsisArea_detail@tag.img@src",
+        "intro": ".review@html",
+        "kind": ".sort@tag.p.0@text&&.synopsisArea@tag.p.2@text##类别.|状态.",
+        "lastChapter": ".directoryArea@tag.a.0@text",
+        "name": ".title@tag.span.0@text",
+        "tocUrl": "text.查看完整目录@href",
+        "wordCount": "##更新：([^<]+)<##$1###"
+    },
+    "ruleContent": {
+        "content": "id.chaptercontent@textNodes",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "tag.p.1@text##.*：",
+        "bookList": ".hot_sale",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@data-original",
+        "intro": "tag.p.2@text##简介.|\\s",
+        "name": "tag.p.0@text"
+    },
+    "ruleSearch": {
+        "author": "tag.p.1@text##.*\\：",
+        "bookList": ".hot_sale",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "tag.p.1@text&&tag.p.2@text##\\|.*|\\s",
+        "lastChapter": "tag.p.2@text##.*\\：",
+        "name": "tag.p.0@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "id.chapterlist@tag.a!0",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/s.html,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+}

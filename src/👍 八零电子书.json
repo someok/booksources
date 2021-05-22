@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍 优质",
+    "bookSourceName": "👍 八零电子书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.80xs.la",
+    "customOrder": -1773,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::/top/lastupdate/{{page}}.html\n最新入库::/top/postdate/{{page}}.html\n总排行榜::/top/allvisit/{{page}}.html\n月排行榜::/top/monthvisit/{{page}}.html\n周排行榜::/top/weekvisit/{{page}}.html\n日排行榜::/top/dayvisit/{{page}}.html\n总推荐榜::/top/allvote/{{page}}.html\n月推荐榜::/top/monthvote/{{page}}.html\n周推荐榜::/top/weekvote/{{page}}.html\n日推荐榜::/top/dayvote/{{page}}.html\n总收藏榜::/top/goodnum/{{page}}.html\n字数排行::/top/size/{{page}}.html\n奇幻修真::/sort3/{{page}}.html\n奇幻魔法::/sort13/{{page}}.html\n异术超能::/sort1/{{page}}.html\n东方传奇::/sort12/{{page}}.html\n王朝争霸::/sort14/{{page}}.html\n江湖武侠::/sort15/{{page}}.html\n未来幻想::/sort9/{{page}}.html\n灵异鬼怪::/sort10/{{page}}.html\n探险揭秘::/sort22/{{page}}.html\n历史传记::/sort6/{{page}}.html\n特种军旅::/sort7/{{page}}.html\n虚拟网游::/sort16/{{page}}.html\n竞技体育::/sort8/{{page}}.html\n魔幻女强::/sort2/{{page}}.html\n都市婚姻::/sort4/{{page}}.html\n百合之恋::/sort5/{{page}}.html\n同人美文::/sort11/{{page}}.html\n穿越架空::/sort17/{{page}}.html\n王室贵族::/sort18/{{page}}.html\n魔法校园::/sort19/{{page}}.html\n乡土布衣::/sort20/{{page}}.html\n官职商战::/sort21/{{page}}.html\n间谍暗战::/sort23/{{page}}.html\n唯美言情::/sort24/{{page}}.html\n诗歌文集::/sort25/{{page}}.html",
+    "lastUpdateTime": 1620631308518,
+    "ruleBookInfo": {
+        "lastChapter": ".soft_info_r@tag.li.9@textNodes",
+        "tocUrl": "text.在线阅读_目录@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes",
+        "imageStyle": "0",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "tag.a.1@text",
+        "bookList": "id.list_art_2013",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": ".book_jj@text",
+        "kind": "tag.span.0@text&&tag.em@text",
+        "lastChapter": "tag.b@text",
+        "name": "tag.a.0@text##TXT.*",
+        "wordCount": "##大小:</small>([^<]+)<##$1###"
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".storelistbt5",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.1@text",
+        "kind": "tag.p.0@textNodes&&tag.span.1@text&&tag.p.2@text##.*更新.|最新.*|.*：|\\s",
+        "lastChapter": "##最新章节:([^<]+)<##$1###",
+        "name": "tag.a.1@text##\\《|\\》.*",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "id.yulan@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+    "weight": 0
+}

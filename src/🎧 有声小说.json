@@ -1,0 +1,58 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎧 有声",
+    "bookSourceName": "🎧 有声小说",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.ysxs8.com",
+    "bookUrlPattern": "",
+    "customOrder": -118163,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "盗墓探险::/downlist/r45_{{page}}.html\n百家讲坛::/downlist/r32_{{page}}.html\n官场刑侦::/downlist/r14_{{page}}.html\n网络玄幻::/downlist/r52_{{page}}.html\n历史军事::/downlist/r15_{{page}}.html\n人物传记::/downlist/r16_{{page}}.html\n儿童读物::/downlist/r4_{{page}}.html\n恐怖悬疑::/downlist/r17_{{page}}.html\n评书下载::/downlist/r3_{{page}}.html\n都市言情::/downlist/r13_{{page}}.html\n职场商战::/downlist/r81_{{page}}.html\n传统武侠::/downlist/r12_{{page}}.html\n相声戏曲::/downlist/r7_{{page}}.html\n有声文学::/downlist/r41_{{page}}.html",
+    "lastUpdateTime": 1611230768161,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "class.content_center@tag.a.1@text",
+        "coverUrl": "class.content_right@tag.img@src",
+        "intro": "class.txtbox@text",
+        "kind": "class.content_center@tag.a.0@text&&class.content_center@tag.a.2@text",
+        "lastChapter": "class.playlist@tag.a.-1@text",
+        "name": "class.content_title@tag.h1@text##有声小说",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "<js>result</js>",
+        "imageStyle": "0",
+        "nextContentUrl": "",
+        "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+        "author": "##作者.([^<]+)<##$1###",
+        "bookList": "class.test1",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.2@text",
+        "kind": "tag.p.0@text",
+        "lastChapter": "tag.font.1@text##\\(|\\)",
+        "name": "tag.a@title"
+    },
+    "ruleSearch": {
+        "author": "tag.dd.1@text",
+        "bookList": "class.list_container@tag.li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.dd.9@text",
+        "kind": "tag.dd.0@text&&tag.dd.3@text&&tag.dd.7@text",
+        "lastChapter": "tag.dd.2@text",
+        "name": "tag.a.1@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "class.playlist@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "/Search.asp,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&searchword={{key}}&searchtype=-1\"\n}",
+    "weight": 0
+}

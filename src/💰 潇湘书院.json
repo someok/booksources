@@ -1,0 +1,61 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 潇湘书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xxsy.net",
+    "customOrder": -1513,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/search?s_wd=&channel={{page}}&s_type=82&sort=9&pn={{page}}\n奇幻::/search?s_wd=&channel={{page}}&s_type=83&sort=9&pn={{page}}\n武侠::/search?s_wd=&channel={{page}}&s_type=84&sort=9&pn={{page}}\n仙侠::/search?s_wd=&channel={{page}}&s_type=86&sort=9&pn={{page}}\n都市::/search?s_wd=&channel={{page}}&s_type=88&sort=9&pn={{page}}\n历史::/search?s_wd=&channel={{page}}&s_type=90&sort=9&pn={{page}}\n军事::/search?s_wd=&channel={{page}}&s_type=91&sort=9&pn={{page}}\n悬疑::/search?s_wd=&channel={{page}}&s_type=92&sort=9&pn={{page}}\n科幻::/search?s_wd=&channel={{page}}&s_type=93&sort=9&pn={{page}}\n游戏::/search?s_wd=&channel={{page}}&s_type=94&sort=9&pn={{page}}\n体育::/search?s_wd=&channel={{page}}&s_type=96&sort=9&pn={{page}}\n轻文::/search?s_wd=&channel={{page}}&s_type=97&sort=9&pn={{page}}\n现实::/search?s_wd=&channel={{page}}&s_type=98&sort=9&pn={{page}}\n短篇::/search?s_wd=&channel={{page}}&s_type=99&sort=9&pn={{page}}\n玄幻言情::/search?s_wd=&channel=2&s_type=3&sort=9&pn={{page}}\n仙侠奇缘::/search?s_wd=&channel=2&s_type=4&sort=9&pn={{page}}\n古代言情::/search?s_wd=&channel=2&s_type={{page}}&sort=9&pn={{page}}\n现代言情::/search?s_wd=&channel=2&s_type=2&sort=9&pn={{page}}\n浪漫青春::/search?s_wd=&channel=2&s_type=6&sort=9&pn={{page}}\n悬疑侦探::/search?s_wd=&channel=2&s_type=5&sort=9&pn={{page}}\n科幻空间::/search?s_wd=&channel=2&s_type=7&sort=9&pn={{page}}\n游戏竞技::/search?s_wd=&channel=2&s_type=8&sort=9&pn={{page}}\n轻の小说::/search?s_wd=&channel=2&s_type=9&sort=9&pn={{page}}\n短篇小说::/search?s_wd=&channel=2&s_type={{page}}1&sort=9&pn={{page}}",
+    "header": "",
+    "lastUpdateTime": 1620301935427,
+    "loginUrl": "https://www.xxsy.net/",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\d*:.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "",
+        "wordCount": "class.sub-data@tag.span.0@text"
+    },
+    "ruleContent": {
+        "content": "class.chapter-text-yahei@html<js>result</js>",
+        "imageStyle": "TEXT",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text##",
+        "bookList": "class.result-list@tag.li",
+        "bookUrl": "tag.a.1@href##.+\\D(\\d+)\\D##https://m.xxsy.net/books/$1.html###",
+        "coverUrl": "tag.img@data-src",
+        "intro": "tag.p@text",
+        "kind": "tag.a.3@text&&@tag.span.-2@text##更新.|\\d*:.*",
+        "lastChapter": "",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.span.-1@text##字数."
+    },
+    "ruleToc": {
+        "chapterList": "class.directory-list@tag.li@tag.a",
+        "chapterName": "@js:(result.hasClass('vip') ? '🔒' : '') + result.select('a').text()",
+        "chapterUrl": "href##\\D+chapterid=(\\d+)\\&\\D+##https://www.xxsy.net/chapter/$1.html###",
+        "isVip": "",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "/search?s_wd={{key}}",
+    "weight": 0
+}

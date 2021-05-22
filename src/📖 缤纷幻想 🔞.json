@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "📖 轻文",
+    "bookSourceName": "📖 缤纷幻想 🔞",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://colorful-fantasybooks.com",
+    "bookUrlPattern": "",
+    "customOrder": -1477,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新::/module/novel/type.php?page={{page}}",
+    "lastUpdateTime": 1620716333303,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": ".works-intro-digi@tag.em.0@text",
+        "coverUrl": ".works-cover@tag.img@src",
+        "intro": ".works-intro-short@html",
+        "kind": ".works-intro-digi@tag.em.-1@text&&.works-status@tag.li.0@text&&.ui-pl10@tag.span@text##小说类别.|\\s.*",
+        "lastChapter": ".works-ft-new@tag.a@text",
+        "name": ".works-intro-title@tag.strong@text",
+        "wordCount": ".works-status@tag.li.5@text##完成字数."
+    },
+    "ruleContent": {
+        "content": "id.content_cust@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "tag.td.3@text",
+        "bookList": "tbody@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "tag.td.0@text&&tag.td.5@text##\\[|\\]",
+        "lastChapter": "tag.td.2@text",
+        "name": "tag.td.1@text",
+        "wordCount": "tag.td.4@text"
+    },
+    "ruleSearch": {
+        "author": "",
+        "bookList": ".mod_book_list li",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "",
+        "kind": "tag.sub@text",
+        "lastChapter": "tag.h3@text",
+        "name": "tag.h4@text"
+    },
+    "ruleToc": {
+        "chapterList": ".works-chapter-list p",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/module/novel/search.php?type=1&key={{key}}&page={{page}}",
+    "weight": 0
+}

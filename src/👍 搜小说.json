@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍 优质",
+    "bookSourceName": "👍 搜小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.soxs.cc",
+    "bookUrlPattern": "",
+    "customOrder": -2039,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "                    连载排行                    ::\n总点击榜::/shuku/allvisit_0_1_{{page}}.html\n月点击榜::/shuku/monthvisit_0_1_{{page}}.html\n周点击榜::/shuku/weekvisit_0_1_{{page}}.html\n日点击榜::/shuku/dayvisit_0_1_{{page}}.html\n总推荐榜::/shuku/allvote_0_1_{{page}}.html\n月推荐榜::/shuku/monthvote_0_1_{{page}}.html\n周推荐榜::/shuku/weekvote_0_1_{{page}}.html\n日推荐榜::/shuku/dayvote_0_1_{{page}}.html\n总收藏榜::/shuku/goodnum_0_1_{{page}}.html\n字数排行::/shuku/size_0_1_{{page}}.html\n入库时间::/shuku/postdate_0_1_{{page}}.html\n                    连载分类                    ::\n\n玄幻奇幻::/shuku/0_1_1_{{page}}.html\n武侠仙侠::/shuku/0_2_1_{{page}}.html\n科幻未来::/shuku/0_3_1_{{page}}.html\n历史军事::/shuku/0_4_1_{{page}}.html\n游戏竞技::/shuku/0_5_1_{{page}}.html\n灵异悬疑::/shuku/0_6_1_{{page}}.html\n都市生活::/shuku/0_7_1_{{page}}.html\n青春校园::/shuku/0_8_1_{{page}}.html\n古代言情::/shuku/0_9_1_{{page}}.html\n现代言情::/shuku/0_10_1_{{page}}.html\n幻想奇缘::/shuku/0_11_1_{{page}}.html\n耽美同人::/shuku/0_12_1_{{page}}.html\n新书入库::/shuku/0_13_1_{{page}}.html\n                    完本排行                    ::\n总点击榜::/shuku/allvisit_0_2_{{page}}.html\n月点击榜::/shuku/monthvisit_0_2_{{page}}.html\n周点击榜::/shuku/weekvisit_0_2_{{page}}.html\n日点击榜::/shuku/dayvisit_0_2_{{page}}.html\n总推荐榜::/shuku/allvote_0_2_{{page}}.html\n月推荐榜::/shuku/monthvote_0_2_{{page}}.html\n周推荐榜::/shuku/weekvote_0_2_{{page}}.html\n日推荐榜::/shuku/dayvote_0_2_{{page}}.html\n总收藏榜::/shuku/goodnum_0_2_{{page}}.html\n字数排行::/shuku/size_0_2_{{page}}.html\n入库时间::/shuku/postdate_0_2_{{page}}.html\n                    完本分类                    ::\n玄幻奇幻::/shuku/0_1_1_{{page}}.html\n武侠仙侠::/shuku/0_2_2_{{page}}.html\n科幻未来::/shuku/0_3_2_{{page}}.html\n历史军事::/shuku/0_4_2_{{page}}.html\n游戏竞技::/shuku/0_5_2_{{page}}.html\n灵异悬疑::/shuku/0_6_2_{{page}}.html\n都市生活::/shuku/0_7_2_{{page}}.html\n青春校园::/shuku/0_8_2_{{page}}.html\n古代言情::/shuku/0_9_2_{{page}}.html\n现代言情::/shuku/0_10_2_{{page}}.html\n幻想奇缘::/shuku/0_11_2_{{page}}.html\n耽美同人::/shuku/0_12_2_{{page}}.html\n新书入库::/shuku/0_13_2_{{page}}.html",
+    "lastUpdateTime": 1620769557985,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "",
+        "coverUrl": ".cover@tag.img@src||.book_cover@img@src",
+        "intro": ".info-text@tag.p.2@html||id.intro@ownText##简介.",
+        "kind": "",
+        "lastChapter": ".info-text@tag.a.0@text||.xiaoshuo@h5@a@text",
+        "name": "",
+        "tocUrl": "id.read@href",
+        "wordCount": ".info@tag.p@text##.*："
+    },
+    "ruleContent": {
+        "content": ".content@textNodes",
+        "replaceRegex": "##您可以在百.*最新章节！|"
+    },
+    "ruleExplore": {
+        "author": "tag.td.2@text",
+        "bookList": "tbody@tag.tr!0",
+        "bookUrl": "tag.a.1@href",
+        "kind": "tag.td.5@text&&tag.td.4@text",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@tag.a.1@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleSearch": {
+        "author": ".s4@text",
+        "bookList": ".novelslist2@li!0",
+        "bookUrl": "tag.a.1@href",
+        "kind": ".s1@text&&.s6@text&&.s5@text##\\[|]",
+        "lastChapter": ".s3@text",
+        "name": ".s2@text"
+    },
+    "ruleToc": {
+        "chapterList": ".novel_list@dd@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html,{\n  \"headers\": \"{Cookie:\\\"__cfduid=; mc_user=\\\"}\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+    "weight": 0
+}

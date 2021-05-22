@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 白马楼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.baimalou.com",
+    "customOrder": -1338,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "耽美::/category/1/{{page}}.html\n辣文::/category/2/{{page}}.html\n其他::/category/3/{{page}}.html\n言情::/category/4/{{page}}.html\n百合::/category/5/{{page}}.html\n私密::/category/6/{{page}}.html\n种田::/category/7/{{page}}.html\n修真::/category/8/{{page}}.html\n高干::/category/9/{{page}}.html\n高辣::/category/10/{{page}}.html\n玄幻::/category/11/{{page}}.html\n腹黑::/category/12/{{page}}.html\n网游::/category/13/{{page}}.html\n仙侠::/category/14/{{page}}.html\n现代::/category/15/{{page}}.html\n历史::/category/16/{{page}}.html\n游戏::/category/17/{{page}}.html\n科幻::/category/18/{{page}}.html\n同人::/category/19/{{page}}.html",
+    "lastUpdateTime": 1621014983881,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content##正文\\s|作品|正文卷\\s|全部章节\\s",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+        "content": "id.C0NTENT@tag.p@text",
+        "imageStyle": "0",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": ".CGsectionTwo-right-content-unit",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "intro": "tag.p.2@text##.*文案.|\\s",
+        "kind": "tag.p.3@text##.*\\s",
+        "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".SHsectionThree-middle p",
+        "bookUrl": "tag.a.1@href",
+        "kind": "tag.a.0@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".BCsectionTwo-top@tag.li@tag.a",
+        "chapterName": "text##正文\\s|作品|正文卷\\s|全部章节\\s",
+        "chapterUrl": "href<js>\n     var ua = \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\";\n     var headers = {\"User-Agent\": ua};\n     var option = {\n         \"headers\": JSON.stringify(headers),\n         \"webView\": true\n     };\n     result+\",\" + JSON.stringify(option)\n </js>",
+        "nextTocUrl": "@js:var n=String(result).match(/第<span>1<\\/span>\\/<span>(.*?)<\\/span>页/)[1];\nlist=[]\nif(n==1){\nlist;}else{\nfor(i=1;i<=n;i++){\nlist.push(baseUrl+i+\".html\")\n};}\nlist"
+    },
+    "searchUrl": "/search/{{key}}/{{page}}",
+    "weight": 0
+}

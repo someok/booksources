@@ -1,0 +1,42 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨 漫画",
+    "bookSourceName": "🎨 快看漫画 💰",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.kkmh.com",
+    "bookUrlPattern": "",
+    "customOrder": -3577,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "少年::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=49&since={{20*(page-1)}}\n奇幻::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=22&since={{20*(page-1)}}\n爆笑::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=24&since={{20*(page-1)}}\n日漫::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=57&since={{20*(page-1)}}\n都市::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=48&since={{20*(page-1)}}\n古风::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=46&since={{20*(page-1)}}\n治愈::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=27&since={{20*(page-1)}}\n恋爱::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=20&since={{20*(page-1)}}\n校园::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=47&since={{20*(page-1)}}\n灵异::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=32&since={{20*(page-1)}}\n玄幻::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=63&since={{20*(page-1)}}\n剧情::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=23&since={{20*(page-1)}}\n韩漫::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=60&since={{20*(page-1)}}\n日常::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=19&since={{20*(page-1)}}\n畅销::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=59&since={{20*(page-1)}}\n完结::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=40&since={{20*(page-1)}}\n正能量::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=54&since={{20*(page-1)}}\nnull",
+    "header": "{\n  \"User-Agent\": \"Kuaikan/5.23.0/523000(Android;8.0.0;MIX2;kuaikan568;WIFI;2030*1080)\"\n}",
+    "lastUpdateTime": 1600091014971,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "@JSon:$..nickname##\\s.*",
+        "intro": "@JSon:$.data.description",
+        "name": ""
+    },
+    "ruleContent": {
+        "content": "@js:\nvar options = {\n\"headers\": {\"Referer\": baseUrl}\n}\njava.getStringList(\"$.data.images\",false).toArray().map\n(a=>'<img src=\"'+a+'\" >').join(\"\\n\")",
+        "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "",
+        "bookList": "@JSon:$.data.topic.hit.*&&$.data.topics.*",
+        "bookUrl": "https://api.kkmh.com/v1/topics/{$.id}",
+        "coverUrl": "@JSon:$.cover_image_url",
+        "intro": "@JSon:$.description",
+        "kind": "@JSon:$.category",
+        "lastChapter": "@JSon:$.latest_comic_title",
+        "name": "@JSon:$.title"
+    },
+    "ruleToc": {
+        "chapterList": "-@JSon:$..comics.*",
+        "chapterName": "@JSon:$.title",
+        "chapterUrl": "https://api.kkmh.com/v2/comic/{$.id}?is_preview=0"
+    },
+    "searchUrl": "https://search.kkmh.com/search/complex?q={{key}}",
+    "weight": 0
+}

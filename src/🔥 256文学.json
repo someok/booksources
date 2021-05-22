@@ -1,0 +1,38 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔥 书耽",
+    "bookSourceName": "🔥 256文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.256wxc.com",
+    "bookUrlPattern": "",
+    "customOrder": 56,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代耽美::/xiandai/index<,_{{page}}>.html\n古代架空::/jiakong/index<,_{{page}}>.html\n穿越重生::/chuanyue/index<,_{{page}}>.html\nＢＬ同人::/bltongren/index<,_{{page}}>.html\nＧＬ百合::/glbaihe/index<,_{{page}}>.html\n玄幻科幻::/xuanhuan/index<,_{{page}}>.html\n都市言情::/yanqing/index<,_{{page}}>.html\n古代言情::/gudaiyanqing/index<,_{{page}}>.html\n现代::/tuijian/xiandai_top100.html\n古代架空::/tuijian/jiakong_top100.html\n穿越重生::/tuijian/chuanyue_top100.html\n都市言情::/tuijian/yanqing_top100.html\n无限流::/tuijian/wuxianliu/\n高干::/tuijian/gaoganwen/<,index_{{page}}.html>\n豪门总裁::/tuijian/haomenzongcai/<,index_{{page}}.html>\n娱乐圈::/tuijian/yulequan/<,index_{{page}}.html>\n韩娱::/tuijian/hanyu/<,index_{{page}}.html>\n军旅::/tuijian/junlvwen/\n商战::/tuijian/shangzhan/\n网游::/tuijian/wangyouwen/<,index_{{page}}.html>\n种田::/tuijian/zhongtianwen/<,index_{{page}}.html>\n宫斗::/tuijian/gongdouwen/<,index_{{page}}.html>\n宅斗::/tuijian/zhaidouwen/<,index_{{page}}.html>\n清穿::/tuijian/qingchuan/<,index_{{page}}.html>\n快穿::/tuijian/kuaichuanwen/<,index_{{page}}.html>\n异世::/tuijian/yishi/<,index_{{page}}.html>\n洪荒::/tuijian/honghuang/\n空间::/tuijian/kongjianwen/<,index_{{page}}.html>\n系统::/tuijian/xitong/<,index_{{page}}.html>\n末世::/tuijian/moshiwen/<,index_{{page}}.html>\n星际::/tuijian/xingjiwen/<,index_{{page}}.html>\n兽人::/tuijian/shourenwen/\n古穿今::/tuijian/guchuanjin/<,index_{{page}}.html>\n青梅竹马::/tuijian/qingmeizhuma/<,index_{{page}}.html>\n灵魂转换::/tuijian/linghunzhuanhuan/<,index_{{page}}.html>\n天作之合::/tuijian/tianzuozhihe/<,index_{{page}}.html>\n强取豪夺::/tuijian/qiangquhaoduo/<,index_{{page}}.html>\n爽文::/tuijian/shuangwen/<,index_{{page}}.html>\n复仇::/tuijian/fuchou/<,index_{{page}}.html>\n温馨::/tuijian/wenxinwen/<,index_{{page}}.html>\n腹黑::/tuijian/fuheiwen/<,index_{{page}}.html>\n强强::/tuijian/qiangqiang/<,index_{{page}}.html>\n忠犬::/tuijian/zhongquangong/<,index_{{page}}.html>\n年下::/tuijian/nianxiagong/<,index_{{page}}.html>\n年上::/tuijian/nianshanggong/<,index_{{page}}.html>\n宠文::/tuijian/chongwentianwen/<,index_{{page}}.html>\n虐文::/tuijian/nuewen/\n虐恋::/tuijian/nuelian/<,index_{{page}}.html>\n女配::/tuijian/nvpeiwen/\n生子::/tuijian/shengziwen/<,index_{{page}}.html>\n父子::/tuijian/fuziwen/<,index_{{page}}.html>\nＮＰ::/tuijian/np/<,index_{{page}}.html>",
+    "lastUpdateTime": 1620821335447,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "tocUrl": "text.目录@href"
+    },
+    "ruleContent": {
+        "content": ".book_con@tag.p@text",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a@text##.*作者.",
+        "bookList": ".list li",
+        "bookUrl": "tag.a@href",
+        "intro": "tag.p@text##文案.|\\s",
+        "kind": "tag.span@text",
+        "name": "tag.a@text##作者.*|\\+番外"
+    },
+    "ruleToc": {
+        "chapterList": ".catalog li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/e/search/,{\n  \"method\": \"POST\",\n  \"body\": \"tbname=article&tempid=1&show=title,writer&keyboard={{key}}&submit=\"\n}",
+    "weight": 0
+}

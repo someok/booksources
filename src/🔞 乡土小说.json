@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 乡土小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiangtxsw.com",
+    "bookUrlPattern": "",
+    "customOrder": -1304,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::/\n乡土排行::/book/<,index_{{page}}.html>\n风云榜单::/top/\n都市言情::/dsyq/<,index_{{page}}.html>\n现代言情::/xdyq/<,index_{{page}}.html>\n古代言情::/gdyq/<,index_{{page}}.html>",
+    "lastUpdateTime": 1621003805163,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": ".m-summary@html",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "id.booklist@tag.a.-1@text",
+        "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+        "content": "id.content@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "tag.td.1@text",
+        "bookList": "tbody@tag.tr||.list-group-item",
+        "bookUrl": "tag.a.0@href",
+        "kind": "tag.td.2@text",
+        "lastChapter": "",
+        "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "tbody@tag.tr",
+        "bookUrl": "tag.a.0@href",
+        "kind": "tag.td.3@text",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.booklist@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&tbname=bookname&show=title,writer&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+}

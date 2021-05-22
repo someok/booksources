@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "📚 出版",
+    "bookSourceName": "📚 鬼书集",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.guishuji.cc",
+    "bookUrlPattern": "",
+    "customOrder": -1424,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "恐怖::/kongbu/<,index_{{page}}.html>\n道士::/daoshi/<,index_{{page}}.html>\n盗墓::/daomu/<,index_{{page}}.html>\n言情::/yanqing/<,index_{{page}}.html>\n都市::/dushi/<,index_{{page}}.html>\n武侠::/wuxia/<,index_{{page}}.html>\n科幻::/kehuan/<,index_{{page}}.html>\n官场::/guanchang/<,index_{{page}}.html>\n古典::/gudian/<,index_{{page}}.html>\n网络::/wangluo/<,index_{{page}}.html>\n外国::/waiguo/<,index_{{page}}.html>\n现代::/xiandai/<,index_{{page}}.html>\n儿童::/ertong/<,index_{{page}}.html>\n国学::/guoxue/<,index_{{page}}.html>\n思维::/luojisiwei/<,index_{{page}}.html>\n创业::/chuangye/<,index_{{page}}.html>\n互联::/hulianwang/<,index_{{page}}.html>\n青春::/qingchun/<,index_{{page}}.html>\n文化::/wenhua/<,index_{{page}}.html>\n女性::/nvxing/<,index_{{page}}.html>\n育儿::/yuer/<,index_{{page}}.html>\n科普::/kepu/<,index_{{page}}.html>\n散文::/sanwen/<,index_{{page}}.html>\n学习::/xuexi/<,index_{{page}}.html>\n诗集::/xuexi1/<,index_{{page}}.html>\n心理::/xinlixue/<,index_{{page}}.html>\n旅游::/lvyou/<,index_{{page}}.html>\n哲学::/zhexue/<,index_{{page}}.html>\n健康::/jkms/<,index_{{page}}.html>\n纪实::/jishi/<,index_{{page}}.html>\n畅销::/changxiao/<,index_{{page}}.html>\n传记::/zhuanji/<,index_{{page}}.html>",
+    "lastUpdateTime": 1620736448487,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": ".status@text&&[property=\"og:novel:category\"]@content##小说|.*：|\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+        "content": "id.BookText@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": ".details",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.0@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "",
+        "bookList": "#searchText li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "tag.a.1@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "tbody@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+}

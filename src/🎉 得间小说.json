@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 得间小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.idejian.com",
+    "customOrder": -118169,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "                    男生榜单                    ::\n人气热读::/bangdan/36001?page={{page}}\n男生点击::/bangdan/36002?page={{page}}\n男生收藏::/bangdan/36003?page={{page}}\n新书潜力::/bangdan/36004?page={{page}}\n爆款热推::/bangdan/36005?page={{page}}\n男生精品::/bangdan/36006?page={{page}}\n男生完本::/bangdan/36007?page={{page}}\n本周强推::/bangdan/36008?page={{page}}\n大神推荐::/bangdan/36009?page={{page}}\n                    其他榜单                    ::\n为你推荐::/bangdan/36010?page={{page}}\n网友在读::/bangdan/36011?page={{page}}\n网文新风::/bangdan/36012?page={{page}}\n连载热门::/bangdan/36013?page={{page}}\n                    女生榜单                    ::\n人气热读::/bangdan/36014?page={{page}}\n女生点击::/bangdan/36015?page={{page}}\n女生收藏::/bangdan/36016?page={{page}}\n新书潜力::/bangdan/36017?page={{page}}\n灵异完本::/bangdan/36018?page={{page}}\n现言完结::/bangdan/36019?page={{page}}\n女生完本::/bangdan/36021?page={{page}}\n本周强推::/bangdan/36022?page={{page}}\n大神推荐::/bangdan/36023?page={{page}}\n                    男生连载                    ::\n奇幻::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1114&page={{page}}\n玄幻::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1115&page={{page}}\n武侠::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1116&page={{page}}\n仙侠::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1117&page={{page}}\n都市::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1118&page={{page}}\n校园::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1119&page={{page}}\n历史::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1120&page={{page}}\n军事::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1121&page={{page}}\n游戏::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1122&page={{page}}\n竞技::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1123&page={{page}}\n科幻::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1124&page={{page}}\n灵异::/books/nansheng?filterInfo=%7B%222%22%3A%22N%22%7D&categoryId=1125&page={{page}}\n                    女生连载                    ::\n现代言情::/books/nvsheng?categoryId=1126&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n古代言情::/books/nvsheng?categoryId=1127&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n幻想言情::/books/nvsheng?categoryId=1128&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n青春校园::/books/nvsheng?categoryId=1129&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n同人作品::/books/nvsheng?categoryId=1130&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n惊悚恐怖::/books/nvsheng?categoryId=1132&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n次元专区::/books/nvsheng?categoryId=1133&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n出版连载::/books/chuban?filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n人文社科::/books/chuban?categoryId=1134&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n经管励志::/books/chuban?categoryId=1135&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n生活::/books/chuban?categoryId=1136&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n教育::/books/chuban?categoryId=1137&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n文学艺术::/books/chuban?categoryId=1138&filterInfo=%7B%222%22%3A%22N%22%7D&page={{page}}\n                    男生完结                    ::\n奇幻::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1114&page={{page}}\n玄幻::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1115&page={{page}}\n武侠::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1116&page={{page}}\n仙侠::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1117&page={{page}}\n都市::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1118&page={{page}}\n校园::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1119&page={{page}}\n历史::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1120&page={{page}}\n军事::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1121&page={{page}}\n游戏::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1122&page={{page}}\n竞技::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1123&page={{page}}\n科幻::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1124&page={{page}}\n灵异::/books/nansheng?filterInfo=%7B%222%22%3A%22Y%22%7D&categoryId=1125&page={{page}}\n                    女生完结                    ::\n现代言情::/books/nvsheng?categoryId=1126&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n古代言情::/books/nvsheng?categoryId=1127&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n幻想言情::/books/nvsheng?categoryId=1128&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n青春校园::/books/nvsheng?categoryId=1129&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n同人作品::/books/nvsheng?categoryId=1130&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n惊悚恐怖::/books/nvsheng?categoryId=1132&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n次元专区::/books/nvsheng?categoryId=1133&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n出版完结::/books/chuban?filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n人文社科::/books/chuban?categoryId=1134&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n经管励志::/books/chuban?categoryId=1135&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n生活::/books/chuban?categoryId=1136&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n教育::/books/chuban?categoryId=1137&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}\n文学艺术::/books/chuban?categoryId=1138&filterInfo=%7B%222%22%3A%22Y%22%7D&page={{page}}",
+    "lastUpdateTime": 1620579453622,
+    "ruleBookInfo": {
+        "author": "class.detail_bkauthor@text##\\s.*",
+        "coverUrl": "class.book_img@src",
+        "intro": "class.brief_con@text",
+        "kind": "class.detail_bkgrade.0@tag.span@text&&class.detail_bkgrade.1@tag.span!0@text",
+        "lastChapter": "class.link_name@text",
+        "name": "class.detail_bkname@text",
+        "wordCount": "class.bk_fontinfo@tag.span.0@text"
+    },
+    "ruleContent": {
+        "content": "class.bodytext@text",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "class.author@text||class.bkitem_author@text",
+        "bookList": "class.rank_ullist@tag.li||class.v_books@tag.li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "class.rank_bkbrief@text||class.bkitem_brief@text",
+        "kind": "class.tag@text&&class.rank_bkinfo@tag.span.!0@text&&class.rank_bktime@text&&class.bkitem_types@text##\\s.*",
+        "lastChapter": "class.rank_newpage@text##更新章节.",
+        "name": "tag.a.1@text",
+        "wordCount": "class.bk_fontnum@text"
+    },
+    "ruleSearch": {
+        "author": "class.author@text",
+        "bookList": "class.rank_ullist@tag.li",
+        "bookUrl": "class.rank_bkname@tag.a@href",
+        "coverUrl": "class.book_img@tag.img@src",
+        "intro": "class.rank_bkbrief@text",
+        "kind": "class.rank_bkinfo@tag.span!0@text&&class.rank_bktime@text##\\s.*",
+        "lastChapter": "class.rank_newpage@text##更新章节.",
+        "name": "class.rank_bkname@text",
+        "wordCount": "class.search_ohter@tag.span.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.catelog_list@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search?keyword={{key}}&page={{page}}",
+    "weight": 0
+}

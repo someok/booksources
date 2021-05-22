@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨 漫画",
+    "bookSourceName": "🎨 漫香阁 🔞💡",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://manxiangge.com",
+    "customOrder": -2066,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "【韩漫】::/list-1-0-{{page}}.html\n正妹::/list-1-1-{{page}}.html\n恋爱::/list-1-2-{{page}}.html\n出版::/list-1-3-{{page}}.html\n肉欲::/list-1-4-{{page}}.html\n浪漫::/list-1-5-{{page}}.html\n大尺度::/list-1-6-{{page}}.html\n巨乳::/list-1-7-{{page}}.html\n人妻::/list-1-8-{{page}}.html\n女大生::/list-1-9-{{page}}.html\n狗血::/list-1-10-{{page}}.html\n同居::/list-1-11-{{page}}.html\n好友::/list-1-12-{{page}}.html\n调教::/list-1-13-{{page}}.html\n学校::/list-1-14-{{page}}.html\n不伦::/list-1-15-{{page}}.html\n背叛::/list-1-16-{{page}}.html\n后宫::/list-1-17-{{page}}.html\n初体验::/list-1-18-{{page}}.html\n办公室::/list-1-19-{{page}}.html\n【日漫】::/list-2-0-{{page}}.html\n全彩::/list-2-1-{{page}}.html\n无修正::/list-2-2-{{page}}.html\n人妻::/list-2-3-{{page}}.html\nNTR::/list-2-4-{{page}}.html\n萝莉::/list-2-5-{{page}}.html\n肛交::/list-2-6-{{page}}.html\n熟女::/list-2-7-{{page}}.html\n巨乳::/list-2-8-{{page}}.html\n雄狮::/list-2-9-{{page}}.html\n兄妹::/list-2-10-{{page}}.html\n幼女::/list-2-11-{{page}}.html\n眼镜::/list-2-12-{{page}}.html\n母娘::/list-2-13-{{page}}.html\n肉感::/list-2-14-{{page}}.html\n后宫::/list-2-15-{{page}}.html\n调教::/list-2-16-{{page}}.html\n姐弟::/list-2-17-{{page}}.html\n【Cosplay】::/list-3-0-{{page}}.html\nAV女优::/list-3-1-{{page}}.html\n露出::/list-3-2-{{page}}.html\n大尺度::/list-3-3-{{page}}.html\n无修正::/list-3-4-{{page}}.html",
+    "lastUpdateTime": 1617372808117,
+    "ruleBookInfo": {
+        "intro": "class.infoR@p@text",
+        "kind": "id.menu@tag.li.-1:-2:1@text",
+        "lastChapter": "class.dstate@text",
+        "name": "tag.h2@text",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": ".contentmh@img@html##src.*\\\"\n@js:result.replace(/data-original/g,\"src\")",
+        "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+        "bookList": ".section a",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "##url\\(\\'(.*)\\'\\)##$1###",
+        "intro": "tag.p@text",
+        "lastChapter": ".dstate@text",
+        "name": "tag.h3@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+        "chapterList": "class.listmh@li@a||tag.title",
+        "chapterName": "text##- 漫香阁",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "",
+    "weight": 0
+}

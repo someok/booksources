@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 渣男小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zhananxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -1325,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总点击榜::/top/allvisit_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n总字数榜::/top/size_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n其他类别::/sort/1_{{page}}/\n评书品书::/sort/3_{{page}}/\n私密趣事::/sort/4_{{page}}/\n完本小说::/full/{{page}}/",
+    "lastUpdateTime": 1620937469472,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": ".infotype@tag.a.0@text",
+        "coverUrl": "",
+        "intro": ".intro p@html",
+        "kind": ".infotype@tag.p.1@text&&.infotype@tag.p.2@text##.*：|\\s.*",
+        "lastChapter": ".infotype@tag.a.-1@text",
+        "name": ".cataloginfo h3@text",
+        "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+        "content": "id.articlecontent@p@html",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##本章尚未完.*|本章已阅读.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": ".author@text||.p3@text",
+        "bookList": ".sone||.articlegeneral||.full_content||.article",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "intro": ".simple@text",
+        "kind": ".p1@text##\\[|]",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapters li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.html,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&submit=&type=articlename\"\n}",
+    "weight": 0
+}

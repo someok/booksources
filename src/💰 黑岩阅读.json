@@ -1,0 +1,65 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 黑岩阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.heiyan.com",
+    "bookUrlPattern": "",
+    "customOrder": -1499,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "【免费完结】::/all/-1_-1_1_1_0_{{page}}.html\n历史::/all/3_-1_1_1_0_{{page}}.html\n军事::/all/5_-1_1_1_0_{{page}}.html\n玄幻::/all/6_-1_1_1_0_{{page}}.html\n奇幻::/all/14_-1_1_1_0_{{page}}.html\n仙侠::/all/7_-1_1_1_0_{{page}}.html\n武侠::/all/8_-1_1_1_0_{{page}}.html\n科幻::/all/10_-1_1_1_0_{{page}}.html\n游戏::/all/9_-1_1_1_0_{{page}}.html\n现代::/all/25_-1_1_1_0_{{page}}.html\n古言::/all/37_-1_1_1_0_{{page}}.html\n【免费连载】::/all/-1_-1_1_0_0_{{page}}.html\n历史::/all/3_-1_1_0_0_{{page}}.html\n军事::/all/5_-1_1_0_0_{{page}}.html\n玄幻::/all/6_-1_1_0_0_{{page}}.html\n奇幻::/all/14_-1_1_0_0_{{page}}.html\n仙侠::/all/7_-1_1_0_0_{{page}}.html\n武侠::/all/8_-1_1_0_0_{{page}}.html\n科幻::/all/10_-1_1_0_0_{{page}}.html\n游戏::/all/9_-1_1_0_0_{{page}}.html\n现代::/all/25_-1_1_0_0_{{page}}.html\n古言::/all/37_-1_1_0_0_{{page}}.html\n【收费完结】::/all/-1_-1_0_1_0_{{page}}.html\n历史::/all/3_-1_0_1_0_{{page}}.html\n军事::/all/5_-1_0_1_0_{{page}}.html\n玄幻::/all/6_-1_0_1_0_{{page}}.html\n奇幻::/all/14_-1_0_1_0_{{page}}.html\n仙侠::/all/7_-1_0_1_0_{{page}}.html\n武侠::/all/8_-1_0_1_0_{{page}}.html\n科幻::/all/10_-1_0_1_0_{{page}}.html\n游戏::/all/9_-1_0_1_0_{{page}}.html\n现代::/all/25_-1_0_1_0_{{page}}.html\n古言::/all/37_-1_0_1_0_{{page}}.html\n【收费连载】::/all/-1_-1_0_0_0_{{page}}.html\n历史::/all/3_-1_0_0_0_{{page}}.html\n军事::/all/5_-1_0_0_0_{{page}}.html\n玄幻::/all/6_-1_0_0_0_{{page}}.html\n奇幻::/all/14_-1_0_0_0_{{page}}.html\n仙侠::/all/7_-1_0_0_0_{{page}}.html\n武侠::/all/8_-1_0_0_0_{{page}}.html\n科幻::/all/10_-1_0_0_0_{{page}}.html\n游戏::/all/9_-1_0_0_0_{{page}}.html\n现代::/all/25_-1_0_0_0_{{page}}.html\n古言::/all/37_-1_0_0_0_{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1620308040921,
+    "loginUrl": "https://www.heiyan.com/accounts/login?backUrl=/",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "//a[text()=\"开始阅读\"]/@href",
+        "wordCount": ".words@text##字"
+    },
+    "ruleContent": {
+        "content": "$.chapter.htmlContent<js>result.replace(/<.*?>/g,'').replace(/\\r/g,'\\n　　')</js>",
+        "imageStyle": "0",
+        "nextContentUrl": "",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": "tbody@tr",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "tag.td.5@text##\\s.*",
+        "lastChapter": "tag.a.1@text",
+        "name": "tag.a.0@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleSearch": {
+        "author": "$.authorname##<.*?>",
+        "bookList": "$.data.content[*]",
+        "bookUrl": "$.id@js:'https://www.heiyan.com/book/'+result",
+        "coverUrl": "$.iconUrlSmall##@.*",
+        "intro": "$.introduce",
+        "kind": "$.sortname##<.*?>",
+        "lastChapter": "$.lastchaptername",
+        "name": "$.name##<.*?>",
+        "wordCount": "{$.words}"
+    },
+    "ruleToc": {
+        "chapterList": "//li[span]/a",
+        "chapterName": "<js>(/isvip/.test(String(result))?'🔒':'') + String(result).match(/>(.*?)</)[1]</js>",
+        "chapterUrl": "//@href<js>'https://a.heiyan.com/ajax/chapter/content/'+result.match(/\\d+$/)[0]</js>",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "https://search.heiyan.com/web/search?queryString={{key}}&page={{page}}",
+    "weight": 0
+}

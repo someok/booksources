@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "📚 出版",
+    "bookSourceName": "📚 下书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shutxt.com",
+    "customOrder": -1427,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "【文学】::\n现代名著::/mz/<,index_{{page}}.html>\n古典名著::/gudai/<,index_{{page}}.html>\n世界名著::/waiguo/<,index_{{page}}.html>\n当代小说::/xiandai/<,index_{{page}}.html>\n文学评论::/wxpl/<,index_{{page}}.html>\n散文随笔::/sw/<,index_{{page}}.html>\n儿童文学::/shaoer/<,index_{{page}}.html>\n青春校园::/xiaoyuan/<,index_{{page}}.html>\n【言情】::\n古代言情::/guyan/<,index_{{page}}.html>\n现代言情::/yq/<,index_{{page}}.html>\n耽美小说::/danmei/<,index_{{page}}.html>\n【男生】::\n玄幻仙侠::/xh/<,index_{{page}}.html>\n武侠小说::/wx/<,index_{{page}}.html>\n穿越小说::/cy/<,index_{{page}}.html>\n科幻小说::/kh/<,index_{{page}}.html>\n军事小说::/js/<,index_{{page}}.html>\n网游小说::/wy/<,index_{{page}}.html>\n【悬疑】::\n悬疑小说::/xy/<,index_{{page}}.html>\n恐怖小说::/kongbu/<,index_{{page}}.html>\n【人文】::\n人文社科::/rw/<,index_{{page}}.html>\n人物传记::/zj/<,index_{{page}}.html>\n历史小说::/ls/<,index_{{page}}.html>\n励志书籍::/lz/<,index_{{page}}.html>\n生活科普::/sh/<,index_{{page}}.html>",
+    "lastUpdateTime": 1620732632012,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "class.neirong@html##分享到.",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "wordCount": "class.xinxi@tag.li.2@text##字数."
+    },
+    "ruleContent": {
+        "content": "class.zw@html",
+        "replaceRegex": "##下书网|下.*书.*网|�|([a-zA-Z0-9]).*([Cc][Oo][Mm])",
+        "sourceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "tag.a.1@text",
+        "bookList": ".bbox",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.-1@text##简介.",
+        "kind": "",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+        "bookList": ".sbintro",
+        "bookUrl": "tag.a.0@href",
+        "intro": "tag.div.1@text##简介.",
+        "kind": "tag.div.2@text##.*状态.",
+        "name": "tag.a.0@text",
+        "wordCount": "tag.div.2@text##.*更新.|\\s.*"
+    },
+    "ruleToc": {
+        "chapterList": "id.yuedu@tag.td.0@tag.li%%@tag.td.1@tag.li%%@tag.td.2@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title&keyboard={{key}}\"\n}",
+    "weight": 0
+}

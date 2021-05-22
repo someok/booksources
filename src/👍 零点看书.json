@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍 优质",
+    "bookSourceName": "👍 零点看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.00ksw.com",
+    "bookUrlPattern": "",
+    "customOrder": -1808,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/s1/{{page}}.html\n修真小说::/s2/{{page}}.html\n都市小说::/s3/{{page}}.html\n穿越小说::/s4/{{page}}.html\n网游小说::/s5/{{page}}.html\n科幻小说::/s6/{{page}}.html\n同人小说::/s7/{{page}}.html\n综合言情::/s8/{{page}}.html\n浪漫青春::/s9/{{page}}.html",
+    "lastUpdateTime": 1620620145918,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+        "content": "id.articlecontent@html",
+        "imageStyle": "0",
+        "replaceRegex": "##\\（未完待续\\）"
+    },
+    "ruleExplore": {
+        "author": "tag.p.0@text##作者.",
+        "bookList": ".tt",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.1@text##\\s",
+        "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "tbody@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://img00ksw.cdn.bcebos.com/img/$2/$1/$1s.jpg###",
+        "intro": "",
+        "kind": "tag.td.4@text&&tag.td.3@text",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": ".ml_list@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php?keyword={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

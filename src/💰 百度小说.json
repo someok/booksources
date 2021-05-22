@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 百度小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://dushu.baidu.com",
+    "customOrder": -1689,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "<js>\nvar cat1='都市生活,东方玄幻,古典仙侠,现代修真,都市超能,架空历史,军事战争,虚拟网游,时空穿梭,末世净化';\nvar cat2='穿越,重生,异界,修真,都市,异能';\nvar cat3='修仙,奇遇,奋斗,争霸,权谋,升级';\nvar list=[];\nfunction getUrl(cats,url1){\ncats.split(',').forEach((i)=>{list.push(i+'::'+url1+i+'&query='+i+'&page={{page}}')});\n}\nlist.push('                    男生分类                    ::');\ngetUrl(cat1,'/api/getCateDetail?channel=男频&status=完结&count=10&cate2=');\nlist.push('                    男生背景                    ::');\ngetUrl(cat2,'/api/getCateDetail?channel=男频&status=完结&count=10&tag_name=');\nlist.push('                    男生情节                    ::');\ngetUrl(cat3,'/api/getCateDetail?channel=男频&status=完结&count=10&tag_name=');\nlist.join('\\n');\n</js>",
+    "lastUpdateTime": 1620773490955,
+    "loginUrl": "https://wappass.baidu.com/?adapter=1&regLink=1&tpl=browser_andr&u=https%3A%2F%2Fm.baidu.com%2Fsearchbox%3Faction%3Dnovel%26type%3Dopenprofile%26app_code%3Dwise_novel%26data%3D%257B%2522action%2522%253A%2522novel%2522%252C%2522type%2522%253A%2522openprofile%2522%252C%2522app_code%2522%253A%2522wise_novel%2522%252C%2522time%2522%253A1487309576982%252C%2522sign%2522%253A%2522c3692e976b918ebea651c33e0edd25c8%2522%257D#/password_login",
+    "ruleBookInfo": {
+        "intro": "@js:'<br>'+java.get('intro')",
+        "lastChapter": "共{$.data.chapter.chapterCount}"
+    },
+    "ruleContent": {
+        "content": "data.novel.content"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "$..novelList[*]",
+        "bookUrl": "https://boxnovel.baidu.com/boxnovel/wiseapi/chapterList?bookid={$.bookId}&pageNum=1&order=asc&site=",
+        "coverUrl": "cover",
+        "intro": "description@put:{'intro':'description'}",
+        "kind": "{{$.tagList}},{{$.status}}",
+        "lastChapter": "",
+        "name": "title"
+    },
+    "ruleToc": {
+        "chapterList": "data.chapter.chapterInfo",
+        "chapterName": "chapter_title##默认卷.",
+        "chapterUrl": "http://dushu.baidu.com/api/pc/getChapterContent?data=%7B%22book_id%22:%22{$.book_id}%22,%22cid%22:%22{$.book_id}%7C{$.chapter_id}%22,%22need_bookinfo%22:0%7D",
+        "isVip": "price",
+        "nextTocUrl": "@js:\nvar n=(JSON.parse(result).data.chapter.chapterCount)/50+1;\nvar list=[];\nbaseUrl=baseUrl.replace(/1&order=asc&site=/,'');\nfor(var i=2;i<n;i++){\nvar url=baseUrl+i+'&order=asc&site=';\nlist.push(url);\n}\nlist;",
+        "updateTime": ""
+    },
+    "searchUrl": "/api/getSearchResultData?page={{page}}&count=10&query={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "🔞 五二书库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.52shukuw.com",
+    "bookUrlPattern": "",
+    "customOrder": -1235,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代都市::/xiandaidushi/<,index_{{page}}.html>\n古代架空::/jiakong/<,index_{{page}}.html>\n穿越重生::/chongsheng/<,index_{{page}}.html>\nＢＬ同人::/bl/<,index_{{page}}.html>\nＧＬ百合::/gl/<,index_{{page}}.html>\n都市言情::/yanqing/<,index_{{page}}.html>",
+    "lastUpdateTime": 1621015720970,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "class.bookinfo.1@text##作者.",
+        "intro": "id.readtext@html##.*文案.",
+        "kind": "class.bookinfo.3@text&&class.bookinfo.2@text##.*：",
+        "lastChapter": ".catalog@tag.a.-1@text",
+        "name": ".art_tit@text##_.*|\\[.*"
+    },
+    "ruleContent": {
+        "content": ".book_con@tag.p@text",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a@text##.*作者.",
+        "bookList": ".list li",
+        "bookUrl": "tag.a@href",
+        "intro": "tag.p@text##文案.|\\s",
+        "kind": "tag.span@text",
+        "lastChapter": "",
+        "name": "tag.a@text##\\s.*"
+    },
+    "ruleToc": {
+        "chapterList": ".catalog li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/e/search/,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&tbname=article&tempid=1&show=title&keyboard={{key}}\"\n}",
+    "weight": 0
+}

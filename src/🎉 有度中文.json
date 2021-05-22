@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 有度中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yoduzw.com",
+    "bookUrlPattern": "",
+    "customOrder": -118171,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "                    排行榜单                    ::\n总点击榜::/top/allvisit_{{page}}.html\n月点击榜::/top/monthvisit_{{page}}.html\n周点击榜::/top/weekvisit_{{page}}.html\n日点击榜::/top/dayvisit_{{page}}.html\n总推荐榜::/top/allvote_{{page}}.html\n月推荐榜::/top/monthvote_{{page}}.html\n周推荐榜::/top/weekvote_{{page}}.html\n日推荐榜::/top/dayvote_{{page}}.html\n新书榜单::/top/newhot_{{page}}.html\n收藏榜单::/top/goodnum_{{page}}.html\n最新入库::/top/postdate_{{page}}.html\n                    网络小说                    ::\n网游::/quanben/wangyouxiaoshuo/{{page}}.html\n玄幻::/quanben/xuanhuanxiaoshuo/{{page}}.html\n穿越::/quanben/chuanyuexiaoshuo/{{page}}.html\n科幻::/quanben/kehuanxiaoshuo/{{page}}.html\n仙侠::/quanben/xianxiaxiaoshuo/{{page}}.html\n都市::/quanben/dushixiaoshuo/{{page}}.html\n武侠::/quanben/wuxiaxiaoshuo/{{page}}.html\n历史::/quanben/lishixiaoshuo/{{page}}.html\n竞技::/quanben/jingjixiaoshuo/{{page}}.html\n言情::/quanben/yanqingxiaoshuo/{{page}}.html\n悬疑::/quanben/xuanyixiaoshuo/{{page}}.html\n军事::/quanben/junshixiaoshuo/{{page}}.html\n灵异::/quanben/lingyixiaoshuo/{{page}}.html\n                    繁体图书                    ::\n世紀百強::/quanben/shijibaiqiang/{{page}}.html\n隨身智囊::/quanben/suishenzhinang/{{page}}.html\n歷史煙雲::/quanben/lishiyanyun/{{page}}.html\n武俠小說::/quanben/wuxia/{{page}}.html\n懸疑小說::/quanben/xuanyi/{{page}}.html\n言情小說::/quanben/yanqing/{{page}}.html\n奇幻小說::/quanben/qihuanxiaoshuo/{{page}}.html\n                    经典文学                    ::\n传记回忆::/quanben/zhuanjihuiyi/{{page}}.html\n英文读本::/quanben/yingwenduben/{{page}}.html\n杂文随笔::/quanben/zawensuibi/{{page}}.html\n经典言情::/quanben/jingdianyanqing/{{page}}.html\n经典历史::/quanben/jingdianlishi/{{page}}.html\n侦探推理::/quanben/zhentantuili/{{page}}.html\n惊悚悬疑::/quanben/jingsongxuanyi/{{page}}.html\n网络玄幻::/quanben/wangluoxuanhuan/{{page}}.html\n寓言童话::/quanben/yuyantonghua/{{page}}.html\n青春都市::/quanben/qingchundushi/{{page}}.html\n社会心理::/quanben/shehuixinli/{{page}}.html\n外国小说::/quanben/waiguoxiaoshuo/{{page}}.html\n经典科幻::/quanben/jingdiankehuan/{{page}}.html\n当代小说::/quanben/dangdaixiaoshuo/{{page}}.html\n经典武侠::/quanben/jingdianwuxia/{{page}}.html\n纪实报告::/quanben/jishibaogao/{{page}}.html\n世界历史::/quanben/shijielishi/{{page}}.html\n中国历史::/quanben/zhongguolishi/{{page}}.html\n科普学习::/quanben/kepuxuexi/{{page}}.html\n诗歌戏曲::/quanben/shigexiqu/{{page}}.html\n宗教哲学::/quanben/zongjiaozhexue/{{page}}.html\n文学理论::/quanben/wenxuelilun/{{page}}.html\n日语读物::/quanben/riyuduwu/{{page}}.html\n作品合集::/quanben/zuopinji/{{page}}.html\n国学古籍::/quanben/guoxueguji/{{page}}.html\n战争军事::/quanben/zhanzhengjunshi/{{page}}.html\n政治经济::/quanben/zhengzhijingji/{{page}}.html\n古典文学::/quanben/gudianwenxue/{{page}}.html\n现代小说::/quanben/xiandaixiaoshuo/{{page}}.html\n官场小说::/quanben/guanchangxiaoshuo/{{page}}.html\n轻の小说::/quanben/qingxiaoshuo/{{page}}.html\n                    轻の小说                    ::\n电击::/quanben/dianjiwenku/{{page}}.html\n富士::/quanben/fushijianwenku/{{page}}.html\n角川::/quanben/jiaochuanwenku/{{page}}.html\nＭＦ::/quanben/MFwenkuJ/{{page}}.html\nＦＡ::/quanben/Famitongwenku/{{page}}.html\nＧＡ::/quanben/GAwenku/{{page}}.html\nＨＪ::/quanben/HJwenku/{{page}}.html\n一迅::/quanben/yixunshe/{{page}}.html\n集英::/quanben/jiyingshe/{{page}}.html\n小学::/quanben/xiaoxueguan/{{page}}.html\n讲谈::/quanben/jiangtanshe/{{page}}.html\n少女::/quanben/shaonvwenku/{{page}}.html\n其他::/quanben/qitawenku/{{page}}.html",
+    "lastUpdateTime": 1620579394223,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|小說|\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "wordCount": "class.mb15 ell _tags pt2@tag.span.3@text"
+    },
+    "ruleContent": {
+        "content": "id.TextContent@html",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一章@href",
+        "replaceRegex": "##\\（本章未完\\）",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "tag.span.0@text",
+        "bookList": "class.j_bookList@tag.li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@_src",
+        "intro": "tag.a.-1@text",
+        "kind": "tag.span.1@text&&tag.span.2@text##小说|小說",
+        "name": "tag.h2@text"
+    },
+    "ruleSearch": {
+        "author": "tag.span.1@text",
+        "bookList": "class.ser-ret@tag.li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@_src",
+        "intro": "tag.p.0@text",
+        "kind": "tag.span.0@text&&tag.span.2@text##小说|小說",
+        "lastChapter": "tag.a.-1@text",
+        "name": "tag.h3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.chapterList@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/s/all-{{key}}-{{page}}.html",
+    "weight": 0
+}

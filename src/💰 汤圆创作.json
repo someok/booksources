@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 汤圆创作",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.itangyuan.com",
+    "bookUrlPattern": "",
+    "customOrder": -1521,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "校园::/tag/179.html?page={{page}}\n青葱::/tag/91.html?page={{page}}\n灵异::/tag/22.html?page={{page}}\n古风::/tag/193.html?page={{page}}\n穿越::/tag/25.html?page={{page}}\n女强::/tag/302.html?page={{page}}\n总裁::/tag/60.html?page={{page}}\n奇幻::/tag/74.html?page={{page}}\n现言::/tag/4408.html?page={{page}}\n修仙::/tag/171.html?page={{page}}\n重生::/tag/26.html?page={{page}}\n爆笑::/tag/105.html?page={{page}}\n次元::/tag/1662.html?page={{page}}\n青春::/tag/83242.html?page={{page}}\n悬疑::/tag/182.html?page={{page}}\n都市::/tag/24.html?page={{page}}\n玄幻::/tag/21.html?page={{page}}\n科幻::/tag/23.html?page={{page}}\n游戏::/tag/121.html?page={{page}}\n仙侠::/tag/80.html?page={{page}}\n竞技::/tag/290.html?page={{page}}\n军事::/tag/251.html?page={{page}}\n历史::/tag/439.html?page={{page}}\n武侠::/tag/104.html?page={{page}}\n搞笑::/tag/53.html?page={{page}}\n轻文::/tag/341.html?page={{page}}\n剧本::/tag/112.html?page={{page}}\n同人::/tag/52.html?page={{page}}\n诗歌::/tag/208.html?page={{page}}\n随笔::/tag/8.html?page={{page}}\n论文::/tag/11908.html?page={{page}}",
+    "lastUpdateTime": 1620760356013,
+    "loginUrl": "https://m.itangyuan.com/login/phone.html",
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&.update-time@text&&.tags@tag.a@text##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "class.btn-catalogue@tag.a.0@href"
+    },
+    "ruleContent": {
+        "content": "id.chapterWrapper@tag.p@text",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.p.0@text##\\s.*",
+        "bookList": ".list-item",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.1@text##\\s",
+        "name": "tag.h2@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.catalogue-list@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search-result.html?keyword={{key}}",
+    "weight": 0
+}

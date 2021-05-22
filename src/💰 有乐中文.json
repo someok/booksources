@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 有乐中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.iyoule.com",
+    "bookUrlPattern": "",
+    "customOrder": -1511,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "http://www.iyoule.com/",
+    "ruleBookInfo": {
+        "author": "class.author@tag.p@text",
+        "coverUrl": "class.bookface.0@data-original",
+        "intro": "class.dot3@tag.span@text",
+        "kind": "class.tag@tag.p@text&&class.islz@text&&class.updatetime.0@text##作品标签.|更新",
+        "lastChapter": "class.chptname@text",
+        "name": "class.bookname@title",
+        "wordCount": "class.number.0@text"
+    },
+    "ruleContent": {
+        "content": "id.readtext@tag.p@text",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "class.author@text",
+        "bookList": "class.box-center@tag.li",
+        "bookUrl": "class.link@tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "class.introd@text",
+        "kind": "class.category@text&&class.updatetime@text##更新",
+        "lastChapter": "",
+        "name": "class.bookname@text",
+        "wordCount": "class.wordcount@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": "class.picS@tag.li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@data-original",
+        "intro": "class.jj_ss@text##简介.",
+        "kind": "class.xx_ss.0@tag.a@text&&tag.span.0@text##.*更新时间.",
+        "name": "tag.a.1@text",
+        "wordCount": "class.yellow.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.menu@tag.li!0:1",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "isVip": "class.lock@tag.span@html",
+        "updateTime": "class.chpttitle@title"
+    },
+    "searchUrl": "/search_new.php?q={{key}}&p=&pagenum={{page}}",
+    "weight": 0
+}

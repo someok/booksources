@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨 漫画",
+    "bookSourceName": "🎨 久久漫画 🔞",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ikanwzd.top",
+    "customOrder": -2057,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "连载::https://www.ikanwzd.top/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=0&page={{page}}\n完结::https://www.ikanwzd.top/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=1&page={{page}}",
+    "header": "",
+    "lastUpdateTime": 1602093786067,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "class.subtitle.1@text##作者.",
+        "coverUrl": "class.cover@src",
+        "intro": "class.content@tag.span.1@text",
+        "kind": "class.tip.0@tag.span.1@text&&class.tip.0@tag.a@text&&class.tip.1@tag.a@text&&class.tip.0@tag.span.3@text##更新时间.",
+        "lastChapter": "id.detail-list-select@tag.a.-1@text",
+        "name": "class.info@tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "class.lazy@html##src.*\\\"\n@js:result.replace(/data-original/g,\"src\")",
+        "imageStyle": "FULL",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "class.mh-item",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "class.mh-cover@style@js:result.match(/\\((.*)\\)/)[1]",
+        "kind": "",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "",
+        "bookList": "class.mh-item",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "class.mh-cover@style@js:result.match(/\\((.*)\\)/)[1]",
+        "intro": "",
+        "kind": "tag.a.2@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.detail-list-select@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+}

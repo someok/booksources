@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎧 有声",
+    "bookSourceName": "🎧 幻听网",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.ting89.com",
+    "bookUrlPattern": "",
+    "customOrder": -118165,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/booklist/1<,_{{page}}>.html\n武侠::/booklist/2<,_{{page}}>.html\n都市::/booklist/3<,_{{page}}>.html\n言情::/booklist/4<,_{{page}}>.html\n女生::/booklist/38<,_{{page}}>.html\n科幻::/booklist/5<,_{{page}}>.html\n推理::/booklist/6<,_{{page}}>.html\n恐怖::/booklist/7<,_{{page}}>.html\n惊悚::/booklist/8<,_{{page}}>.html\n历史::/booklist/9<,_{{page}}>.html\n军事::/booklist/10<,_{{page}}>.html\n网游::/booklist/11<,_{{page}}>.html\n通俗::/booklist/35<,_{{page}}>.html\n百家::/booklist/36<,_{{page}}>.html\n儿童::/booklist/16<,_{{page}}>.html\n粤语::/booklist/40<,_{{page}}>.html\n相声::/booklist/34<,_{{page}}>.html\n评书::/booklist/13<,_{{page}}>.html",
+    "header": "",
+    "lastUpdateTime": 1616926011329,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "",
+        "intro": "//*[@class=\"introbox\"]##(^|[。！？]+[”」）】]?)##$1<br>"
+    },
+    "ruleContent": {
+        "content": "//audio/@src",
+        "sourceRegex": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "//p[3]/text()",
+        "bookList": "//*[@class=\"clist\"]/ul/li",
+        "bookUrl": "//p[1]/a/@href",
+        "coverUrl": "//a[1]/img/@src",
+        "kind": "//p[2]/text()&&//p[6]/text()##.*：",
+        "lastChapter": "//p[5]/text()",
+        "name": "//p[1]/a/b/text()",
+        "wordCount": "//p[4]/text()"
+    },
+    "ruleToc": {
+        "chapterList": "//*[@class=\"compress\"][1]/ul/li/a",
+        "chapterName": "//text()",
+        "chapterUrl": "//@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "/search.asp,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"searchword={{key}}\"\n}",
+    "weight": 0
+}

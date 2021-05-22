@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 息壤中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://pre-api.xrzww.com",
+    "bookUrlPattern": "/api/detail/.+",
+    "customOrder": -1704,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "热销::/api/hotSaleListNew?page={{page}}\n月票::/api/monthTicketListNew?page={{page}}\n粉丝::/api/fansListNew?page={{page}}\n打赏::/api/rewardListNew?page={{page}}\n收藏::/api/collectListNew?page={{page}}\n推荐::/api/recommendListNew?page={{page}}\n字数::/api/wordnumListNew?page={{page}}\n更新::/api/wordsListNew?page={{page}}\n签约::/api/signUpListNew?page={{page}}\n新书::/api/newNovelListNew?page={{page}}\n评论::/api/commentListNew?page={{page}}\n催更::/api/urgeListNew?page={{page}}\n玄幻::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=1&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n仙侠::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=2&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n都市::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=3&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n历史::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=4&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n科幻::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=5&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n奇幻::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=6&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n军事::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=7&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n悬疑::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=11&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n轻文::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=9&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n体育::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=12&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n游戏::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=13&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n武侠::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=14&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n现言::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=77&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n古言::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=80&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n幻言::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=81&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n纯爱::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=82&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n无CP::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=83&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=",
+    "lastUpdateTime": 1613886577847,
+    "loginUrl": "https://h5.xrzww.com/#/pages/login/login",
+    "ruleBookInfo": {
+        "author": "novel_author",
+        "coverUrl": "https://oss.xrzww.com{{$.novel_cover}}",
+        "init": "data",
+        "intro": "<br>{{$.novel_info}}",
+        "kind": "",
+        "lastChapter": "novel_newcname",
+        "name": "novel_name",
+        "tocUrl": "/api/directoryList?nid={{$.novel_id}}&orderBy=0",
+        "wordCount": "novel_wordnumber"
+    },
+    "ruleContent": {
+        "content": "data.content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "novel_author",
+        "bookList": "data.data",
+        "bookUrl": "/api/detail?novel_id={{$.novel_id}}",
+        "coverUrl": "https://oss.xrzww.com{{$.novel_cover}}",
+        "intro": "novel_info##\\s",
+        "kind": "type_name",
+        "lastChapter": "novel_newcname",
+        "name": "novel_name",
+        "wordCount": "novel_wordnumber"
+    },
+    "ruleToc": {
+        "chapterList": "data.data",
+        "chapterName": "chapter_name",
+        "chapterUrl": "/api/readNew?nid={{$.chapter_nid}}&vid={{$.chapter_vid}}&chapter_id={{$.chapter_id}}&chapter_order={{$.chapter_order}}",
+        "isVip": "chapter_ispay"
+    },
+    "searchUrl": "/api/search?page={{page}}&type=1&keyword={{key}}",
+    "weight": 0
+}

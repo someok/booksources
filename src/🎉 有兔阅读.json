@@ -1,0 +1,65 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 有兔阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://app.youzibank.com",
+    "bookUrlPattern": "",
+    "customOrder": -118178,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "{\"Seq\":\"11111111111111111111111111111111\"}",
+    "lastUpdateTime": 1620503193986,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "",
+        "coverUrl": "",
+        "init": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "@js:result.replace(/\\W紧急通告.*?com\\W.*永不丢失./,\"\")",
+        "imageStyle": "0",
+        "nextContentUrl": "",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "@json:$.author",
+        "bookList": "@json:$.data",
+        "bookUrl": "@json:https://app.youzibank.com/book/chapter/listAll?bookId={$.id}",
+        "coverUrl": "@json:https://book.chengxinqinye.com/book{$.photoPath}",
+        "intro": "@json:$.intro",
+        "kind": "@json:$.clsName",
+        "lastChapter": "@json:https://app.youzibank.com/book/chapter/list?bookId={$.id}&pageNo={$.chapterCnt}&pageSize=1<js>JSON.parse(java.ajax(result))</js>@json:$.data[0].name",
+        "name": "@json:$.name<js>result.replace(/（.*/,\"\")</js>",
+        "wordCount": "@json:$.wordCnt"
+    },
+    "ruleToc": {
+        "chapterList": "@json:$.data",
+        "chapterName": "@json:$.name",
+        "chapterUrl": "@json:https://book.chengxinqinye.com/book{$.filePath}",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "/es/search/book?q={{key}}&pageNo={{page}}&pageSize=10",
+    "weight": 0
+}

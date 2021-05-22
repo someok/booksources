@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨 漫画",
+    "bookSourceName": "🎨 木马漫画 🔞",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.muamh.com",
+    "bookUrlPattern": "",
+    "customOrder": -2063,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "连载::/booklist?page={{page}}&end=0\n完结::/booklist?page={{page}}&end=1\n都市::/booklist?page={{page}}&tag=都市\n出版::/booklist?page={{page}}&tag=出版漫画\n校园::/booklist?page={{page}}&tag=校园",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; HWI-AL00 Build/HUAWEIHWI-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.152 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1619386221387,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": ".author@text",
+        "coverUrl": "",
+        "intro": ".content@html",
+        "kind": ".tags-txt@text&&.time@text##\\s.*",
+        "lastChapter": ".chapterlist@tag.span.-1@text",
+        "name": ".name@text"
+    },
+    "ruleContent": {
+        "content": "id.cp_img@img@html##src.*\\\"\n@js:result.replace(/data-original/g,\"src\")",
+        "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+        "bookList": ".item",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "",
+        "intro": "",
+        "lastChapter": "tag.span.0@text",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.span.1@text"
+    },
+    "ruleSearch": {
+        "bookList": ".item",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "",
+        "intro": "tag.span.0@text",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.span.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapterlist li",
+        "chapterName": "span@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "/search?keyword={{key}}",
+    "weight": 0
+}
