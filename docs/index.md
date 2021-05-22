@@ -1,6 +1,6 @@
-## someok 「阅读」 书源
+## 「阅读」 书源
 
-> 我的书源： https://someok.github.io/booksources/data.json
+> 我的书源： [https://someok.github.io/booksources/data.json](https://someok.github.io/booksources/data.json)
 
 ### 参考
 
