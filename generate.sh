@@ -24,4 +24,4 @@ done
 # 将数组按逗号关联
 json_data=`printf '%s\n' "$(IFS=,; printf '%s' "${JSON_LIST[*]}")"`
 booksources="[$json_data]"
-echo $booksources > docs/booksources.json
+echo $booksources > docs/data.json
