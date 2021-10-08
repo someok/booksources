@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍 优质",
+    "bookSourceName": "👍 玉米小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yumitxt.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "最近更新::https://www.yumitxt.com/all/0_lastupdate_0_0_0_0_0_0_{{page}}.html\n最新入库::https://www.yumitxt.com/all/0_postdate_0_0_0_0_0_0_{{page}}.html&&总点击::https://www.yumitxt.com/all/0_allvisit_0_0_0_0_0_0_{{page}}.html&&月点击::https://www.yumitxt.com/all/0_monthvisit_0_0_0_0_0_0_{{page}}.html&&周点击::https://www.yumitxt.com/all/0_weekvisit_0_0_0_0_0_0_{{page}}.html&&日点击::https://www.yumitxt.com/all/0_dayvisit_0_0_0_0_0_0_{{page}}.html&&总推荐::https://www.yumitxt.com/all/0_allvote_0_0_0_0_0_0_{{page}}.html&&月推荐::https://www.yumitxt.com/all/0_monthvote_0_0_0_0_0_0_{{page}}.html&&周推荐::https://www.yumitxt.com/all/0_weekvote_0_0_0_0_0_0_{{page}}.html&&日推荐::https://www.yumitxt.com/all/0_dayvote_0_0_0_0_0_0_{{page}}.html&&总收藏::https://www.yumitxt.com/all/0_goodnum_0_0_0_0_0_0_{{page}}.html&&玄幻奇幻::https://www.yumitxt.com/all/1_lastupdate_0_0_0_0_0_0_{{page}}.html&&都市职场::https://www.yumitxt.com/all/2_lastupdate_0_0_0_0_0_0_{{page}}.html&&武侠仙侠::https://www.yumitxt.com/all/3_lastupdate_0_0_0_0_0_0_{{page}}.html&&军事历史::https://www.yumitxt.com/all/4_lastupdate_0_0_0_0_0_0_{{page}}.html&&网游竞技::https://www.yumitxt.com/all/5_lastupdate_0_0_0_0_0_0_{{page}}.html&&穿越科幻::https://www.yumitxt.com/all/6_lastupdate_0_0_0_0_0_0_{{page}}.html&&二次元::https://www.yumitxt.com/all/7_lastupdate_0_0_0_0_0_0_{{page}}.html&&同人::https://www.yumitxt.com/all/8_lastupdate_0_0_0_0_0_0_{{page}}.html&&悬疑推理::https://www.yumitxt.com/all/9_lastupdate_0_0_0_0_0_0_{{page}}.html&&散文诗集::https://www.yumitxt.com/all/10_lastupdate_0_0_0_0_0_0_{{page}}.html&&其他小说::https://www.yumitxt.com/all/11_lastupdate_0_0_0_0_0_0_{{page}}.html&&言情小说::https://www.yumitxt.com/all/12_lastupdate_0_0_0_0_0_0_{{page}}.html&&现代修真::https://www.yumitxt.com/all/13_lastupdate_0_0_0_0_0_0_{{page}}.html&&仙侠奇缘::https://www.yumitxt.com/all/14_lastupdate_0_0_0_0_0_0_{{page}}.html&&玄幻言情::https://www.yumitxt.com/all/15_lastupdate_0_0_0_0_0_0_{{page}}.html&&青春校园::https://www.yumitxt.com/all/16_lastupdate_0_0_0_0_0_0_{{page}}.html&&恐怖灵异::https://www.yumitxt.com/all/17_lastupdate_0_0_0_0_0_0_{{page}}.html&&科幻空间::https://www.yumitxt.com/all/18_lastupdate_0_0_0_0_0_0_{{page}}.html&&耿美小说::https://www.yumitxt.com/all/19_lastupdate_0_0_0_0_0_0_{{page}}.html",
+    "lastUpdateTime": 1633728617618,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "##作者：([^<]+)</dd>##$1###",
+      "coverUrl": "class.bookImg@img@src",
+      "intro": "class.introCon@p@textNodes",
+      "kind": "##类型：([^<]+)</dd>##$1###",
+      "lastChapter": "##最新章节[^>]+>([^<]+)</a>[^>]+>([^<]+)</span>##$1•$2###",
+      "name": "class.detailTop@class.bookPhr@tag.h2@text",
+      "tocUrl": "",
+      "wordCount": "##字数：([^<]+)字</dd>##$1###"
+    },
+    "ruleContent": {
+      "content": "#txt@html||#content@textNodes",
+      "nextContentUrl": "text.下一页@href##$##,{'webView': true}",
+      "replaceRegex": "##如遇断更.*"
+    },
+    "ruleExplore": {
+      "author": "class.writer.0@text",
+      "bookList": "class.listRightBottom@li",
+      "bookUrl": "tag.h2@tag.a@href",
+      "coverUrl": "img@src",
+      "intro": "class.bookDesc@textNodes",
+      "kind": "class.state.0@text",
+      "lastChapter": "##最新章节[^>]+>([^<]+)<[\\w\\W]+更新:([^<])<##$2•$1###",
+      "name": "tag.h2@text",
+      "wordCount": "class.writer.1@text##字"
+    },
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.topul@li",
+      "bookUrl": "##ttps://m.yumitxt.com/book/([\\d]+).html\">?##https://www.yumitxt.com/$1/###",
+      "coverUrl": "img@src##_110x90.jpg",
+      "intro": "tag.p.0@textNodes",
+      "kind": "class.other@text",
+      "lastChapter": "",
+      "name": "tag.h2@text",
+      "wordCount": "tag.i.-1@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapterCon@a",
+      "chapterName": "text",
+      "chapterUrl": "href##^##https://m.yumitxt.com/book"
+    },
+    "searchUrl": "https://m.yumitxt.com/s.php,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }
