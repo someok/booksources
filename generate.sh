@@ -13,15 +13,18 @@ SOURCES=(src/*)
 declare -a JSON_LIST
 
 length=${#SOURCES[@]}
-for ((i=0;i<$length;i++));do
+for ((i = 0; i < $length; i++)); do
     # echo "${SOURCES[$i]}"
-    JSON_LIST[$i]=`cat "${SOURCES[$i]}"`
+    JSON_LIST[$i]=$(cat "${SOURCES[$i]}")
 done
 
 # echo ${JSON_LIST[1]}
 # echo ${#JSON_LIST[@]}
 
 # 将数组按逗号关联
-json_data=`printf '%s\n' "$(IFS=,; printf '%s' "${JSON_LIST[*]}")"`
+json_data=$(printf '%s\n' "$(
+    IFS=,
+    printf '%s' "${JSON_LIST[*]}"
+)")
 booksources="[$json_data]"
-echo $booksources > docs/data.json
+echo $booksources >docs/data.json
