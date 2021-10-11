@@ -6495,8 +6495,8 @@
         "lastUpdateTime": 1633728216933,
         "loginUrl": "https://passport.qidian.com",
         "ruleBookInfo": {
-            "name": "@css.h2.book-title",
-            "author": "@css.h4.book-title",
+            "name": "@css:h2.book-title@text",
+            "author": "@css:h4.book-title@text",
             "intro": "content@text",
             "kind": "class.book-meta.0@text",
             "lastChapter": "##span>连载至([^<]+)##$1###",
@@ -6504,19 +6504,19 @@
             "wordCount": "##\"book-meta\"[^>]+>([^<]+)<span##$1###"
         },
         "ruleContent": {
-            "content": "##\"content\":\"([^\"]*)\",\"authorWords##$1###"
+            "content": "tag.article@tag.p@text"
         },
         "ruleExplore": {},
         "ruleSearch": {
             "bookList": "class.book-ol@tag.li||class.book-list-wrap@class.book-list@tag.li",
             "name": "class.book-title@text",
             "author": "class.book-author@text",
-            "kind": "class.book-meta-r@text",
+            "kind": "class.book-meta-r@class.gray@text",
             "bookUrl": "tag.a@href",
             "coverUrl": "tag.img@data-src",
             "intro": "class.book-desc@text",
             "lastChapter": "",
-            "wordCount": "//*[text()=\"总字数\"]//text()##总字数##字"
+            "wordCount": "class.book-meta-r@class.blue@text"
         },
         "ruleToc": {
             "chapterList": "Data.Chapters[1:]@put:{id:Data.BookId}",
