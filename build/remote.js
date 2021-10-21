@@ -11,14 +11,15 @@ function fetchSource(source) {
                 reject(new Error(`Status Code: ${res.statusCode}`));
             }
 
-            let body = '';
+            let chunks = [];
 
             res.on('data', (chunk) => {
-                body += chunk;
+                chunks.push(chunk);
             });
 
             res.on('end', () => {
                 try {
+                    const body = Buffer.concat(chunks).toString('utf-8');
                     const json = JSON.parse(body);
                     // console.log(json);
 
@@ -43,6 +44,8 @@ function fetchSource(source) {
         });
 
         request.on('error', reject);
+
+        request.end();
     });
 }
 
