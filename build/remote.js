@@ -44,8 +44,6 @@ function fetchSource(source) {
         });
 
         request.on('error', reject);
-
-        request.end();
     });
 }
 
