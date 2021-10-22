@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// noinspection JSUnresolvedVariable,JSUnresolvedFunction
 
 const fs = require('fs');
 const path = require('path');
@@ -51,7 +52,8 @@ async function mergeRemoteAndLocal() {
         destJson,
         JSON.stringify(Object.values(mergedSources), null, 4),
     );
-    console.log('🤖 Over!');
 }
 
-mergeRemoteAndLocal();
+mergeRemoteAndLocal().then(() => {
+    console.log('🤖 Over!');
+});
