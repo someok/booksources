@@ -25,7 +25,7 @@ function fetchSource(source) {
 
                     // 列表转换成以 bookSourceName 为 key 的对象
                     if (!Array.isArray(json)) {
-                        throw new Error('book source must be array');
+                        reject(new Error('book source must be array'));
                     }
                     const sourceMap = json.reduce(
                         (previousValue, currentValue) => {
@@ -34,7 +34,7 @@ function fetchSource(source) {
                                 [currentValue['bookSourceName']]: currentValue,
                             };
                         },
-                        {}
+                        {},
                     );
                     resolve(sourceMap);
                 } catch (e) {
@@ -54,7 +54,7 @@ exports.fetchRemoteSources = async function fetchRemoteSources(sources) {
         const map = await fetchSource(source);
         console.info(`ℹ️ source data size: ${Object.keys(map).length}`);
 
-        result = { ...result, ...map };
+        result = {...result, ...map};
     }
 
     return result;

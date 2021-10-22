@@ -2,9 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const http = require('http');
-const https = require('https');
-const { fetchRemoteSources } = require('./build/remote');
+const {fetchRemoteSources} = require('./remote');
 
 const srcDir = path.join(__dirname, 'src');
 const destJson = path.join(__dirname, 'docs', 'data.json');
@@ -22,7 +20,7 @@ function loadLocalSources() {
         .filter((filename) => filename.endsWith('json'))
         .map((filename) => {
             return JSON.parse(
-                fs.readFileSync(path.join(srcDir, filename)).toString()
+                fs.readFileSync(path.join(srcDir, filename)).toString(),
             );
         })
         .reduce((previousValue, currentValue) => {
@@ -41,17 +39,17 @@ async function mergeRemoteAndLocal() {
 
     const localSources = loadLocalSources();
     console.info(
-        `ℹ️ local source data size: ${Object.keys(localSources).length}`
+        `ℹ️ local source data size: ${Object.keys(localSources).length}`,
     );
 
-    const mergedSources = { ...remoteSources, ...localSources };
+    const mergedSources = {...remoteSources, ...localSources};
     console.info(
-        `ℹ️ merged source data size: ${Object.keys(mergedSources).length}`
+        `ℹ️ merged source data size: ${Object.keys(mergedSources).length}`,
     );
 
     fs.writeFileSync(
         destJson,
-        JSON.stringify(Object.values(mergedSources), null, 4)
+        JSON.stringify(Object.values(mergedSources), null, 4),
     );
     console.log('🤖 Over!');
 }
