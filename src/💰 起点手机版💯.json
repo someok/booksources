@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "error:Unable to resolve host \"m.qidian.com\": No address associated with hostname\n",
+    "bookSourceGroup": "💰 正版, 💝 someok",
+    "bookSourceName": "💰 起点手机版💯",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.qidian.com",
+    "bookUrlPattern": "",
+    "customOrder": -999996,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+        "author": "class.book-rand-a@tag.a@text##作者：##级别：##Lv.5",
+        "coverUrl": "class.book-detail-info@class.book-layout@tag.img@src",
+        "intro": "id.bookSummary@tag.textarea@text",
+        "name": "class.book-title@text",
+        "tocUrl": "class.module module-merge@tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.page-read@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.book-author@text##作者",
+        "bookList": "class.book-li",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.a@tag.img@src",
+        "kind": "class.tag-small gray@text",
+        "name": "class.book-title@tag.mark@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.volumes@tag.li",
+        "chapterName": "tag.a@tag.span@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.qidian.com/search?kw={{key}}",
+    "weight": 0
+}
