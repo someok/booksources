@@ -39,7 +39,7 @@
     "ruleToc": {
         "chapterList": "Data.Chapters[1:]@put:{id:Data.BookId}",
         "chapterName": "N",
-        "chapterUrl": "https://m.qidian.com/book/@get:{id}/{{$.C}}",
+        "chapterUrl": "https://m.qidian.com/book/@get:{id}/{{$.C}}@js:result+',{\"webView\":ture}'",
         "isVip": "V"
     },
     "searchUrl": "/search?kw={{key}}",
